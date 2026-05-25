@@ -137,8 +137,8 @@ indicators:
     raw_unit: "Index (2017=100)"
     fred_limit: 120
 
-  - id: NAPM
-    name: "ISM PMI 製造業採購經理人指數"
+  - id: MANEMP
+    name: "ISM Mfg PMI 製造業採購經理人指數"
     name_en: "ISM Manufacturing PMI"
     category: growth
     source: ISM via FRED
@@ -273,20 +273,7 @@ indicators:
     unit: "Index"
     raw_unit: "Index (1966 Q1=100)"
     fred_limit: 60
-
-  - id: CONCCONF
-    name: "Conference Board CCI 世界大型企業聯合會消費者信心"
-    name_en: "Conference Board Consumer Confidence Index"
-    category: sentiment
-    source: Conference Board via FRED
-    frequency: monthly
-    schedule: end_month
-    release_note: "每月最後一週二，10:00 ET"
-    transform: none
-    unit: "Index"
-    raw_unit: "Index (1985=100)"
-    fred_limit: 60
-
+  
   # ── CNN Fear & Greed（非 FRED，獨立抓取）──────────────────────
   - id: CNN_FNG
     name: "CNN 恐懼貪婪指數"
@@ -406,18 +393,6 @@ indicators:
     raw_unit: "Percent"
     alert:
       high: 3.0
-    fred_limit: 20
-
-  - id: DRCONGACBS
-    name: "Consumer Loan Delinquency 消費性貸款違約率"
-    name_en: "Delinquency Rate on Consumer Loans"
-    category: credit
-    source: Federal Reserve via FRED
-    frequency: quarterly
-    schedule: quarterly
-    transform: none
-    unit: "%"
-    raw_unit: "Percent"
     fred_limit: 20
 
   - id: DRSFRMACBS
