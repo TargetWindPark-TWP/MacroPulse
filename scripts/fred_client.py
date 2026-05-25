@@ -89,9 +89,8 @@ class FREDClient:
             "series_id":  series_id,
             "sort_order": "desc",
             "limit":      limit,
+            "observation_end": date.today().isoformat(),
         }
-        if observation_start:
-            params["observation_start"] = observation_start
         if frequency:
             params["frequency"]            = frequency
             params["aggregation_method"]   = aggregation_method
@@ -106,7 +105,7 @@ class FREDClient:
             }
             for o in raw
         ]
-        return list(reversed(observations))
+        return list(reversed(result))
 
     def get_release_dates(self, days_back: int = 7) -> list[dict]:
         """
