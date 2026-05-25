@@ -121,55 +121,6 @@ class FREDClient:
         return data.get("release_dates", [])
 
 
-# ─── CNN Fear & Greed ─────────────────────────────────────────────────────────
-
-def fetch_cnn_fear_greed() -> Optional[dict]:
-    """
-    抓取 CNN 恐懼貪婪指數。
-    來源：CNN Business 非官方 API（免費，無需 Key）
-    """
-    try:
-        r = requests.get(CNN_FNG, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        data = r.json()
-
-        current = data.get("fear_and_greed", {})
-        score   = current.get("score")
-        rating  = current.get("rating", "")
-
-        # 歷史數據（過去 2 年）
-        historical = data.get("fear_and_greed_historical", {}).get("data", [])
-        obs = []
-        for pt in historical:
-            ts = pt.get("x")
-            if ts:
-                d   = datetime.utcfromtimestamp(ts / 1000).strftime("%Y-%m-%d")
-                obs.append({"date": d, "value": round(pt.get("y", 0), 1)})
-
-        # 加上今天
-        if score is not None:
-            obs.append({
-                "date":   date.today().isoformat(),
-                "value":  round(float(score), 1),
-                "rating": rating,
-            })
-
-        obs.sort(key=lambda x: x["date"])
-
-        return {
-            "series_id":       "CNN_FNG",
-            "name":            "CNN Fear & Greed Index",
-            "current_score":   round(float(score), 1) if score else None,
-            "current_rating":  rating,
-            "observations":    obs,
-            "fetched_at":      datetime.utcnow().isoformat() + "Z",
-        }
-
-    except Exception as e:
-        log.warning(f"CNN Fear & Greed fetch failed: {e}")
-        return None
-
-
 # ─── Data Processing ──────────────────────────────────────────────────────────
 
 def compute_yoy(obs: list[dict]) -> list[dict]:
