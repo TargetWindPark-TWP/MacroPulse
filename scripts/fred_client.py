@@ -87,7 +87,7 @@ class FREDClient:
         """
         params: dict = {
             "series_id":  series_id,
-            "sort_order": "asc",
+            "sort_order": "desc",
             "limit":      limit,
         }
         if observation_start:
@@ -106,6 +106,7 @@ class FREDClient:
             }
             for o in raw
         ]
+        return list(reversed(observations))
 
     def get_release_dates(self, days_back: int = 7) -> list[dict]:
         """
