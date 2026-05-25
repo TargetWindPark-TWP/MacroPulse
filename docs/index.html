@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MacroPulse — 總體經濟追蹤儀表板</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg:     #060c18;
+    --bg2:    #0a1220;
+    --bg3:    #0f1a2e;
+    --border: #1a2e42;
+    --text:   #c8daf0;
+    --muted:  #4a7fa5;
+    --dim:    #2a3f5a;
+    --cyan:   #00d4ff;
+    --green:  #00ff88;
+    --red:    #ff4466;
+    --amber:  #ffaa00;
+    --purple: #c3a6ff;
+    --mono:   'Courier New', monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: system-ui, sans-serif; min-height: 100vh; }
+
+  header {
+    background: #07101e;
+    border-bottom: 1px solid var(--border);
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; top: 0; z-index: 50;
+  }
+  .logo { font-family: var(--mono); font-size: 18px; font-weight: 700; letter-spacing: 3px; }
+  .logo span { color: var(--cyan); }
+  #last-updated { font-family: var(--mono); font-size: 10px; color: var(--dim); }
+  #status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); display: inline-block; margin-right: 6px; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.4 } }
+
+  nav {
+    display: flex; gap: 0;
+    padding: 0 24px;
+    background: #07101e;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+  }
+  nav button {
+    background: none; border: none; border-bottom: 2px solid transparent;
+    color: var(--dim); padding: 10px 16px; cursor: pointer;
+    font-size: 12px; font-family: var(--mono); white-space: nowrap;
+    transition: all .15s;
+  }
+  nav button.active { color: var(--cyan); border-color: var(--cyan); }
+  nav button:hover:not(.active) { color: var(--text); }
+
+  main { max-width: 1400px; margin: 0 auto; padding: 20px 20px; }
+
+  .section { display: none; }
+  .section.active { display: block; }
+
+  .grid-3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; margin-bottom: 24px; }
+  .grid-2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 12px; }
+
+  .card {
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 14px 16px;
+    transition: background .15s;
+  }
+  .card:hover { background: var(--bg3); }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+  .card-id   { font-family: var(--mono); font-size: 10px; color: var(--dim); background: #060c14; padding: 2px 6px; border-radius: 3px; }
+  .card-name { font-family: var(--mono); font-size: 12px; font-weight: 600; color: #8ab0cc; margin-bottom: 4px; }
+  .card-desc { font-size: 11px; color: var(--muted); margin-bottom: 10px; }
+  .card-value { font-family: var(--mono); font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+  .card-meta  { font-size: 10px; color: var(--dim); font-family: var(--mono); }
+  .change-pos { color: var(--green); }
+  .change-neg { color: var(--red); }
+  .change-neu { color: var(--muted); }
+
+  /* Category colored borders */
+  .cat-inflation { border-left: 3px solid #ff6b6b; }
+  .cat-growth    { border-left: 3px solid #4ecdc4; }
+  .cat-labor     { border-left: 3px solid #ffe66d; }
+  .cat-sentiment { border-left: 3px solid #a8e6cf; }
+  .cat-rates     { border-left: 3px solid #ff9f7f; }
+  .cat-credit    { border-left: 3px solid #ff6b6b; }
+  .cat-housing   { border-left: 3px solid #c3a6ff; }
+
+  .section-title { font-family: var(--mono); font-size: 14px; color: var(--text); margin: 0 0 14px; }
+  .section-title span { color: var(--muted); font-size: 11px; margin-left: 8px; }
+
+  .chart-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .chart-card h3 { font-family: var(--mono); font-size: 13px; color: #8ab0cc; margin-bottom: 12px; }
+  .chart-wrap { position: relative; height: 200px; }
+
+  .fng-ring {
+    width: 100px; height: 100px; border-radius: 50%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font-family: var(--mono); margin: 0 auto 10px;
+  }
+  .fng-score { font-size: 28px; font-weight: 700; }
+  .fng-label { font-size: 10px; color: var(--muted); margin-top: 4px; }
+
+  .yield-curve { display: flex; gap: 12px; flex-wrap: wrap; }
+  .yc-point { text-align: center; }
+  .yc-label { font-size: 10px; color: var(--dim); font-family: var(--mono); }
+  .yc-val   { font-size: 18px; font-weight: 700; font-family: var(--mono); }
+  .yc-mat   { font-size: 10px; color: var(--muted); font-family: var(--mono); }
+
+  .alert-banner {
+    background: #1a0608; border: 1px solid #ff446640;
+    border-radius: 6px; padding: 10px 14px; margin-bottom: 16px;
+    font-size: 12px; color: #ff8899; font-family: var(--mono);
+  }
+
+  .loader { text-align: center; padding: 40px; color: var(--muted); font-family: var(--mono); font-size: 13px; }
+  .tag { font-size: 9px; padding: 2px 6px; border-radius: 3px; font-family: var(--mono); }
+
+  footer {
+    text-align: center; padding: 20px; color: var(--dim);
+    font-family: var(--mono); font-size: 10px;
+    border-top: 1px solid var(--border); margin-top: 40px;
+  }
+  footer a { color: var(--cyan); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">MACRO<span>PULSE</span></div>
+    <div style="font-size:9px; color:var(--dim); font-family:var(--mono); letter-spacing:1px;">AUTOMATED MACROECONOMIC TRACKER</div>
+  </div>
+  <div style="text-align:right">
+    <div><span id="status-dot"></span><span style="font-size:11px; color:var(--green)">GitHub Actions 自動更新</span></div>
+    <div id="last-updated">載入中...</div>
+  </div>
+</header>
+
+<nav id="nav">
+  <button class="active" data-tab="overview">📊 總覽</button>
+  <button data-tab="inflation">🔥 通膨</button>
+  <button data-tab="growth">📈 成長</button>
+  <button data-tab="labor">👷 就業</button>
+  <button data-tab="sentiment">💭 信心</button>
+  <button data-tab="rates">🏦 利率</button>
+  <button data-tab="credit">⚠️ 信用</button>
+  <button data-tab="housing">🏠 房市</button>
+</nav>
+
+<main>
+  <div id="loading" class="loader">📡 載入最新數據中...</div>
+  <div id="alerts" style="display:none"></div>
+
+  <!-- Overview -->
+  <div class="section" id="tab-overview">
+    <div id="fng-section" style="display:flex; gap:20px; flex-wrap:wrap; margin-bottom:24px; align-items:center">
+      <div class="chart-card" style="flex:0 0 200px; text-align:center">
+        <h3>😱 CNN 恐懼貪婪指數</h3>
+        <div id="fng-ring" class="fng-ring" style="border: 4px solid var(--amber)">
+          <div class="fng-score" id="fng-score">—</div>
+          <div class="fng-label" id="fng-label">載入中</div>
+        </div>
+      </div>
+      <div class="chart-card" style="flex:1; min-width:280px">
+        <h3>🏦 殖利率曲線</h3>
+        <div class="yield-curve" id="yield-curve">
+          <div class="loader" style="padding:10px">載入中...</div>
+        </div>
+        <div id="inversion-warning" style="display:none; margin-top:10px; color:var(--red); font-size:11px; font-family:var(--mono)">
+          ⚠️ 殖利率曲線倒掛中（10Y-2Y < 0）
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-3" id="overview-cards"></div>
+  </div>
+
+  <!-- Per-category tabs (dynamically rendered) -->
+  <div class="section" id="tab-inflation"><div class="grid-3" id="cards-inflation"></div></div>
+  <div class="section" id="tab-growth"><div class="grid-3" id="cards-growth"></div></div>
+  <div class="section" id="tab-labor"><div class="grid-3" id="cards-labor"></div></div>
+  <div class="section" id="tab-sentiment"><div class="grid-3" id="cards-sentiment"></div></div>
+  <div class="section" id="tab-rates"><div class="grid-3" id="cards-rates"></div></div>
+  <div class="section" id="tab-credit"><div class="grid-3" id="cards-credit"></div></div>
+  <div class="section" id="tab-housing"><div class="grid-3" id="cards-housing"></div></div>
+</main>
+
+<footer>
+  數據來源：<a href="https://fred.stlouisfed.org" target="_blank">FRED (St. Louis Fed)</a> ·
+  <a href="https://edition.cnn.com/markets/fear-and-greed" target="_blank">CNN Fear & Greed</a> ·
+  自動化追蹤 by <a href="https://github.com" target="_blank">GitHub Actions</a> · 完全免費
+</footer>
+
+<script>
+const DATA_BASE = "./data";
+
+const CAT_COLOR = {
+  inflation: "#ff6b6b", growth: "#4ecdc4", labor: "#ffe66d",
+  sentiment: "#a8e6cf", rates: "#ff9f7f", credit: "#ff6b6b", housing: "#c3a6ff",
+};
+
+const OVERVIEW_IDS = [
+  "CPIAUCSL","PCEPILFE","PAYEMS","UNRATE","FEDFUNDS",
+  "DGS10","T10Y2Y","NAPM","UMCSENT","DRCCLACBS"
+];
+
+// ─── Fetch index ──────────────────────────────────────────────
+let INDEX = null;
+
+async function loadIndex() {
+  const r = await fetch(`${DATA_BASE}/index.json?_=${Date.now()}`);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
+}
+
+async function loadSeries(id) {
+  try {
+    const r = await fetch(`${DATA_BASE}/${id}.json?_=${Date.now()}`);
+    if (!r.ok) return null;
+    return r.json();
+  } catch { return null; }
+}
+
+// ─── Value coloring ───────────────────────────────────────────
+function valColor(id, v) {
+  if (v == null) return "var(--muted)";
+  const n = +v;
+  if (id === "T10Y2Y") return n < 0 ? "var(--red)" : "var(--green)";
+  if (["CPIAUCSL","CPILFESL","PCEPI","PCEPILFE","PPIACO"].includes(id))
+    return n > 3.5 ? "var(--red)" : n > 2.5 ? "var(--amber)" : "var(--green)";
+  if (id === "UNRATE")  return n > 5 ? "var(--red)" : n > 4 ? "var(--amber)" : "var(--green)";
+  if (id === "NAPM")    return n < 48 ? "var(--red)" : n < 50 ? "var(--amber)" : "var(--green)";
+  if (id === "CNN_FNG") return n < 25 ? "var(--red)" : n < 45 ? "var(--amber)" : n < 55 ? "var(--muted)" : n < 75 ? "var(--amber)" : "var(--red)";
+  if (["DRCCLACBS","DRCONGACBS","DRSFRMACBS"].includes(id))
+    return n > 3 ? "var(--red)" : n > 2 ? "var(--amber)" : "var(--green)";
+  return "var(--cyan)";
+}
+
+function fmtNum(v, unit) {
+  if (v == null) return "—";
+  const n = +v;
+  if (Math.abs(n) >= 1000) return `${(n/1000).toFixed(1)}K ${unit}`.trim();
+  return `${n.toFixed(2)} ${unit}`.trim();
+}
+
+// ─── Card builder ─────────────────────────────────────────────
+function buildCard(ind) {
+  const color = CAT_COLOR[ind.category] || "#aaa";
+  const lv    = ind.latest_value;
+  const pv    = ind.prev_value;
+  const chg   = ind.change;
+
+  let chgHtml = "";
+  if (chg != null) {
+    const cls = chg > 0 ? "change-pos" : chg < 0 ? "change-neg" : "change-neu";
+    const arrow = chg > 0 ? "▲" : chg < 0 ? "▼" : "→";
+    chgHtml = `<span class="${cls}" style="font-size:12px; margin-left:8px">${arrow} ${Math.abs(chg).toFixed(2)}</span>`;
+  }
+
+  const dateStr = ind.latest_date ? `更新：${ind.latest_date}` : "";
+
+  return `
+  <div class="card cat-${ind.category}" style="border-left-color:${color}" onclick="openChart('${ind.id}')">
+    <div class="card-header">
+      <div class="card-id">${ind.id}</div>
+      <div style="font-size:9px; color:var(--dim); font-family:var(--mono)">${ind.frequency || ""}</div>
+    </div>
+    <div class="card-name">${ind.signal || ""} ${ind.name}</div>
+    <div class="card-desc">${ind.name_en || ""}</div>
+    <div style="display:flex; align-items:baseline">
+      <div class="card-value" style="color:${valColor(ind.id, lv)}">${fmtNum(lv, ind.unit)}</div>
+      ${chgHtml}
+    </div>
+    <div class="card-meta">${dateStr}</div>
+  </div>`;
+}
+
+// ─── Yield Curve ──────────────────────────────────────────────
+function renderYieldCurve(indicators) {
+  const maturities = [
+    { id:"FEDFUNDS", label:"FFR",   mat:"基金利率" },
+    { id:"DGS2",     label:"2Y",    mat:"2年期" },
+    { id:"DGS10",    label:"10Y",   mat:"10年期" },
+    { id:"DGS30",    label:"30Y",   mat:"30年期" },
+    { id:"T10Y2Y",   label:"Spread",mat:"10Y-2Y" },
+  ];
+  const map = {};
+  indicators.forEach(i => map[i.id] = i);
+
+  let html = "";
+  for (const m of maturities) {
+    const ind = map[m.id];
+    const lv  = ind ? ind.latest_value : null;
+    const col = valColor(m.id, lv);
+    html += `<div class="yc-point">
+      <div class="yc-mat">${m.mat}</div>
+      <div class="yc-val" style="color:${col}">${lv != null ? (+lv).toFixed(2) + "%" : "—"}</div>
+      <div class="yc-label">${m.label}</div>
+    </div>`;
+  }
+  document.getElementById("yield-curve").innerHTML = html;
+
+  // Inversion warning
+  const spread = map["T10Y2Y"]?.latest_value;
+  if (spread != null && +spread < 0) {
+    document.getElementById("inversion-warning").style.display = "block";
+    document.getElementById("inversion-warning").textContent =
+      `⚠️ 殖利率曲線倒掛：10Y-2Y = ${(+spread).toFixed(2)}%`;
+  }
+}
+
+// ─── FNG ──────────────────────────────────────────────────────
+function renderFNG(fng) {
+  if (!fng) return;
+  const score  = fng.current_score;
+  const rating = fng.current_rating || "";
+  const colors = {
+    extreme_fear: "#ff4466", fear: "#ff8844",
+    neutral: "#888888", greed: "#44aa66", extreme_greed: "#00ff88",
+  };
+  const col = colors[rating.toLowerCase().replace(" ","_")] || "var(--amber)";
+
+  const el = document.getElementById("fng-ring");
+  el.style.borderColor = col;
+  el.style.background  = col + "18";
+
+  document.getElementById("fng-score").textContent = score != null ? Math.round(score) : "—";
+  document.getElementById("fng-score").style.color = col;
+
+  const labels = {
+    extreme_fear:"😱 極度恐懼", fear:"😰 恐懼",
+    neutral:"😌 中性", greed:"😏 貪婪", extreme_greed:"🤑 極度貪婪"
+  };
+  document.getElementById("fng-label").textContent = labels[rating.toLowerCase().replace(" ","_")] || rating;
+}
+
+// ─── Chart Modal ──────────────────────────────────────────────
+let activeChart = null;
+
+async function openChart(id) {
+  const modal = document.createElement("div");
+  modal.style.cssText = `position:fixed;inset:0;background:rgba(4,8,18,.92);z-index:200;display:flex;align-items:center;justify-content:center;padding:16px`;
+  modal.onclick = e => { if (e.target === modal) { modal.remove(); activeChart?.destroy(); } };
+
+  const ind = INDEX?.indicators.find(i => i.id === id);
+  const name = ind?.name || id;
+  const unit = ind?.unit || "";
+
+  modal.innerHTML = `
+    <div style="background:#070d1a;border:1px solid var(--border);border-radius:10px;width:100%;max-width:800px;max-height:90vh;overflow:auto">
+      <div style="padding:14px 18px 10px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <span style="background:#00d4ff18;color:var(--cyan);padding:2px 8px;border-radius:3px;font-family:var(--mono);font-size:10px">${id}</span>
+          <h3 style="margin:6px 0 2px;font-family:var(--mono);font-size:16px;color:#dde8ff">${name}</h3>
+        </div>
+        <div style="display:flex;gap:8px">
+          <a href="https://fred.stlouisfed.org/series/${id}" target="_blank"
+            style="background:var(--bg2);color:var(--muted);border:1px solid var(--border);border-radius:4px;padding:5px 10px;font-size:10px;font-family:var(--mono);text-decoration:none">FRED ↗</a>
+          <button onclick="this.closest('.modal-wrap').parentElement.remove();activeChart?.destroy();"
+            style="background:none;border:1px solid var(--border);color:var(--muted);border-radius:4px;padding:5px 11px;cursor:pointer;font-size:14px">✕</button>
+        </div>
+      </div>
+      <div class="modal-wrap" style="padding:16px">
+        <div style="height:280px;position:relative"><canvas id="modal-chart"></canvas></div>
+        <div id="modal-loading" style="text-align:center;padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">載入圖表中...</div>
+      </div>
+    </div>`;
+  document.body.appendChild(modal);
+
+  const data = await loadSeries(id);
+  if (!data || !data.observations?.length) {
+    document.getElementById("modal-loading").textContent = "⚠️ 無數據";
+    return;
+  }
+  document.getElementById("modal-loading").remove();
+
+  const obs   = data.observations.slice(-120);
+  const color = CAT_COLOR[ind?.category] || "#00d4ff";
+
+  activeChart = new Chart(document.getElementById("modal-chart"), {
+    type: "line",
+    data: {
+      labels:   obs.map(o => o.date),
+      datasets: [{ label: `${name} (${unit})`, data: obs.map(o => o.value),
+        borderColor: color, backgroundColor: color + "22",
+        fill: true, tension: .3, pointRadius: 0, borderWidth: 2 }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color:"#4a7fa5", font:{family:"monospace",size:9} }, grid: { color:"#0e1c2c" } },
+        y: { ticks: { color:"#4a7fa5", font:{family:"monospace",size:9} }, grid: { color:"#0e1c2c" } },
+      }
+    }
+  });
+}
+
+// ─── Navigation ───────────────────────────────────────────────
+document.getElementById("nav").addEventListener("click", e => {
+  const btn = e.target.closest("button[data-tab]");
+  if (!btn) return;
+  document.querySelectorAll("nav button").forEach(b => b.classList.remove("active"));
+  document.querySelectorAll(".section").forEach(s => s.classList.remove("active"));
+  btn.classList.add("active");
+  document.getElementById(`tab-${btn.dataset.tab}`).classList.add("active");
+});
+
+// ─── Main render ──────────────────────────────────────────────
+async function init() {
+  try {
+    INDEX = await loadIndex();
+
+    // Update timestamp
+    const ts = new Date(INDEX.generated_at);
+    document.getElementById("last-updated").textContent =
+      `更新：${ts.toLocaleString("zh-TW", {timeZone:"Asia/Taipei"})} 台灣時間`;
+
+    const inds = INDEX.indicators;
+
+    // FNG special
+    const fngInd = inds.find(i => i.id === "CNN_FNG");
+    if (fngInd) {
+      const fngData = await loadSeries("CNN_FNG");
+      renderFNG(fngData || fngInd);
+    }
+
+    // Yield curve
+    renderYieldCurve(inds);
+
+    // Overview cards
+    const overviewEl = document.getElementById("overview-cards");
+    const overviewInds = OVERVIEW_IDS.map(id => inds.find(i => i.id === id)).filter(Boolean);
+    overviewEl.innerHTML = overviewInds.map(buildCard).join("");
+
+    // Category cards
+    const cats = ["inflation","growth","labor","sentiment","rates","credit","housing"];
+    for (const cat of cats) {
+      const el  = document.getElementById(`cards-${cat}`);
+      const sub = inds.filter(i => i.category === cat);
+      if (el) el.innerHTML = sub.map(buildCard).join("");
+    }
+
+    // Alerts
+    const alertInds = inds.filter(i =>
+      (i.id === "T10Y2Y" && i.latest_value < 0) ||
+      (i.id === "NAPM"   && i.latest_value < 50) ||
+      (["CPIAUCSL","PCEPI","PCEPILFE"].includes(i.id) && i.latest_value > 3.5)
+    );
+    if (alertInds.length) {
+      const alertEl = document.getElementById("alerts");
+      alertEl.style.display = "block";
+      alertEl.innerHTML = `<div class="alert-banner">⚠️ 警示：${alertInds.map(i => `${i.name} = ${i.latest_value?.toFixed(2)}`).join(" · ")}</div>`;
+    }
+
+    // Show first tab
+    document.getElementById("tab-overview").classList.add("active");
+    document.getElementById("loading").remove();
+
+  } catch(e) {
+    document.getElementById("loading").textContent = `❌ 載入失敗：${e.message}\n（請確認 data/index.json 已由 GitHub Actions 生成）`;
+    console.error(e);
+  }
+}
+
+init();
+</script>
+</body>
+</html>

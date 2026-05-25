@@ -1,0 +1,531 @@
+# MacroPulse 指標設定檔
+# 每個指標包含：FRED 序號、中文名稱、頻率、排程分類、數據轉換、警示閾值
+
+indicators:
+
+  # ══════════════════════════════════════════════════════════════
+  #  通膨指標  (Inflation)
+  # ══════════════════════════════════════════════════════════════
+  - id: CPIAUCSL
+    name: "CPI 消費者物價指數"
+    name_en: "Consumer Price Index"
+    category: inflation
+    source: BLS via FRED
+    frequency: monthly
+    schedule: mid_month        # 每月 10~16 日公布
+    release_note: "每月第 2~3 週三，08:30 ET"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index (1982-84=100)"
+    alert:
+      high: 3.0    # > 3% 發出通膨警告
+      low: 0.5     # < 0.5% 發出通縮警告
+    fred_limit: 120  # 抓取最近 N 筆
+
+  - id: CPILFESL
+    name: "Core CPI 核心消費者物價指數"
+    name_en: "Core CPI (ex Food & Energy)"
+    category: inflation
+    source: BLS via FRED
+    frequency: monthly
+    schedule: mid_month
+    release_note: "同 CPI 日期"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index"
+    alert:
+      high: 3.0
+    fred_limit: 120
+
+  - id: PCEPI
+    name: "PCE 個人消費支出物價指數"
+    name_en: "PCE Price Index"
+    category: inflation
+    source: BEA via FRED
+    frequency: monthly
+    schedule: end_month        # 月底公布
+    release_note: "每月月底，08:30 ET（Fed 最重視指標）"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index (2017=100)"
+    alert:
+      high: 2.5
+    fred_limit: 120
+
+  - id: PCEPILFE
+    name: "Core PCE 核心個人消費支出物價指數"
+    name_en: "Core PCE Price Index"
+    category: inflation
+    source: BEA via FRED
+    frequency: monthly
+    schedule: end_month
+    release_note: "同 PCE 日期（Fed 2% 政策目標指標）"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index"
+    alert:
+      high: 2.5
+      target: 2.0
+    fred_limit: 120
+
+  - id: PPIACO
+    name: "PPI 生產者物價指數"
+    name_en: "Producer Price Index All Commodities"
+    category: inflation
+    source: BLS via FRED
+    frequency: monthly
+    schedule: mid_month
+    release_note: "CPI 翌日（週四），08:30 ET"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index (1982=100)"
+    fred_limit: 120
+
+  - id: PPIFIS
+    name: "WPI / Core PPI 躉售物價指數"
+    name_en: "PPI Finished Goods"
+    category: inflation
+    source: BLS via FRED
+    frequency: monthly
+    schedule: mid_month
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index"
+    fred_limit: 120
+
+  # ══════════════════════════════════════════════════════════════
+  #  經濟成長  (Growth)
+  # ══════════════════════════════════════════════════════════════
+  - id: GDPC1
+    name: "Real GDP 實質國內生產毛額"
+    name_en: "Real Gross Domestic Product"
+    category: growth
+    source: BEA via FRED
+    frequency: quarterly
+    schedule: quarterly        # 季末翌月底
+    release_note: "GDP 速報值：季末後第 1 個月底；修正值：第 2、3 個月"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Bil. Chained 2017 USD"
+    alert:
+      low: 0.0   # 負成長警示
+    fred_limit: 40
+
+  - id: RSXFS
+    name: "Retail Sales 零售銷售（扣除汽車）"
+    name_en: "Advance Retail Sales (ex Autos)"
+    category: growth
+    source: Census via FRED
+    frequency: monthly
+    schedule: mid_month
+    release_note: "每月第 2 週（週四或五），08:30 ET"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Mil. USD"
+    fred_limit: 120
+
+  - id: INDPRO
+    name: "Industrial Production 工業生產指數"
+    name_en: "Industrial Production Index"
+    category: growth
+    source: Federal Reserve via FRED
+    frequency: monthly
+    schedule: mid_month
+    release_note: "每月第 2~3 週（週三），09:15 ET"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index (2017=100)"
+    fred_limit: 120
+
+  - id: NAPM
+    name: "ISM PMI 製造業採購經理人指數"
+    name_en: "ISM Manufacturing PMI"
+    category: growth
+    source: ISM via FRED
+    frequency: monthly
+    schedule: early_month      # 每月第 1 個工作日
+    release_note: "每月第 1 個工作日，10:00 ET"
+    transform: none
+    unit: "Index"
+    raw_unit: "Index (>50=擴張)"
+    alert:
+      low: 50.0   # 跌破 50 = 收縮
+      critical_low: 45.0
+    fred_limit: 60
+
+  - id: DGORDER
+    name: "Durable Goods 耐久財訂單"
+    name_en: "Manufacturers' New Orders: Durable Goods"
+    category: growth
+    source: Census via FRED
+    frequency: monthly
+    schedule: end_month
+    release_note: "每月第 4 週三，08:30 ET"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Mil. USD"
+    fred_limit: 120
+
+  # ══════════════════════════════════════════════════════════════
+  #  勞動市場  (Labor)
+  # ══════════════════════════════════════════════════════════════
+  - id: PAYEMS
+    name: "NFP 非農就業人數"
+    name_en: "Total Nonfarm Payrolls"
+    category: labor
+    source: BLS via FRED
+    frequency: monthly
+    schedule: early_month      # 每月第 1 週五
+    release_note: "每月第 1 週五，08:30 ET（最重要月度數據之一）"
+    transform: mom_change
+    unit: "K MoM"
+    raw_unit: "Thousands of Persons"
+    alert:
+      low: 100    # < 100K 就業偏弱
+      critical_low: 0
+    fred_limit: 60
+
+  - id: UNRATE
+    name: "失業率 Unemployment Rate"
+    name_en: "Unemployment Rate"
+    category: labor
+    source: BLS via FRED
+    frequency: monthly
+    schedule: early_month
+    release_note: "同 NFP 日期"
+    transform: none
+    unit: "%"
+    raw_unit: "Percent"
+    alert:
+      high: 5.0
+      critical_high: 6.0
+    fred_limit: 60
+
+  - id: ICSA
+    name: "Initial Claims 初次申請失業救濟金"
+    name_en: "Initial Jobless Claims"
+    category: labor
+    source: DOL via FRED
+    frequency: weekly
+    schedule: weekly_thursday  # 每週四 08:30 ET
+    release_note: "每週四 08:30 ET（上週數據）"
+    transform: raw
+    unit: "人"
+    raw_unit: "Number of People"
+    alert:
+      high: 300000
+      critical_high: 400000
+    fred_limit: 104  # 2 years of weekly
+
+  - id: CCSA
+    name: "Continuing Claims 續領失業救濟金"
+    name_en: "Continued Claims (Insured Unemployment)"
+    category: labor
+    source: DOL via FRED
+    frequency: weekly
+    schedule: weekly_thursday
+    release_note: "同初領，延遲一週"
+    transform: raw
+    unit: "人"
+    raw_unit: "Number of People"
+    fred_limit: 104
+
+  - id: CES0500000003
+    name: "Avg Hourly Earnings 平均時薪"
+    name_en: "Average Hourly Earnings"
+    category: labor
+    source: BLS via FRED
+    frequency: monthly
+    schedule: early_month
+    release_note: "同 NFP 日期"
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "USD per Hour"
+    alert:
+      high: 4.0   # 薪資通膨壓力
+    fred_limit: 60
+
+  - id: JTSJOL
+    name: "JOLTS 職位空缺數"
+    name_en: "Job Openings: Total Nonfarm"
+    category: labor
+    source: BLS via FRED
+    frequency: monthly
+    schedule: early_month
+    release_note: "每月第 2 週二，10:00 ET（延遲一個月）"
+    transform: raw
+    unit: "K"
+    raw_unit: "Thousands"
+    fred_limit: 60
+
+  # ══════════════════════════════════════════════════════════════
+  #  信心指數  (Sentiment)
+  # ══════════════════════════════════════════════════════════════
+  - id: UMCSENT
+    name: "UMich Consumer Sentiment 密大消費者信心"
+    name_en: "U of Michigan Consumer Sentiment"
+    category: sentiment
+    source: U of Michigan via FRED
+    frequency: monthly
+    schedule: mid_month        # 初值：第 2 週五；終值：月末
+    release_note: "初值：每月第 2 週五；終值：月末，10:00 ET"
+    transform: none
+    unit: "Index"
+    raw_unit: "Index (1966 Q1=100)"
+    fred_limit: 60
+
+  - id: CONCCONF
+    name: "Conference Board CCI 世界大型企業聯合會消費者信心"
+    name_en: "Conference Board Consumer Confidence Index"
+    category: sentiment
+    source: Conference Board via FRED
+    frequency: monthly
+    schedule: end_month
+    release_note: "每月最後一週二，10:00 ET"
+    transform: none
+    unit: "Index"
+    raw_unit: "Index (1985=100)"
+    fred_limit: 60
+
+  # ── CNN Fear & Greed（非 FRED，獨立抓取）──────────────────────
+  - id: CNN_FNG
+    name: "CNN 恐懼貪婪指數"
+    name_en: "CNN Fear & Greed Index"
+    category: sentiment
+    source: CNN Business (unofficial API)
+    frequency: daily
+    schedule: daily
+    release_note: "即時更新"
+    transform: none
+    unit: "0-100"
+    raw_unit: "Score"
+    alert:
+      extreme_fear: 20    # < 20 = 極度恐懼（潛在買點）
+      extreme_greed: 80   # > 80 = 極度貪婪（潛在賣點）
+    fred_id: null         # 非 FRED 指標，特殊處理
+    fetch_url: "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+
+  # ══════════════════════════════════════════════════════════════
+  #  利率與債券  (Rates & Bonds)
+  # ══════════════════════════════════════════════════════════════
+  - id: FEDFUNDS
+    name: "Fed Funds Rate 聯邦基金利率"
+    name_en: "Effective Federal Funds Rate"
+    category: rates
+    source: Federal Reserve via FRED
+    frequency: monthly
+    schedule: mid_month
+    release_note: "FOMC 決策後更新（約每 6-8 週）"
+    transform: none
+    unit: "%"
+    raw_unit: "% per Annum"
+    fred_limit: 60
+
+  - id: DGS2
+    name: "2Y Treasury 2年期公債殖利率"
+    name_en: "2-Year Treasury Constant Maturity Rate"
+    category: rates
+    source: Federal Reserve via FRED
+    frequency: daily
+    schedule: daily
+    release_note: "每個交易日更新"
+    transform: none
+    unit: "%"
+    raw_unit: "% per Annum"
+    fred_limit: 500   # ~2 years daily
+
+  - id: DGS10
+    name: "10Y Treasury 10年期公債殖利率"
+    name_en: "10-Year Treasury Constant Maturity Rate"
+    category: rates
+    source: Federal Reserve via FRED
+    frequency: daily
+    schedule: daily
+    release_note: "每個交易日更新"
+    transform: none
+    unit: "%"
+    raw_unit: "% per Annum"
+    alert:
+      high: 5.0
+    fred_limit: 500
+
+  - id: DGS30
+    name: "30Y Treasury 30年期公債殖利率"
+    name_en: "30-Year Treasury Constant Maturity Rate"
+    category: rates
+    source: Federal Reserve via FRED
+    frequency: daily
+    schedule: daily
+    transform: none
+    unit: "%"
+    raw_unit: "% per Annum"
+    fred_limit: 500
+
+  - id: T10Y2Y
+    name: "10Y-2Y Spread 殖利率曲線利差"
+    name_en: "10-Year minus 2-Year Treasury Yield Spread"
+    category: rates
+    source: Federal Reserve via FRED
+    frequency: daily
+    schedule: daily
+    release_note: "每個交易日更新（負值 = 殖利率倒掛，衰退前兆）"
+    transform: none
+    unit: "%"
+    raw_unit: "Percent"
+    alert:
+      inversion: 0.0      # < 0 = 倒掛警示
+      deep_inversion: -0.5
+    fred_limit: 500
+
+  - id: MORTGAGE30US
+    name: "30Y Fixed Mortgage 30年期固定房貸利率"
+    name_en: "30-Year Fixed Rate Mortgage Average"
+    category: rates
+    source: Freddie Mac via FRED
+    frequency: weekly
+    schedule: weekly_thursday
+    release_note: "每週四"
+    transform: none
+    unit: "%"
+    raw_unit: "% per Annum"
+    fred_limit: 104
+
+  # ══════════════════════════════════════════════════════════════
+  #  信用與違約  (Credit & Default)
+  # ══════════════════════════════════════════════════════════════
+  - id: DRCCLACBS
+    name: "Credit Card Delinquency 信用卡違約率"
+    name_en: "Delinquency Rate on Credit Card Loans"
+    category: credit
+    source: Federal Reserve via FRED
+    frequency: quarterly
+    schedule: quarterly
+    release_note: "每季末後約 3 個月公布"
+    transform: none
+    unit: "%"
+    raw_unit: "Percent"
+    alert:
+      high: 3.0
+    fred_limit: 20
+
+  - id: DRCONGACBS
+    name: "Consumer Loan Delinquency 消費性貸款違約率"
+    name_en: "Delinquency Rate on Consumer Loans"
+    category: credit
+    source: Federal Reserve via FRED
+    frequency: quarterly
+    schedule: quarterly
+    transform: none
+    unit: "%"
+    raw_unit: "Percent"
+    fred_limit: 20
+
+  - id: DRSFRMACBS
+    name: "Mortgage Delinquency 住宅抵押貸款違約率"
+    name_en: "Delinquency Rate on Single-Family Residential Mortgages"
+    category: credit
+    source: Federal Reserve via FRED
+    frequency: quarterly
+    schedule: quarterly
+    transform: none
+    unit: "%"
+    raw_unit: "Percent"
+    fred_limit: 20
+
+  - id: BAMLH0A0HYM2
+    name: "HY Spread 高收益債信用利差"
+    name_en: "ICE BofA US High Yield Index OAS"
+    category: credit
+    source: ICE via FRED
+    frequency: daily
+    schedule: daily
+    transform: none
+    unit: "%"
+    raw_unit: "Percent"
+    alert:
+      high: 6.0   # > 6% 市場壓力
+    fred_limit: 500
+
+  # ══════════════════════════════════════════════════════════════
+  #  房市  (Housing)
+  # ══════════════════════════════════════════════════════════════
+  - id: HOUST
+    name: "Housing Starts 新屋開工"
+    name_en: "Housing Starts: Total"
+    category: housing
+    source: Census via FRED
+    frequency: monthly
+    schedule: mid_month
+    release_note: "每月第 3 週三，08:30 ET"
+    transform: none
+    unit: "K"
+    raw_unit: "Thousands of Units"
+    fred_limit: 60
+
+  - id: HSN1F
+    name: "New Home Sales 新屋銷售"
+    name_en: "New One Family Houses Sold"
+    category: housing
+    source: Census via FRED
+    frequency: monthly
+    schedule: end_month
+    transform: none
+    unit: "K"
+    raw_unit: "Thousands"
+    fred_limit: 60
+
+  - id: EXHOSLUSM495S
+    name: "Existing Home Sales 成屋銷售"
+    name_en: "Existing Home Sales"
+    category: housing
+    source: NAR via FRED
+    frequency: monthly
+    schedule: mid_month
+    release_note: "每月第 3~4 週四，10:00 ET"
+    transform: none
+    unit: "M"
+    raw_unit: "Millions of Units"
+    fred_limit: 60
+
+# ══════════════════════════════════════════════════════════════
+#  排程分類說明
+# ══════════════════════════════════════════════════════════════
+schedule_groups:
+  daily:
+    description: "每個工作日（殖利率、恐懼貪婪、信用利差）"
+    cron: "30 22 * * 1-5"      # UTC 22:30 = 台灣 06:30
+
+  weekly_thursday:
+    description: "每週四（初領/續領失業金、房貸利率）"
+    cron: "30 12 * * 4"        # UTC 12:30 = 台灣 20:30
+
+  early_month:
+    description: "月初 1-3 日（NFP、ISM PMI、失業率）"
+    cron: "0 13 1-3 * *"
+
+  mid_month:
+    description: "月中 10-16 日（CPI、PPI、零售銷售、工業生產）"
+    cron: "0 13 10-16 * *"
+
+  end_month:
+    description: "月末 20-31 日（PCE、耐久財、CCI、新屋銷售）"
+    cron: "0 13 20-31 * *"
+
+  quarterly:
+    description: "每季末月（GDP、違約率）"
+    cron: "0 13 25-31 1,4,7,10 *"
+
+# ══════════════════════════════════════════════════════════════
+#  全域設定
+# ══════════════════════════════════════════════════════════════
+settings:
+  data_dir: "data"
+  reports_dir: "reports"
+  docs_dir: "docs/data"
+  fred_base_url: "https://api.stlouisfed.org/fred"
+  timezone: "Asia/Taipei"
+  report_language: "zh-TW"
+  # 殖利率曲線倒掛連續天數警示
+  inversion_alert_days: 5
+  # 報告保留天數
+  report_retention_days: 90
