@@ -275,22 +275,20 @@ indicators:
     fred_limit: 60
   
   # ── CNN Fear & Greed（非 FRED，獨立抓取）──────────────────────
-  - id: CNN_FNG
-    name: "CNN 恐懼貪婪指數"
-    name_en: "CNN Fear & Greed Index"
+  - id: VIXCLS
+    name: "VIX 恐慌指數"
+    name_en: "CBOE Volatility Index"
     category: sentiment
-    source: CNN Business (unofficial API)
+    source: CBOE via FRED
     frequency: daily
     schedule: daily
-    release_note: "即時更新"
     transform: none
-    unit: "0-100"
-    raw_unit: "Score"
+    unit: "Index"
+    raw_unit: "Index"
     alert:
-      extreme_fear: 20    # < 20 = 極度恐懼（潛在買點）
-      extreme_greed: 80   # > 80 = 極度貪婪（潛在賣點）
-    fred_id: null         # 非 FRED 指標，特殊處理
-    fetch_url: "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+      high: 30     # > 30 市場恐慌
+      critical_high: 40
+    fred_limit: 500
 
   # ══════════════════════════════════════════════════════════════
   #  利率與債券  (Rates & Bonds)
