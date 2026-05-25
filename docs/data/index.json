@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T07:56:17.511348Z",
+  "generated_at": "2026-05-25T08:39:46.705883Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -14,7 +14,7 @@
       "change": -0.126,
       "signal": "🟡",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:43.484354Z"
+      "updated_at": "2026-05-25T08:39:12.970195Z"
     },
     {
       "id": "CPILFESL",
@@ -29,7 +29,7 @@
       "change": -0.19,
       "signal": "🔴",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:44.205655Z"
+      "updated_at": "2026-05-25T08:39:13.703853Z"
     },
     {
       "id": "PCEPI",
@@ -44,7 +44,7 @@
       "change": -0.102,
       "signal": "🟡",
       "source": "BEA via FRED",
-      "updated_at": "2026-05-25T07:55:44.922291Z"
+      "updated_at": "2026-05-25T08:39:14.453624Z"
     },
     {
       "id": "PCEPILFE",
@@ -59,7 +59,7 @@
       "change": -0.115,
       "signal": "🟡",
       "source": "BEA via FRED",
-      "updated_at": "2026-05-25T07:55:45.644475Z"
+      "updated_at": "2026-05-25T08:39:15.175572Z"
     },
     {
       "id": "PPIACO",
@@ -74,7 +74,7 @@
       "change": 0.792,
       "signal": "🟢",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:46.368566Z"
+      "updated_at": "2026-05-25T08:39:15.884362Z"
     },
     {
       "id": "PPIFIS",
@@ -89,7 +89,7 @@
       "change": 0.336,
       "signal": "🟢",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:47.208703Z"
+      "updated_at": "2026-05-25T08:39:16.592325Z"
     },
     {
       "id": "GDPC1",
@@ -104,7 +104,7 @@
       "change": -1.358,
       "signal": "⚪",
       "source": "BEA via FRED",
-      "updated_at": "2026-05-25T07:55:47.913275Z"
+      "updated_at": "2026-05-25T08:39:17.308312Z"
     },
     {
       "id": "RSXFS",
@@ -119,7 +119,7 @@
       "change": -0.943,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-05-25T07:55:48.634131Z"
+      "updated_at": "2026-05-25T08:39:18.012769Z"
     },
     {
       "id": "INDPRO",
@@ -134,7 +134,7 @@
       "change": -0.44,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:55:49.402818Z"
+      "updated_at": "2026-05-25T08:39:18.839579Z"
     },
     {
       "id": "DGORDER",
@@ -149,7 +149,7 @@
       "change": -0.462,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-05-25T07:55:54.210668Z"
+      "updated_at": "2026-05-25T08:39:23.579796Z"
     },
     {
       "id": "PAYEMS",
@@ -164,7 +164,7 @@
       "change": 68.0,
       "signal": "⚪",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:54.950676Z"
+      "updated_at": "2026-05-25T08:39:24.289303Z"
     },
     {
       "id": "UNRATE",
@@ -179,7 +179,7 @@
       "change": -0.1,
       "signal": "🟢",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:55.681635Z"
+      "updated_at": "2026-05-25T08:39:24.986282Z"
     },
     {
       "id": "ICSA",
@@ -194,7 +194,7 @@
       "change": -1000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-05-25T07:55:56.382225Z"
+      "updated_at": "2026-05-25T08:39:25.708074Z"
     },
     {
       "id": "CCSA",
@@ -209,7 +209,7 @@
       "change": 28000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-05-25T07:55:57.125613Z"
+      "updated_at": "2026-05-25T08:39:26.414120Z"
     },
     {
       "id": "CES0500000003",
@@ -224,7 +224,7 @@
       "change": -0.156,
       "signal": "⚪",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:57.831589Z"
+      "updated_at": "2026-05-25T08:39:27.123927Z"
     },
     {
       "id": "JTSJOL",
@@ -239,7 +239,7 @@
       "change": -45.0,
       "signal": "⚪",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-25T07:55:58.565893Z"
+      "updated_at": "2026-05-25T08:39:27.863953Z"
     },
     {
       "id": "UMCSENT",
@@ -254,7 +254,7 @@
       "change": -1.2,
       "signal": "⚪",
       "source": "U of Michigan via FRED",
-      "updated_at": "2026-05-25T07:55:59.275923Z"
+      "updated_at": "2026-05-25T08:39:28.594138Z"
     },
     {
       "id": "FEDFUNDS",
@@ -269,7 +269,7 @@
       "change": 0.01,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:56:04.088790Z"
+      "updated_at": "2026-05-25T08:39:33.539539Z"
     },
     {
       "id": "DGS2",
@@ -284,7 +284,7 @@
       "change": 0.09,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:56:04.833668Z"
+      "updated_at": "2026-05-25T08:39:34.316792Z"
     },
     {
       "id": "DGS10",
@@ -299,7 +299,7 @@
       "change": 0.07,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:56:05.590691Z"
+      "updated_at": "2026-05-25T08:39:35.084968Z"
     },
     {
       "id": "DGS30",
@@ -314,7 +314,7 @@
       "change": 0.06,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:56:06.395959Z"
+      "updated_at": "2026-05-25T08:39:35.866545Z"
     },
     {
       "id": "T10Y2Y",
@@ -329,7 +329,7 @@
       "change": -0.01,
       "signal": "🟢",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:56:08.065730Z"
+      "updated_at": "2026-05-25T08:39:36.675937Z"
     },
     {
       "id": "MORTGAGE30US",
@@ -344,7 +344,7 @@
       "change": 0.05,
       "signal": "⚪",
       "source": "Freddie Mac via FRED",
-      "updated_at": "2026-05-25T07:56:09.029156Z"
+      "updated_at": "2026-05-25T08:39:37.533318Z"
     },
     {
       "id": "DRCCLACBS",
@@ -359,7 +359,7 @@
       "change": 0.87,
       "signal": "🔴",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:56:09.889943Z"
+      "updated_at": "2026-05-25T08:39:38.272068Z"
     },
     {
       "id": "DRSFRMACBS",
@@ -374,7 +374,7 @@
       "change": 1.41,
       "signal": "🔴",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-25T07:56:14.533996Z"
+      "updated_at": "2026-05-25T08:39:43.846792Z"
     },
     {
       "id": "BAMLH0A0HYM2",
@@ -389,7 +389,7 @@
       "change": -0.26,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-05-25T07:56:15.297458Z"
+      "updated_at": "2026-05-25T08:39:44.560404Z"
     },
     {
       "id": "HOUST",
@@ -404,7 +404,7 @@
       "change": 81.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-05-25T07:56:16.017533Z"
+      "updated_at": "2026-05-25T08:39:45.270832Z"
     },
     {
       "id": "HSN1F",
@@ -419,7 +419,7 @@
       "change": -16.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-05-25T07:56:16.788403Z"
+      "updated_at": "2026-05-25T08:39:45.987030Z"
     },
     {
       "id": "EXHOSLUSM495S",
@@ -434,7 +434,7 @@
       "change": 10000.0,
       "signal": "⚪",
       "source": "NAR via FRED",
-      "updated_at": "2026-05-25T07:56:17.503612Z"
+      "updated_at": "2026-05-25T08:39:46.697045Z"
     }
   ]
 }
