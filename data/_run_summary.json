@@ -1,8 +1,8 @@
 {
-  "run_at": "2026-05-25T08:54:14.040627Z",
+  "run_at": "2026-05-25T09:12:40.372086Z",
   "mode": "fetch-all",
-  "targets": 33,
-  "updated": 29,
+  "targets": 31,
+  "updated": 31,
   "updated_ids": [
     "CPIAUCSL",
     "CPILFESL",
@@ -13,6 +13,7 @@
     "GDPC1",
     "RSXFS",
     "INDPRO",
+    "MANEMP",
     "DGORDER",
     "PAYEMS",
     "UNRATE",
@@ -21,6 +22,7 @@
     "CES0500000003",
     "JTSJOL",
     "UMCSENT",
+    "VIXCLS",
     "FEDFUNDS",
     "DGS2",
     "DGS10",
@@ -34,6 +36,6 @@
     "HSN1F",
     "EXHOSLUSM495S"
   ],
-  "alerts": 6,
-  "errors": 3
+  "alerts": 5,
+  "errors": 0
 }
