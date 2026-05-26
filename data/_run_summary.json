@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-05-26T09:08:56.632705Z",
+  "run_at": "2026-05-26T09:32:31.957125Z",
   "mode": "fetch-all",
   "targets": 31,
   "updated": 31,
@@ -36,6 +36,6 @@
     "HSN1F",
     "EXHOSLUSM495S"
   ],
-  "alerts": 6,
+  "alerts": 3,
   "errors": 0
 }
