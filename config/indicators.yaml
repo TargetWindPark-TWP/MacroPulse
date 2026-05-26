@@ -20,7 +20,7 @@ indicators:
     alert:
       high: 3.0    # > 3% 發出通膨警告
       low: 0.5     # < 0.5% 發出通縮警告
-    fred_limit: 120  # 抓取最近 N 筆
+    fred_limit: 132  # 抓取最近 N 筆
 
   - id: CPILFESL
     name: "Core CPI 核心消費者物價指數"
@@ -35,7 +35,7 @@ indicators:
     raw_unit: "Index"
     alert:
       high: 3.0
-    fred_limit: 120
+    fred_limit: 132
 
   - id: PCEPI
     name: "PCE 個人消費支出物價指數"
@@ -50,7 +50,7 @@ indicators:
     raw_unit: "Index (2017=100)"
     alert:
       high: 2.5
-    fred_limit: 120
+    fred_limit: 132
 
   - id: PCEPILFE
     name: "Core PCE 核心個人消費支出物價指數"
@@ -66,7 +66,7 @@ indicators:
     alert:
       high: 2.5
       target: 2.0
-    fred_limit: 120
+    fred_limit: 132
 
   - id: PPIACO
     name: "PPI 生產者物價指數"
@@ -79,7 +79,7 @@ indicators:
     transform: yoy
     unit: "% YoY"
     raw_unit: "Index (1982=100)"
-    fred_limit: 120
+    fred_limit: 132
 
   - id: PPIFIS
     name: "WPI / Core PPI 躉售物價指數"
@@ -91,7 +91,7 @@ indicators:
     transform: yoy
     unit: "% YoY"
     raw_unit: "Index"
-    fred_limit: 120
+    fred_limit: 132
 
   # ══════════════════════════════════════════════════════════════
   #  經濟成長  (Growth)
@@ -109,7 +109,7 @@ indicators:
     raw_unit: "Bil. Chained 2017 USD"
     alert:
       low: 0.0   # 負成長警示
-    fred_limit: 40
+    fred_limit: 44
 
   - id: RSXFS
     name: "Retail Sales 零售銷售（扣除汽車）"
@@ -122,7 +122,7 @@ indicators:
     transform: yoy
     unit: "% YoY"
     raw_unit: "Mil. USD"
-    fred_limit: 120
+    fred_limit: 132
 
   - id: INDPRO
     name: "Industrial Production 工業生產指數"
@@ -135,23 +135,19 @@ indicators:
     transform: yoy
     unit: "% YoY"
     raw_unit: "Index (2017=100)"
-    fred_limit: 120
+    fred_limit: 132
 
-  - id: MANEMP
-    name: "ISM Mfg PMI 製造業採購經理人指數"
-    name_en: "ISM Manufacturing PMI"
+  - id: INDPRO
+    name: "工業生產指數（製造業景氣代理指標）"
+    name_en: "Industrial Production Index"
     category: growth
-    source: ISM via FRED
+    source: Federal Reserve via FRED
     frequency: monthly
-    schedule: early_month      # 每月第 1 個工作日
-    release_note: "每月第 1 個工作日，10:00 ET"
-    transform: none
-    unit: "Index"
-    raw_unit: "Index (>50=擴張)"
-    alert:
-      low: 50.0   # 跌破 50 = 收縮
-      critical_low: 45.0
-    fred_limit: 60
+    schedule: mid_month
+    transform: yoy
+    unit: "% YoY"
+    raw_unit: "Index (2017=100)"
+    fred_limit: 132
 
   - id: DGORDER
     name: "Durable Goods 耐久財訂單"
@@ -164,7 +160,7 @@ indicators:
     transform: yoy
     unit: "% YoY"
     raw_unit: "Mil. USD"
-    fred_limit: 120
+    fred_limit: 132
 
   # ══════════════════════════════════════════════════════════════
   #  勞動市場  (Labor)
@@ -243,7 +239,7 @@ indicators:
     raw_unit: "USD per Hour"
     alert:
       high: 4.0   # 薪資通膨壓力
-    fred_limit: 60
+    fred_limit: 132
 
   - id: JTSJOL
     name: "JOLTS 職位空缺數"
