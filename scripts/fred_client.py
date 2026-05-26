@@ -72,40 +72,41 @@ class FREDClient:
         }
 
     def get_observations(
-        self,
-        series_id: str,
-        observation_start: Optional[str] = None,
-        limit: int = 120,
-        frequency: Optional[str] = None,
-        aggregation_method: str = "avg",
+      self,
+      series_id: str,
+      observation_start: Optional[str] = None,
+      limit: int = 120,
+      frequency: Optional[str] = None,
+      aggregation_method: str = "avg",
     ) -> list[dict]:
-        """
-        抓取觀測值。
-        - observation_start: 'YYYY-MM-DD'，不設定則抓最近 limit 筆
-        - frequency: 'a' 年 | 'q' 季 | 'm' 月 | 'w' 週 | 'd' 日
-        - aggregation_method: 'avg' | 'sum' | 'eop'
-        """
-        params: dict = {
-            "series_id":  series_id,
-            "sort_order": "desc",
-            "limit":      limit,
-            "observation_end": date.today().isoformat(),
-        }
-        if frequency:
-            params["frequency"]            = frequency
-            params["aggregation_method"]   = aggregation_method
+      """
+      抓取最新 limit 筆觀測值。
+      策略：用 sort_order=desc 從最新往舊抓，取得後倒轉為升序供圖表使用。
+      """
+      params: dict = {
+        "series_id":     series_id,
+        "sort_order":    "desc",                       # 最新的先回傳
+        "limit":         limit,
+        "observation_end": date.today().isoformat(),   # 確保抓到今天為止
+      }
+      # 注意：不設 observation_start，讓 FRED 回傳最新的 limit 筆
+      if frequency:
+        params["frequency"]          = frequency
+        params["aggregation_method"] = aggregation_method
 
-        data = self._get("series/observations", params)
-        raw  = data.get("observations", [])
+      data = self._get("series/observations", params)
+      raw  = data.get("observations", [])
 
-        return [
-            {
-                "date":  o["date"],
-                "value": float(o["value"]) if o["value"] not in (".", "") else None,
-            }
-            for o in raw
-        ]
-        return list(reversed(result))
+      observations = [
+          {
+              "date":  o["date"],
+              "value": float(o["value"]) if o["value"] not in (".", "") else None,
+          }
+          for o in raw
+      ]
+
+      # ← 關鍵：倒轉回升序（舊→新），YoY 計算和圖表才正確
+      return list(reversed(observations))
 
     def get_release_dates(self, days_back: int = 7) -> list[dict]:
         """
