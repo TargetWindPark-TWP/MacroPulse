@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T09:32:31.951745Z",
+  "generated_at": "2026-05-26T16:37:47.007812Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -278,13 +278,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-04-01",
-      "latest_value": 19.81,
-      "prev_value": 25.6,
-      "change": -5.79,
+      "latest_date": "2026-05-01",
+      "latest_value": 17.51,
+      "prev_value": 19.81,
+      "change": -2.3,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-05-26T09:32:21.568080Z"
+      "updated_at": "2026-05-26T16:37:42.360857Z"
     },
     {
       "id": "FEDFUNDS",
@@ -413,13 +413,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-04-01",
-      "latest_value": 2.93,
-      "prev_value": 3.19,
-      "change": -0.26,
+      "latest_date": "2026-05-01",
+      "latest_value": 2.79,
+      "prev_value": 2.93,
+      "change": -0.14,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-05-26T09:32:29.302490Z"
+      "updated_at": "2026-05-26T16:37:46.191596Z"
     },
     {
       "id": "HOUST",

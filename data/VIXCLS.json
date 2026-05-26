@@ -10,10 +10,6 @@
   "source": "CBOE via FRED",
   "raw_observations": [
     {
-      "date": "2015-05-01",
-      "value": 13.34
-    },
-    {
       "date": "2015-06-01",
       "value": 14.34
     },
@@ -536,15 +532,15 @@
     {
       "date": "2026-04-01",
       "value": 19.81
+    },
+    {
+      "date": "2026-05-01",
+      "value": 17.51
     }
   ],
-  "latest_raw_date": "2026-04-01",
-  "latest_raw_value": 19.81,
+  "latest_raw_date": "2026-05-01",
+  "latest_raw_value": 17.51,
   "yoy_observations": [
-    {
-      "date": "2016-05-01",
-      "value": 1.51
-    },
     {
       "date": "2016-06-01",
       "value": 3.43
@@ -1020,15 +1016,15 @@
     {
       "date": "2026-04-01",
       "value": -12.16
+    },
+    {
+      "date": "2026-05-01",
+      "value": -2.95
     }
   ],
-  "latest_yoy_date": "2026-04-01",
-  "latest_yoy_value": -12.16,
+  "latest_yoy_date": "2026-05-01",
+  "latest_yoy_value": -2.95,
   "mom_observations": [
-    {
-      "date": "2016-05-01",
-      "value": 0.55
-    },
     {
       "date": "2016-06-01",
       "value": 2.92
@@ -1504,10 +1500,14 @@
     {
       "date": "2026-04-01",
       "value": -5.79
+    },
+    {
+      "date": "2026-05-01",
+      "value": -2.3
     }
   ],
-  "latest_mom_date": "2026-04-01",
-  "latest_mom_value": -5.79,
+  "latest_mom_date": "2026-05-01",
+  "latest_mom_value": -2.3,
   "observations": [
     {
       "date": "1990-01-01",
@@ -3252,10 +3252,14 @@
     {
       "date": "2026-04-01",
       "value": 19.81
+    },
+    {
+      "date": "2026-05-01",
+      "value": 17.51
     }
   ],
-  "latest_date": "2026-04-01",
-  "latest_value": 19.81,
-  "fetched_at": "2026-05-26T09:32:21.568080Z",
-  "count": 436
+  "latest_date": "2026-05-01",
+  "latest_value": 17.51,
+  "fetched_at": "2026-05-26T16:37:42.360857Z",
+  "count": 437
 }
