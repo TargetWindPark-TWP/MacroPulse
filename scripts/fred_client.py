@@ -279,23 +279,52 @@ def fetch_indicator(
         log.info(f"  {sid}: 無新數據，跳過")
         return {"id": sid, "status": "no_new_data", "latest": latest}
 
-    # 儲存
-    payload = {
-        "series_id":   sid,
-        "name":        indicator["name"],
-        "name_en":     indicator.get("name_en", ""),
-        "category":    indicator["category"],
-        "unit":        indicator["unit"],
-        "frequency":   freq,
-        "transform":   transform,
-        "source":      indicator.get("source", "FRED"),
-        "raw_observations":  raw_obs[-60:],    # 保留最近 60 筆原始值
-        "observations":      transformed,       # 轉換後（用於圖表）
-        "latest_date":       latest["date"] if latest else "",
-        "latest_value":      latest["value"] if latest else None,
-        "fetched_at":        datetime.utcnow().isoformat() + "Z",
-        "count":             len(transformed),
-    }
+    # 在 fetch_indicator 函數內，建立 payload 的地方，替換成以下內容
+
+  from fred_client import (
+      transform_observations, compute_yoy, compute_mom_change
+  )
+
+  # 原始數據（直接來自 FRED）
+  raw_clean = [o for o in raw_obs if o["value"] is not None]
+  
+  # 依指標類型計算各種衍生數據
+  freq = indicator.get("frequency", "monthly")
+  
+  yoy_data = compute_yoy(raw_clean) if freq in ("monthly", "quarterly") else []
+  mom_data = compute_mom_change(raw_clean) if freq in ("monthly", "weekly") else []
+
+  # 最新原始值
+  latest_raw   = raw_clean[-1]  if raw_clean else None
+  latest_yoy   = yoy_data[-1]   if yoy_data  else None
+  latest_mom   = mom_data[-1]   if mom_data  else None
+  
+  payload = {
+      "series_id":         sid,
+      "name":              indicator["name"],
+       "category":          indicator["category"],
+      "unit":              indicator["unit"],
+      "raw_unit":          indicator.get("raw_unit", ""),
+      "frequency":         freq,
+      "source":            indicator.get("source", "FRED"),
+  
+      # ── 原始數據 ──────────────────────────────
+      "raw_observations":  raw_clean[-132:],       # 最近 132 筆原始值
+      "latest_raw_date":   latest_raw["date"]   if latest_raw else "",
+      "latest_raw_value":  latest_raw["value"]  if latest_raw else None,
+  
+      # ── 年增率 YoY% ───────────────────────────
+      "yoy_observations":  yoy_data[-120:],
+      "latest_yoy_date":   latest_yoy["date"]   if latest_yoy else "",
+      "latest_yoy_value":  latest_yoy["value"]  if latest_yoy else None,
+  
+      # ── 月增率 / 週增率 MoM% ──────────────────
+      "mom_observations":  mom_data[-120:],
+      "latest_mom_date":   latest_mom["date"]   if latest_mom else "",
+      "latest_mom_value":  latest_mom["value"]  if latest_mom else None,
+  
+      "fetched_at":        datetime.utcnow().isoformat() + "Z",
+  }
 
     save_data(data_dir, sid, payload)
     log.info(f"  {sid}: ✓ 最新 {latest['date']} = {latest['value']} {indicator['unit']}")
