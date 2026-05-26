@@ -80,32 +80,31 @@ class FREDClient:
         aggregation_method: str = "avg",
     ) -> list[dict]:
         """
-        抓取觀測值。
-        - observation_start: 'YYYY-MM-DD'，不設定則抓最近 limit 筆
-        - frequency: 'a' 年 | 'q' 季 | 'm' 月 | 'w' 週 | 'd' 日
-        - aggregation_method: 'avg' | 'sum' | 'eop'
+        抓取最新 limit 筆觀測值。
+        sort_order=desc 從最新往舊取 limit 筆，取回後倒轉為升序（舊->新）。
+        不設 observation_start，確保永遠取到最新數據。
         """
         params: dict = {
-            "series_id":  series_id,
-            "sort_order": "asc",
-            "limit":      limit,
+            "series_id":     series_id,
+            "sort_order":    "desc",
+            "limit":         limit,
+            "observation_end": date.today().isoformat(),
         }
-        if observation_start:
-            params["observation_start"] = observation_start
         if frequency:
-            params["frequency"]            = frequency
-            params["aggregation_method"]   = aggregation_method
+            params["frequency"]          = frequency
+            params["aggregation_method"] = aggregation_method
 
         data = self._get("series/observations", params)
         raw  = data.get("observations", [])
 
-        return [
+        observations = [
             {
                 "date":  o["date"],
                 "value": float(o["value"]) if o["value"] not in (".", "") else None,
             }
             for o in raw
         ]
+        return list(reversed(observations))
 
     def get_release_dates(self, days_back: int = 7) -> list[dict]:
         """
@@ -229,6 +228,36 @@ def compute_mom_pct(obs: list[dict]) -> list[dict]:
     return result
 
 
+def compute_yoy_diff(obs: list[dict]) -> list[dict]:
+    """Year-over-Year 絕對差值（用於利率/殖利率，單位：百分點 pp）"""
+    result = []
+    for i in range(12, len(obs)):
+        cur  = obs[i]
+        prev = obs[i - 12]
+        if cur["value"] is None or prev["value"] is None:
+            continue
+        result.append({
+            "date":  cur["date"],
+            "value": round(cur["value"] - prev["value"], 3),
+        })
+    return result
+
+
+def compute_mom_diff(obs: list[dict]) -> list[dict]:
+    """Month-over-Month 絕對差值（用於利率/殖利率，單位：百分點 pp）"""
+    result = []
+    for i in range(1, len(obs)):
+        cur  = obs[i]
+        prev = obs[i - 1]
+        if cur["value"] is None or prev["value"] is None:
+            continue
+        result.append({
+            "date":  cur["date"],
+            "value": round(cur["value"] - prev["value"], 3),
+        })
+    return result
+
+
 def transform_observations(obs: list[dict], transform: str, frequency: str = "monthly") -> list[dict]:
     """根據設定的 transform 轉換數據"""
     clean = [o for o in obs if o["value"] is not None]
@@ -332,17 +361,25 @@ def fetch_indicator(
     # ── 計算三種衍生數據（函數都在同一檔案內，直接呼叫）─────────────────────
     raw_clean = [o for o in raw_obs if o["value"] is not None]
 
-    # 年增率 YoY%
+    # 利率/殖利率類指標用絕對差值（百分點 pp），其他指標用百分比變化
+    RATE_SERIES = {
+        "FEDFUNDS", "DGS2", "DGS10", "DGS30", "T10Y2Y",
+        "MORTGAGE30US", "DRCCLACBS", "DRSFRMACBS", "DRCONGACBS",
+        "BAMLH0A0HYM2", "UNRATE", "VIXCLS",
+    }
+    use_diff = (sid in RATE_SERIES)
+
+    # 年增率 YoY（% 或 pp）
     if freq == "quarterly":
-        yoy_obs = compute_yoy_quarterly(raw_clean)
-    elif freq in ("monthly", "daily"):
-        yoy_obs = compute_yoy(raw_clean)
+        yoy_obs = compute_yoy_quarterly(raw_clean) if not use_diff else compute_yoy_diff(raw_clean)
+    elif freq in ("monthly", "daily", "weekly"):
+        yoy_obs = compute_yoy_diff(raw_clean) if use_diff else compute_yoy(raw_clean)
     else:
         yoy_obs = []
 
-    # 月增率 MoM%（月頻與週頻指標）
+    # 月增率 MoM（% 或 pp）
     if freq in ("monthly", "weekly", "daily"):
-        mom_obs = compute_mom_pct(raw_clean)
+        mom_obs = compute_mom_diff(raw_clean) if use_diff else compute_mom_pct(raw_clean)
     else:
         mom_obs = []
 
