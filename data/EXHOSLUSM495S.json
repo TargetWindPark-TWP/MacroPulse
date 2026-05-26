@@ -4,14 +4,11 @@
   "name_en": "Existing Home Sales",
   "category": "housing",
   "unit": "M",
+  "raw_unit": "Millions of Units",
   "frequency": "monthly",
   "transform": "none",
   "source": "NAR via FRED",
   "raw_observations": [
-    {
-      "date": "2025-03-01",
-      "value": null
-    },
     {
       "date": "2025-04-01",
       "value": 4020000.0
@@ -65,6 +62,68 @@
       "value": 4020000.0
     }
   ],
+  "latest_raw_date": "2026-04-01",
+  "latest_raw_value": 4020000.0,
+  "yoy_observations": [
+    {
+      "date": "2026-04-01",
+      "value": 0.0
+    }
+  ],
+  "latest_yoy_date": "2026-04-01",
+  "latest_yoy_value": 0.0,
+  "mom_observations": [
+    {
+      "date": "2025-05-01",
+      "value": 0.498
+    },
+    {
+      "date": "2025-06-01",
+      "value": -1.485
+    },
+    {
+      "date": "2025-07-01",
+      "value": 1.256
+    },
+    {
+      "date": "2025-08-01",
+      "value": 0.0
+    },
+    {
+      "date": "2025-09-01",
+      "value": 1.241
+    },
+    {
+      "date": "2025-10-01",
+      "value": 0.735
+    },
+    {
+      "date": "2025-11-01",
+      "value": -0.487
+    },
+    {
+      "date": "2025-12-01",
+      "value": 4.401
+    },
+    {
+      "date": "2026-01-01",
+      "value": -5.855
+    },
+    {
+      "date": "2026-02-01",
+      "value": 2.736
+    },
+    {
+      "date": "2026-03-01",
+      "value": -2.906
+    },
+    {
+      "date": "2026-04-01",
+      "value": 0.249
+    }
+  ],
+  "latest_mom_date": "2026-04-01",
+  "latest_mom_value": 0.249,
   "observations": [
     {
       "date": "2025-04-01",
@@ -121,6 +180,6 @@
   ],
   "latest_date": "2026-04-01",
   "latest_value": 4020000.0,
-  "fetched_at": "2026-05-26T06:31:12.821143Z",
+  "fetched_at": "2026-05-26T09:08:56.613641Z",
   "count": 13
 }
