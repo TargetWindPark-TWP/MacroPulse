@@ -18,6 +18,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 from fred_client import FREDClient, fetch_indicator, load_existing, save_data
 from report_generator import generate_daily_report, generate_weekly_report, generate_monthly_report, write_index_json
+from excel_generator import generate_excel
 
 logging.basicConfig(
     level=logging.INFO,
@@ -26,11 +27,12 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-ROOT      = Path(__file__).parent.parent
-CONFIG_F  = ROOT / "config" / "indicators.yaml"
-DATA_DIR  = ROOT / "data"
-REPORT_DIR= ROOT / "reports"
-DOCS_DIR  = ROOT / "docs" / "data"
+ROOT       = Path(__file__).parent.parent
+CONFIG_F   = ROOT / "config" / "indicators.yaml"
+DATA_DIR   = ROOT / "data"
+REPORT_DIR = ROOT / "reports"
+EXCEL_DIR  = ROOT / "reports" / "excel"
+DOCS_DIR   = ROOT / "docs" / "data"
 
 
 # ─── Mode Detection ──────────────────────────────────────────────────────────
@@ -220,6 +222,11 @@ def main():
         # 更新 GitHub Pages 的 JSON index（供 dashboard 讀取）
         write_index_json(all_data, indicators, DOCS_DIR)
         log.info("✓ Dashboard JSON 已更新")
+
+        # 生成 Excel 報告
+        EXCEL_DIR.mkdir(parents=True, exist_ok=True)
+        excel_path = generate_excel(all_data, indicators, EXCEL_DIR)
+        log.info(f"✓ Excel 報告已生成：{excel_path.name}")
 
     # 警示檢查
     alert_msgs = check_alerts(indicators, DATA_DIR)
