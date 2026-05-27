@@ -1,9 +1,13 @@
 {
-  "run_at": "2026-05-27T16:34:41.797311Z",
+  "run_at": "2026-05-27T23:45:33.675692Z",
   "mode": "daily,monthly_end",
   "targets": 11,
-  "updated": 0,
-  "updated_ids": [],
+  "updated": 3,
+  "updated_ids": [
+    "DGS2",
+    "DGS10",
+    "DGS30"
+  ],
   "alerts": 3,
   "errors": 0
 }

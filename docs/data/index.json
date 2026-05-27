@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T02:10:09.036471Z",
+  "generated_at": "2026-05-27T23:45:31.474802Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -353,13 +353,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-04-01",
-      "latest_value": 3.8,
-      "prev_value": 3.71,
-      "change": 0.09,
+      "latest_date": "2026-05-01",
+      "latest_value": 4.0,
+      "prev_value": 3.8,
+      "change": 0.2,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-27T02:10:00.089480Z"
+      "updated_at": "2026-05-27T23:45:27.186551Z"
     },
     {
       "id": "DGS10",
@@ -368,13 +368,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-04-01",
-      "latest_value": 4.32,
-      "prev_value": 4.25,
-      "change": 0.07,
+      "latest_date": "2026-05-01",
+      "latest_value": 4.49,
+      "prev_value": 4.32,
+      "change": 0.17,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-27T02:10:00.876615Z"
+      "updated_at": "2026-05-27T23:45:27.980133Z"
     },
     {
       "id": "DGS30",
@@ -383,13 +383,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-04-01",
-      "latest_value": 4.91,
-      "prev_value": 4.85,
-      "change": 0.06,
+      "latest_date": "2026-05-01",
+      "latest_value": 5.04,
+      "prev_value": 4.91,
+      "change": 0.13,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-27T02:10:01.813886Z"
+      "updated_at": "2026-05-27T23:45:28.750872Z"
     },
     {
       "id": "T10Y2Y",
