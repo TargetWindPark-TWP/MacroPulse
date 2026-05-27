@@ -157,6 +157,10 @@ def main():
     modes    = set(mode_str.replace("-", "_").split(","))
     log.info(f"執行模式：{modes}")
 
+    # fetch-all 模式視為包含所有頻率
+    if "fetch_all" in modes:
+        modes |= {"daily", "weekly", "monthly_early", "monthly_mid", "monthly_end", "quarterly"}
+    
     # 初始化 FRED Client
     api_key = os.environ.get("FRED_API_KEY", "")
     if not api_key:
