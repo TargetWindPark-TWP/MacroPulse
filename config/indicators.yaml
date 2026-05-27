@@ -270,7 +270,6 @@ indicators:
     raw_unit: "Index (1966 Q1=100)"
     fred_limit: 60
   
-  # ── CNN Fear & Greed（非 FRED，獨立抓取）──────────────────────
   - id: VIXCLS
     name: "VIX 恐慌指數"
     name_en: "CBOE Volatility Index"
@@ -286,6 +285,51 @@ indicators:
       critical_high: 40
     fred_limit: 500
 
+- id: NFCI
+    name: "NFCI 全國金融環境指數"
+    name_en: "National Financial Conditions Index"
+    category: sentiment
+    source: Chicago Fed via FRED
+    frequency: weekly
+    schedule: weekly_thursday
+    release_note: "每週五更新（反映上週數據）"
+    transform: none
+    unit: "Index"
+    raw_unit: "Index (0=平均, 負=寬鬆, 正=緊縮)"
+    alert:
+      high: 0.5    # > 0.5 金融壓力偏高
+      critical_high: 1.0
+    fred_limit: 260   # 5年週頻
+
+  - id: STLFSI4
+    name: "STLFSI4 聖路易金融壓力指數"
+    name_en: "St. Louis Fed Financial Stress Index"
+    category: sentiment
+    source: St. Louis Fed via FRED
+    frequency: weekly
+    schedule: weekly_thursday
+    release_note: "每週五更新"
+    transform: none
+    unit: "Index"
+    raw_unit: "Index (0=平均, 負=低壓, 正=高壓)"
+    alert:
+      high: 1.0
+    fred_limit: 260
+
+  - id: BAMLC0A0CM
+    name: "IG 投資級信用利差"
+    name_en: "ICE BofA US Corporate Bond OAS"
+    category: credit
+    source: ICE via FRED
+    frequency: daily
+    schedule: daily
+    transform: none
+    unit: "%"
+    raw_unit: "Percent"
+    alert:
+      high: 2.0
+    fred_limit: 500
+    
   # ══════════════════════════════════════════════════════════════
   #  利率與債券  (Rates & Bonds)
   # ══════════════════════════════════════════════════════════════
