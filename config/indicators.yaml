@@ -285,7 +285,7 @@ indicators:
       critical_high: 40
     fred_limit: 500
 
-- id: NFCI
+  - id: NFCI
     name: "NFCI 全國金融環境指數"
     name_en: "National Financial Conditions Index"
     category: sentiment
