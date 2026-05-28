@@ -1,19 +1,9 @@
 {
-  "run_at": "2026-05-28T16:38:01.770652Z",
+  "run_at": "2026-05-28T16:50:43.750128Z",
   "mode": "daily,monthly_end,weekly",
   "targets": 16,
-  "updated": 9,
-  "updated_ids": [
-    "PCEPI",
-    "PCEPILFE",
-    "DGORDER",
-    "ICSA",
-    "CCSA",
-    "NFCI",
-    "STLFSI4",
-    "MORTGAGE30US",
-    "HSN1F"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
