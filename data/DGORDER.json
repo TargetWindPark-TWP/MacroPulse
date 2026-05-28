@@ -10,10 +10,6 @@
   "source": "Census via FRED",
   "raw_observations": [
     {
-      "date": "2015-04-01",
-      "value": 225656.0
-    },
-    {
       "date": "2015-05-01",
       "value": 218316.0
     },
@@ -535,16 +531,16 @@
     },
     {
       "date": "2026-03-01",
-      "value": 318909.0
+      "value": 320488.0
+    },
+    {
+      "date": "2026-04-01",
+      "value": 345956.0
     }
   ],
-  "latest_raw_date": "2026-03-01",
-  "latest_raw_value": 318909.0,
+  "latest_raw_date": "2026-04-01",
+  "latest_raw_value": 345956.0,
   "yoy_observations": [
-    {
-      "date": "2016-04-01",
-      "value": 1.853
-    },
     {
       "date": "2016-05-01",
       "value": 2.199
@@ -1019,16 +1015,16 @@
     },
     {
       "date": "2026-03-01",
-      "value": 0.852
+      "value": 1.351
+    },
+    {
+      "date": "2026-04-01",
+      "value": 17.182
     }
   ],
-  "latest_yoy_date": "2026-03-01",
-  "latest_yoy_value": 0.852,
+  "latest_yoy_date": "2026-04-01",
+  "latest_yoy_value": 17.182,
   "mom_observations": [
-    {
-      "date": "2016-04-01",
-      "value": 5.243
-    },
     {
       "date": "2016-05-01",
       "value": -2.924
@@ -1503,16 +1499,16 @@
     },
     {
       "date": "2026-03-01",
-      "value": 0.846
+      "value": 1.346
+    },
+    {
+      "date": "2026-04-01",
+      "value": 7.947
     }
   ],
-  "latest_mom_date": "2026-03-01",
-  "latest_mom_value": 0.846,
+  "latest_mom_date": "2026-04-01",
+  "latest_mom_value": 7.947,
   "observations": [
-    {
-      "date": "2016-04-01",
-      "value": 1.853
-    },
     {
       "date": "2016-05-01",
       "value": 2.199
@@ -1987,11 +1983,15 @@
     },
     {
       "date": "2026-03-01",
-      "value": 0.852
+      "value": 1.351
+    },
+    {
+      "date": "2026-04-01",
+      "value": 17.182
     }
   ],
-  "latest_date": "2026-03-01",
-  "latest_value": 0.852,
-  "fetched_at": "2026-05-27T02:09:49.100087Z",
+  "latest_date": "2026-04-01",
+  "latest_value": 17.182,
+  "fetched_at": "2026-05-28T16:37:48.298033Z",
   "count": 132
 }

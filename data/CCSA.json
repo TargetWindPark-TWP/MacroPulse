@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-05-18",
-      "value": 1808000.0
-    },
-    {
       "date": "2024-05-25",
       "value": 1804000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-05-09",
-      "value": 1782000.0
+      "value": 1771000.0
+    },
+    {
+      "date": "2026-05-16",
+      "value": 1786000.0
     }
   ],
-  "latest_raw_date": "2026-05-09",
-  "latest_raw_value": 1782000.0,
+  "latest_raw_date": "2026-05-16",
+  "latest_raw_value": 1786000.0,
   "yoy_observations": [
-    {
-      "date": "2024-08-10",
-      "value": 2.6
-    },
     {
       "date": "2024-08-17",
       "value": 3.215
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-05-09",
-      "value": -2.463
+      "value": -3.065
+    },
+    {
+      "date": "2026-05-16",
+      "value": -4.543
     }
   ],
-  "latest_yoy_date": "2026-05-09",
-  "latest_yoy_value": -2.463,
+  "latest_yoy_date": "2026-05-16",
+  "latest_yoy_value": -4.543,
   "mom_observations": [
-    {
-      "date": "2024-05-25",
-      "value": -0.221
-    },
     {
       "date": "2024-06-01",
       "value": 0.942
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-05-09",
-      "value": 0.338
+      "value": -0.282
+    },
+    {
+      "date": "2026-05-16",
+      "value": 0.847
     }
   ],
-  "latest_mom_date": "2026-05-09",
-  "latest_mom_value": 0.338,
+  "latest_mom_date": "2026-05-16",
+  "latest_mom_value": 0.847,
   "observations": [
-    {
-      "date": "2024-05-18",
-      "value": 1808000.0
-    },
     {
       "date": "2024-05-25",
       "value": 1804000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-05-09",
-      "value": 1782000.0
+      "value": 1771000.0
+    },
+    {
+      "date": "2026-05-16",
+      "value": 1786000.0
     }
   ],
-  "latest_date": "2026-05-09",
-  "latest_value": 1782000.0,
-  "fetched_at": "2026-05-27T02:09:52.884763Z",
+  "latest_date": "2026-05-16",
+  "latest_value": 1786000.0,
+  "fetched_at": "2026-05-28T16:37:49.883667Z",
   "count": 104
 }
