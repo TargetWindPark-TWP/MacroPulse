@@ -1,9 +1,9 @@
 {
-  "run_at": "2026-05-28T16:50:43.750128Z",
+  "run_at": "2026-05-29T00:02:02.708804Z",
   "mode": "daily,monthly_end,weekly",
   "targets": 16,
   "updated": 0,
   "updated_ids": [],
   "alerts": 3,
-  "errors": 0
+  "errors": 14
 }
