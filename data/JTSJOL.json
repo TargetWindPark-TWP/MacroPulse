@@ -10,10 +10,6 @@
   "source": "BLS via FRED",
   "raw_observations": [
     {
-      "date": "2021-04-01",
-      "value": 9346.0
-    },
-    {
       "date": "2021-05-01",
       "value": 9954.0
     },
@@ -247,16 +243,16 @@
     },
     {
       "date": "2026-03-01",
-      "value": 6866.0
+      "value": 6887.0
+    },
+    {
+      "date": "2026-04-01",
+      "value": 7618.0
     }
   ],
-  "latest_raw_date": "2026-03-01",
-  "latest_raw_value": 6866.0,
+  "latest_raw_date": "2026-04-01",
+  "latest_raw_value": 7618.0,
   "yoy_observations": [
-    {
-      "date": "2022-04-01",
-      "value": 26.91
-    },
     {
       "date": "2022-05-01",
       "value": 15.883
@@ -443,16 +439,16 @@
     },
     {
       "date": "2026-03-01",
-      "value": -1.237
+      "value": -0.935
+    },
+    {
+      "date": "2026-04-01",
+      "value": 7.326
     }
   ],
-  "latest_yoy_date": "2026-03-01",
-  "latest_yoy_value": -1.237,
+  "latest_yoy_date": "2026-04-01",
+  "latest_yoy_value": 7.326,
   "mom_observations": [
-    {
-      "date": "2021-05-01",
-      "value": 6.505
-    },
     {
       "date": "2021-06-01",
       "value": 3.667
@@ -683,16 +679,16 @@
     },
     {
       "date": "2026-03-01",
-      "value": -0.809
+      "value": -0.506
+    },
+    {
+      "date": "2026-04-01",
+      "value": 10.614
     }
   ],
-  "latest_mom_date": "2026-03-01",
-  "latest_mom_value": -0.809,
+  "latest_mom_date": "2026-04-01",
+  "latest_mom_value": 10.614,
   "observations": [
-    {
-      "date": "2021-04-01",
-      "value": 9346.0
-    },
     {
       "date": "2021-05-01",
       "value": 9954.0
@@ -927,11 +923,15 @@
     },
     {
       "date": "2026-03-01",
-      "value": 6866.0
+      "value": 6887.0
+    },
+    {
+      "date": "2026-04-01",
+      "value": 7618.0
     }
   ],
-  "latest_date": "2026-03-01",
-  "latest_value": 6866.0,
-  "fetched_at": "2026-05-27T02:09:54.355840Z",
+  "latest_date": "2026-04-01",
+  "latest_value": 7618.0,
+  "fetched_at": "2026-06-02T17:27:43.472560Z",
   "count": 60
 }
