@@ -1,11 +1,11 @@
 {
-  "run_at": "2026-06-04T00:14:33.409265Z",
+  "run_at": "2026-06-04T15:58:08.627427Z",
   "mode": "daily,monthly_early,weekly",
   "targets": 16,
   "updated": 2,
   "updated_ids": [
-    "NFCI",
-    "STLFSI4"
+    "ICSA",
+    "CCSA"
   ],
   "alerts": 3,
   "errors": 0
