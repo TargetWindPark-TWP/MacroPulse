@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T23:46:37.214852Z",
+  "generated_at": "2026-06-05T23:46:36.426049Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -173,13 +173,13 @@
       "category": "labor",
       "unit": "K MoM",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 115.0,
-      "prev_value": 185.0,
-      "change": -70.0,
+      "latest_date": "2026-05-01",
+      "latest_value": 172.0,
+      "prev_value": 179.0,
+      "change": -7.0,
       "signal": "⚪",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-27T02:09:49.827844Z"
+      "updated_at": "2026-06-05T23:46:26.820008Z"
     },
     {
       "id": "UNRATE",
@@ -188,13 +188,13 @@
       "category": "labor",
       "unit": "%",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
+      "latest_date": "2026-05-01",
       "latest_value": 4.3,
       "prev_value": 4.3,
       "change": 0.0,
       "signal": "🟡",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-27T02:09:51.422479Z"
+      "updated_at": "2026-06-05T23:46:27.779971Z"
     },
     {
       "id": "ICSA",
@@ -233,13 +233,13 @@
       "category": "labor",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 3.571,
-      "prev_value": 3.434,
-      "change": 0.137,
+      "latest_date": "2026-05-01",
+      "latest_value": 3.445,
+      "prev_value": 3.571,
+      "change": -0.126,
       "signal": "⚪",
       "source": "BLS via FRED",
-      "updated_at": "2026-05-27T02:09:53.627285Z"
+      "updated_at": "2026-06-05T23:46:28.605528Z"
     },
     {
       "id": "JTSJOL",

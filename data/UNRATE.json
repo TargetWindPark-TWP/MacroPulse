@@ -10,10 +10,6 @@
   "source": "BLS via FRED",
   "raw_observations": [
     {
-      "date": "2021-05-01",
-      "value": 5.8
-    },
-    {
       "date": "2021-06-01",
       "value": 5.9
     },
@@ -244,15 +240,15 @@
     {
       "date": "2026-04-01",
       "value": 4.3
+    },
+    {
+      "date": "2026-05-01",
+      "value": 4.3
     }
   ],
-  "latest_raw_date": "2026-04-01",
+  "latest_raw_date": "2026-05-01",
   "latest_raw_value": 4.3,
   "yoy_observations": [
-    {
-      "date": "2022-05-01",
-      "value": -2.2
-    },
     {
       "date": "2022-06-01",
       "value": -2.3
@@ -436,15 +432,15 @@
     {
       "date": "2026-04-01",
       "value": 0.1
+    },
+    {
+      "date": "2026-05-01",
+      "value": 0.1
     }
   ],
-  "latest_yoy_date": "2026-04-01",
+  "latest_yoy_date": "2026-05-01",
   "latest_yoy_value": 0.1,
   "mom_observations": [
-    {
-      "date": "2021-06-01",
-      "value": 0.1
-    },
     {
       "date": "2021-07-01",
       "value": -0.5
@@ -672,15 +668,15 @@
     {
       "date": "2026-04-01",
       "value": 0.0
+    },
+    {
+      "date": "2026-05-01",
+      "value": 0.0
     }
   ],
-  "latest_mom_date": "2026-04-01",
+  "latest_mom_date": "2026-05-01",
   "latest_mom_value": 0.0,
   "observations": [
-    {
-      "date": "2021-05-01",
-      "value": 5.8
-    },
     {
       "date": "2021-06-01",
       "value": 5.9
@@ -912,10 +908,14 @@
     {
       "date": "2026-04-01",
       "value": 4.3
+    },
+    {
+      "date": "2026-05-01",
+      "value": 4.3
     }
   ],
-  "latest_date": "2026-04-01",
+  "latest_date": "2026-05-01",
   "latest_value": 4.3,
-  "fetched_at": "2026-05-27T02:09:51.422479Z",
+  "fetched_at": "2026-06-05T23:46:27.779971Z",
   "count": 59
 }

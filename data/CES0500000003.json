@@ -10,10 +10,6 @@
   "source": "BLS via FRED",
   "raw_observations": [
     {
-      "date": "2015-05-01",
-      "value": 24.97
-    },
-    {
       "date": "2015-06-01",
       "value": 24.97
     },
@@ -536,15 +532,15 @@
     {
       "date": "2026-04-01",
       "value": 37.41
+    },
+    {
+      "date": "2026-05-01",
+      "value": 37.53
     }
   ],
-  "latest_raw_date": "2026-04-01",
-  "latest_raw_value": 37.41,
+  "latest_raw_date": "2026-05-01",
+  "latest_raw_value": 37.53,
   "yoy_observations": [
-    {
-      "date": "2016-05-01",
-      "value": 2.443
-    },
     {
       "date": "2016-06-01",
       "value": 2.603
@@ -1020,15 +1016,15 @@
     {
       "date": "2026-04-01",
       "value": 3.571
+    },
+    {
+      "date": "2026-05-01",
+      "value": 3.445
     }
   ],
-  "latest_yoy_date": "2026-04-01",
-  "latest_yoy_value": 3.571,
+  "latest_yoy_date": "2026-05-01",
+  "latest_yoy_value": 3.445,
   "mom_observations": [
-    {
-      "date": "2016-05-01",
-      "value": 0.196
-    },
     {
       "date": "2016-06-01",
       "value": 0.156
@@ -1504,15 +1500,15 @@
     {
       "date": "2026-04-01",
       "value": 0.161
+    },
+    {
+      "date": "2026-05-01",
+      "value": 0.321
     }
   ],
-  "latest_mom_date": "2026-04-01",
-  "latest_mom_value": 0.161,
+  "latest_mom_date": "2026-05-01",
+  "latest_mom_value": 0.321,
   "observations": [
-    {
-      "date": "2016-05-01",
-      "value": 2.443
-    },
     {
       "date": "2016-06-01",
       "value": 2.603
@@ -1988,10 +1984,14 @@
     {
       "date": "2026-04-01",
       "value": 3.571
+    },
+    {
+      "date": "2026-05-01",
+      "value": 3.445
     }
   ],
-  "latest_date": "2026-04-01",
-  "latest_value": 3.571,
-  "fetched_at": "2026-05-27T02:09:53.627285Z",
+  "latest_date": "2026-05-01",
+  "latest_value": 3.445,
+  "fetched_at": "2026-06-05T23:46:28.605528Z",
   "count": 132
 }

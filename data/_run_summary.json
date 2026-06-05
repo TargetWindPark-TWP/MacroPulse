@@ -1,10 +1,12 @@
 {
-  "run_at": "2026-06-04T23:46:39.405705Z",
-  "mode": "daily,monthly_early,weekly",
-  "targets": 16,
-  "updated": 1,
+  "run_at": "2026-06-05T23:46:38.613411Z",
+  "mode": "daily,monthly_early",
+  "targets": 11,
+  "updated": 3,
   "updated_ids": [
-    "MORTGAGE30US"
+    "PAYEMS",
+    "UNRATE",
+    "CES0500000003"
   ],
   "alerts": 3,
   "errors": 0
