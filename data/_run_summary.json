@@ -1,14 +1,9 @@
 {
-  "run_at": "2026-06-10T16:30:05.841634Z",
+  "run_at": "2026-06-10T23:57:07.289255Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 4,
-  "updated_ids": [
-    "CPIAUCSL",
-    "CPILFESL",
-    "FEDFUNDS",
-    "EXHOSLUSM495S"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
