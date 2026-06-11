@@ -1,17 +1,9 @@
 {
-  "run_at": "2026-06-11T16:34:36.845297Z",
+  "run_at": "2026-06-11T16:45:30.507527Z",
   "mode": "daily,monthly_mid,weekly",
   "targets": 23,
-  "updated": 7,
-  "updated_ids": [
-    "PPIACO",
-    "PPIFIS",
-    "ICSA",
-    "CCSA",
-    "NFCI",
-    "STLFSI4",
-    "MORTGAGE30US"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
