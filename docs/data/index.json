@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T16:34:34.933451Z",
+  "generated_at": "2026-06-15T17:48:37.831701Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -128,13 +128,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 1.353,
-      "prev_value": 0.758,
-      "change": 0.595,
+      "latest_date": "2026-05-01",
+      "latest_value": 1.666,
+      "prev_value": 1.366,
+      "change": 0.3,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-27T02:09:47.422475Z"
+      "updated_at": "2026-06-15T17:48:26.019275Z"
     },
     {
       "id": "INDPRO",
@@ -143,13 +143,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 1.353,
-      "prev_value": 0.758,
-      "change": 0.595,
+      "latest_date": "2026-05-01",
+      "latest_value": 1.666,
+      "prev_value": 1.366,
+      "change": 0.3,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-27T02:09:47.422475Z"
+      "updated_at": "2026-06-15T17:48:26.019275Z"
     },
     {
       "id": "DGORDER",
