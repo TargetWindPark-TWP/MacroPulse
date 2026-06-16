@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T17:48:37.831701Z",
+  "generated_at": "2026-06-16T17:55:56.383762Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -473,13 +473,13 @@
       "category": "housing",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 1465.0,
-      "prev_value": 1507.0,
-      "change": -42.0,
+      "latest_date": "2026-05-01",
+      "latest_value": 1177.0,
+      "prev_value": 1392.0,
+      "change": -215.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-05-27T02:10:07.570490Z"
+      "updated_at": "2026-06-16T17:55:55.407185Z"
     },
     {
       "id": "HSN1F",
