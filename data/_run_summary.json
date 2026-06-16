@@ -1,11 +1,9 @@
 {
-  "run_at": "2026-06-15T17:48:40.022159Z",
+  "run_at": "2026-06-16T00:12:40.049815Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 1,
-  "updated_ids": [
-    "INDPRO"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
