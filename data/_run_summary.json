@@ -1,11 +1,9 @@
 {
-  "run_at": "2026-06-16T17:55:58.300266Z",
+  "run_at": "2026-06-16T23:57:05.848793Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 1,
-  "updated_ids": [
-    "HOUST"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
