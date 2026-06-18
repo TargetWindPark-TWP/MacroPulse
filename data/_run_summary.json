@@ -1,9 +1,14 @@
 {
-  "run_at": "2026-06-17T23:57:53.997094Z",
-  "mode": "daily",
-  "targets": 7,
-  "updated": 0,
-  "updated_ids": [],
+  "run_at": "2026-06-18T15:59:27.103624Z",
+  "mode": "daily,weekly",
+  "targets": 12,
+  "updated": 4,
+  "updated_ids": [
+    "ICSA",
+    "CCSA",
+    "NFCI",
+    "STLFSI4"
+  ],
   "alerts": 3,
   "errors": 0
 }
