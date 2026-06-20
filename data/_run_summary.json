@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-06-19T23:37:11.386851Z",
-  "mode": "daily",
-  "targets": 7,
+  "run_at": "2026-06-20T15:01:24.300314Z",
+  "mode": "daily,monthly_end",
+  "targets": 11,
   "updated": 0,
   "updated_ids": [],
   "alerts": 3,
