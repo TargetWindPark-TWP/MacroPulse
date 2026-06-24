@@ -10,7 +10,7 @@
 | ⚪ **2Y Treasury** | 4.00 % | 2年期公債殖利率 |
 | ⚪ **10Y Treasury** | 4.49 % | 10年期公債殖利率 |
 | ⚪ **30Y Treasury** | 5.04 % | 30年期公債殖利率 |
-| 🟡 **10Y−2Y Spread** | 0.49 % | 殖利率曲線利差（負值=倒掛） |
+| 🟡 **10Y−2Y Spread** | 0.37 % | 殖利率曲線利差（負值=倒掛） |
 | ⚪ **HY Spread** | 2.72 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-06-24 15:31 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-06-24 23:43 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
