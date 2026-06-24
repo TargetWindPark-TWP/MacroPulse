@@ -10,10 +10,6 @@
   "source": "ICE via FRED",
   "raw_observations": [
     {
-      "date": "2023-06-01",
-      "value": 1.37
-    },
-    {
       "date": "2023-07-01",
       "value": 1.26
     },
@@ -151,16 +147,16 @@
     },
     {
       "date": "2026-05-01",
-      "value": 0.77
+      "value": 0.76
+    },
+    {
+      "date": "2026-06-01",
+      "value": 0.74
     }
   ],
-  "latest_raw_date": "2026-05-01",
-  "latest_raw_value": 0.77,
+  "latest_raw_date": "2026-06-01",
+  "latest_raw_value": 0.74,
   "yoy_observations": [
-    {
-      "date": "2024-06-01",
-      "value": -31.387
-    },
     {
       "date": "2024-07-01",
       "value": -26.19
@@ -251,16 +247,16 @@
     },
     {
       "date": "2026-05-01",
-      "value": -19.792
+      "value": -20.833
+    },
+    {
+      "date": "2026-06-01",
+      "value": -15.909
     }
   ],
-  "latest_yoy_date": "2026-05-01",
-  "latest_yoy_value": -19.792,
+  "latest_yoy_date": "2026-06-01",
+  "latest_yoy_value": -15.909,
   "mom_observations": [
-    {
-      "date": "2023-07-01",
-      "value": -8.029
-    },
     {
       "date": "2023-08-01",
       "value": -2.381
@@ -395,16 +391,16 @@
     },
     {
       "date": "2026-05-01",
-      "value": -6.098
+      "value": -7.317
+    },
+    {
+      "date": "2026-06-01",
+      "value": -2.632
     }
   ],
-  "latest_mom_date": "2026-05-01",
-  "latest_mom_value": -6.098,
+  "latest_mom_date": "2026-06-01",
+  "latest_mom_value": -2.632,
   "observations": [
-    {
-      "date": "2023-06-01",
-      "value": 1.37
-    },
     {
       "date": "2023-07-01",
       "value": 1.26
@@ -543,11 +539,15 @@
     },
     {
       "date": "2026-05-01",
-      "value": 0.77
+      "value": 0.76
+    },
+    {
+      "date": "2026-06-01",
+      "value": 0.74
     }
   ],
-  "latest_date": "2026-05-01",
-  "latest_value": 0.77,
-  "fetched_at": "2026-05-27T02:09:58.585209Z",
+  "latest_date": "2026-06-01",
+  "latest_value": 0.74,
+  "fetched_at": "2026-06-24T15:31:11.519918Z",
   "count": 36
 }
