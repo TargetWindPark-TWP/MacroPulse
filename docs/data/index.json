@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T23:43:55.430276Z",
+  "generated_at": "2026-06-25T15:22:53.615537Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -38,13 +38,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 3.767,
-      "prev_value": 3.525,
-      "change": 0.242,
+      "latest_date": "2026-05-01",
+      "latest_value": 4.073,
+      "prev_value": 3.795,
+      "change": 0.278,
       "signal": "🔴",
       "source": "BEA via FRED",
-      "updated_at": "2026-05-28T16:37:44.049143Z"
+      "updated_at": "2026-06-25T15:22:40.697001Z"
     },
     {
       "id": "PCEPILFE",
@@ -53,13 +53,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 3.289,
-      "prev_value": 3.236,
-      "change": 0.053,
+      "latest_date": "2026-05-01",
+      "latest_value": 3.412,
+      "prev_value": 3.319,
+      "change": 0.093,
       "signal": "🟡",
       "source": "BEA via FRED",
-      "updated_at": "2026-05-28T16:37:46.144339Z"
+      "updated_at": "2026-06-25T15:22:41.549574Z"
     },
     {
       "id": "PPIACO",
@@ -158,13 +158,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 17.182,
-      "prev_value": 1.351,
-      "change": 15.831,
+      "latest_date": "2026-05-01",
+      "latest_value": -3.493,
+      "prev_value": 17.745,
+      "change": -21.238,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-05-28T16:37:48.298033Z"
+      "updated_at": "2026-06-25T15:22:42.357631Z"
     },
     {
       "id": "PAYEMS",
@@ -203,13 +203,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-06-13",
-      "latest_value": 226000.0,
-      "prev_value": 230000.0,
-      "change": -4000.0,
+      "latest_date": "2026-06-20",
+      "latest_value": 215000.0,
+      "prev_value": 227000.0,
+      "change": -12000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-06-18T15:59:16.005708Z"
+      "updated_at": "2026-06-25T15:22:43.141105Z"
     },
     {
       "id": "CCSA",
@@ -218,13 +218,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-06-06",
-      "latest_value": 1810000.0,
-      "prev_value": 1786000.0,
-      "change": 24000.0,
+      "latest_date": "2026-06-13",
+      "latest_value": 1821000.0,
+      "prev_value": 1800000.0,
+      "change": 21000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-06-18T15:59:16.820517Z"
+      "updated_at": "2026-06-25T15:22:43.932379Z"
     },
     {
       "id": "CES0500000003",
@@ -293,13 +293,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-06-12",
-      "latest_value": -0.505,
-      "prev_value": -0.505,
-      "change": 0.0,
+      "latest_date": "2026-06-19",
+      "latest_value": -0.516,
+      "prev_value": -0.513,
+      "change": -0.003,
       "signal": "⚪",
       "source": "Chicago Fed via FRED",
-      "updated_at": "2026-06-18T15:59:18.662546Z"
+      "updated_at": "2026-06-25T15:22:45.701489Z"
     },
     {
       "id": "STLFSI4",
@@ -308,13 +308,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-06-12",
-      "latest_value": -0.7698,
-      "prev_value": -0.8678,
-      "change": 0.098,
+      "latest_date": "2026-06-19",
+      "latest_value": -0.9568,
+      "prev_value": -0.769,
+      "change": -0.188,
       "signal": "⚪",
       "source": "St. Louis Fed via FRED",
-      "updated_at": "2026-06-18T15:59:19.530401Z"
+      "updated_at": "2026-06-25T15:22:46.534708Z"
     },
     {
       "id": "BAMLC0A0CM",
@@ -413,13 +413,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "weekly",
-      "latest_date": "2026-06-11",
-      "latest_value": 6.52,
-      "prev_value": 6.48,
-      "change": 0.04,
+      "latest_date": "2026-06-18",
+      "latest_value": 6.47,
+      "prev_value": 6.52,
+      "change": -0.05,
       "signal": "⚪",
       "source": "Freddie Mac via FRED",
-      "updated_at": "2026-06-11T16:34:32.308073Z"
+      "updated_at": "2026-06-25T15:22:51.909574Z"
     },
     {
       "id": "DRCCLACBS",
