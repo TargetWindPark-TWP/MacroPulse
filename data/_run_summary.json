@@ -1,14 +1,9 @@
 {
-  "run_at": "2026-06-25T23:53:06.668440Z",
-  "mode": "daily,monthly_end,weekly",
-  "targets": 16,
-  "updated": 4,
-  "updated_ids": [
-    "DGS2",
-    "DGS10",
-    "DGS30",
-    "MORTGAGE30US"
-  ],
+  "run_at": "2026-06-26T15:21:14.064188Z",
+  "mode": "daily,monthly_end",
+  "targets": 11,
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
