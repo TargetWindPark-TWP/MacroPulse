@@ -1,9 +1,11 @@
 {
-  "run_at": "2026-06-30T23:45:34.298435Z",
-  "mode": "daily,monthly_end",
+  "run_at": "2026-07-01T15:46:47.046808Z",
+  "mode": "daily,monthly_early",
   "targets": 11,
-  "updated": 0,
-  "updated_ids": [],
+  "updated": 1,
+  "updated_ids": [
+    "JTSJOL"
+  ],
   "alerts": 3,
   "errors": 0
 }

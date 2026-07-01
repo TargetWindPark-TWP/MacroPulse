@@ -10,10 +10,6 @@
   "source": "BLS via FRED",
   "raw_observations": [
     {
-      "date": "2021-05-01",
-      "value": 9954.0
-    },
-    {
       "date": "2021-06-01",
       "value": 10319.0
     },
@@ -247,16 +243,16 @@
     },
     {
       "date": "2026-04-01",
-      "value": 7618.0
+      "value": 7585.0
+    },
+    {
+      "date": "2026-05-01",
+      "value": 7594.0
     }
   ],
-  "latest_raw_date": "2026-04-01",
-  "latest_raw_value": 7618.0,
+  "latest_raw_date": "2026-05-01",
+  "latest_raw_value": 7594.0,
   "yoy_observations": [
-    {
-      "date": "2022-05-01",
-      "value": 15.883
-    },
     {
       "date": "2022-06-01",
       "value": 9.342
@@ -443,16 +439,16 @@
     },
     {
       "date": "2026-04-01",
-      "value": 7.326
+      "value": 6.861
+    },
+    {
+      "date": "2026-05-01",
+      "value": 3.885
     }
   ],
-  "latest_yoy_date": "2026-04-01",
-  "latest_yoy_value": 7.326,
+  "latest_yoy_date": "2026-05-01",
+  "latest_yoy_value": 3.885,
   "mom_observations": [
-    {
-      "date": "2021-06-01",
-      "value": 3.667
-    },
     {
       "date": "2021-07-01",
       "value": 6.435
@@ -683,16 +679,16 @@
     },
     {
       "date": "2026-04-01",
-      "value": 10.614
+      "value": 10.135
+    },
+    {
+      "date": "2026-05-01",
+      "value": 0.119
     }
   ],
-  "latest_mom_date": "2026-04-01",
-  "latest_mom_value": 10.614,
+  "latest_mom_date": "2026-05-01",
+  "latest_mom_value": 0.119,
   "observations": [
-    {
-      "date": "2021-05-01",
-      "value": 9954.0
-    },
     {
       "date": "2021-06-01",
       "value": 10319.0
@@ -927,11 +923,15 @@
     },
     {
       "date": "2026-04-01",
-      "value": 7618.0
+      "value": 7585.0
+    },
+    {
+      "date": "2026-05-01",
+      "value": 7594.0
     }
   ],
-  "latest_date": "2026-04-01",
-  "latest_value": 7618.0,
-  "fetched_at": "2026-06-02T17:27:43.472560Z",
+  "latest_date": "2026-05-01",
+  "latest_value": 7594.0,
+  "fetched_at": "2026-07-01T15:46:38.145864Z",
   "count": 60
 }
