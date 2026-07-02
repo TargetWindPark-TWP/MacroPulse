@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T14:37:40.434582Z",
+  "generated_at": "2026-07-02T23:39:19.142449Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -413,13 +413,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "weekly",
-      "latest_date": "2026-06-25",
-      "latest_value": 6.49,
-      "prev_value": 6.47,
-      "change": 0.02,
+      "latest_date": "2026-07-02",
+      "latest_value": 6.43,
+      "prev_value": 6.49,
+      "change": -0.06,
       "signal": "⚪",
       "source": "Freddie Mac via FRED",
-      "updated_at": "2026-06-25T23:53:02.767640Z"
+      "updated_at": "2026-07-02T23:39:18.145015Z"
     },
     {
       "id": "DRCCLACBS",
