@@ -1,9 +1,17 @@
 {
-  "run_at": "2026-07-01T23:51:54.489139Z",
-  "mode": "daily,monthly_early",
-  "targets": 11,
-  "updated": 0,
-  "updated_ids": [],
-  "alerts": 3,
+  "run_at": "2026-07-02T14:37:42.625577Z",
+  "mode": "daily,monthly_early,weekly",
+  "targets": 16,
+  "updated": 7,
+  "updated_ids": [
+    "PAYEMS",
+    "UNRATE",
+    "ICSA",
+    "CCSA",
+    "CES0500000003",
+    "NFCI",
+    "STLFSI4"
+  ],
+  "alerts": 4,
   "errors": 0
 }
