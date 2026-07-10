@@ -1,10 +1,13 @@
 {
-  "run_at": "2026-07-09T23:46:37.860760Z",
-  "mode": "daily,weekly",
-  "targets": 12,
-  "updated": 1,
+  "run_at": "2026-07-10T15:26:47.549810Z",
+  "mode": "daily,monthly_mid",
+  "targets": 18,
+  "updated": 4,
   "updated_ids": [
-    "MORTGAGE30US"
+    "RSXFS",
+    "UMCSENT",
+    "FEDFUNDS",
+    "EXHOSLUSM495S"
   ],
   "alerts": 4,
   "errors": 0

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T23:46:35.640909Z",
+  "generated_at": "2026-07-10T15:26:45.415803Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -113,13 +113,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 5.208,
-      "prev_value": 4.416,
-      "change": 0.792,
+      "latest_date": "2026-05-01",
+      "latest_value": 7.549,
+      "prev_value": 5.072,
+      "change": 2.477,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-05-27T02:09:45.800404Z"
+      "updated_at": "2026-07-10T15:26:33.566753Z"
     },
     {
       "id": "INDPRO",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "monthly",
-      "latest_date": "2026-04-01",
-      "latest_value": 49.8,
-      "prev_value": 53.3,
-      "change": -3.5,
+      "latest_date": "2026-05-01",
+      "latest_value": 44.8,
+      "prev_value": 49.8,
+      "change": -5.0,
       "signal": "⚪",
       "source": "U of Michigan via FRED",
-      "updated_at": "2026-05-27T02:09:55.143544Z"
+      "updated_at": "2026-07-10T15:26:36.201697Z"
     },
     {
       "id": "VIXCLS",
@@ -338,13 +338,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
+      "latest_date": "2026-06-01",
       "latest_value": 3.63,
-      "prev_value": 3.64,
-      "change": -0.01,
+      "prev_value": 3.63,
+      "change": 0.0,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-06-10T16:29:55.330516Z"
+      "updated_at": "2026-07-10T15:26:38.838031Z"
     },
     {
       "id": "DGS2",
@@ -503,13 +503,13 @@
       "category": "housing",
       "unit": "M",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
-      "latest_value": 4170000.0,
-      "prev_value": 4040000.0,
-      "change": 130000.0,
+      "latest_date": "2026-06-01",
+      "latest_value": 4090000.0,
+      "prev_value": 4190000.0,
+      "change": -100000.0,
       "signal": "⚪",
       "source": "NAR via FRED",
-      "updated_at": "2026-06-10T16:30:03.612827Z"
+      "updated_at": "2026-07-10T15:26:45.396277Z"
     }
   ]
 }
