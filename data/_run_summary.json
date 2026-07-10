@@ -1,14 +1,9 @@
 {
-  "run_at": "2026-07-10T15:26:47.549810Z",
+  "run_at": "2026-07-10T23:31:11.281007Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 4,
-  "updated_ids": [
-    "RSXFS",
-    "UMCSENT",
-    "FEDFUNDS",
-    "EXHOSLUSM495S"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
