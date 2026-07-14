@@ -1,9 +1,12 @@
 {
-  "run_at": "2026-07-13T23:26:50.050651Z",
+  "run_at": "2026-07-14T14:42:58.595902Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 0,
-  "updated_ids": [],
+  "updated": 2,
+  "updated_ids": [
+    "CPIAUCSL",
+    "CPILFESL"
+  ],
   "alerts": 4,
   "errors": 0
 }
