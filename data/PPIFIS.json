@@ -10,10 +10,6 @@
   "source": "BLS via FRED",
   "raw_observations": [
     {
-      "date": "2015-06-01",
-      "value": 110.3
-    },
-    {
       "date": "2015-07-01",
       "value": 110.5
     },
@@ -523,28 +519,28 @@
     },
     {
       "date": "2026-02-01",
-      "value": 153.236
+      "value": 153.204
     },
     {
       "date": "2026-03-01",
-      "value": 154.382
+      "value": 154.405
     },
     {
       "date": "2026-04-01",
-      "value": 156.011
+      "value": 156.03
     },
     {
       "date": "2026-05-01",
-      "value": 157.659
+      "value": 157.001
+    },
+    {
+      "date": "2026-06-01",
+      "value": 156.566
     }
   ],
-  "latest_raw_date": "2026-05-01",
-  "latest_raw_value": 157.659,
+  "latest_raw_date": "2026-06-01",
+  "latest_raw_value": 156.566,
   "yoy_observations": [
-    {
-      "date": "2016-06-01",
-      "value": 0.272
-    },
     {
       "date": "2016-07-01",
       "value": 0.0
@@ -1007,28 +1003,28 @@
     },
     {
       "date": "2026-02-01",
-      "value": 3.375
+      "value": 3.354
     },
     {
       "date": "2026-03-01",
-      "value": 4.273
+      "value": 4.289
     },
     {
       "date": "2026-04-01",
-      "value": 5.659
+      "value": 5.672
     },
     {
       "date": "2026-05-01",
-      "value": 6.416
+      "value": 5.972
+    },
+    {
+      "date": "2026-06-01",
+      "value": 5.508
     }
   ],
-  "latest_yoy_date": "2026-05-01",
-  "latest_yoy_value": 6.416,
+  "latest_yoy_date": "2026-06-01",
+  "latest_yoy_value": 5.508,
   "mom_observations": [
-    {
-      "date": "2016-06-01",
-      "value": 0.454
-    },
     {
       "date": "2016-07-01",
       "value": -0.09
@@ -1491,28 +1487,28 @@
     },
     {
       "date": "2026-02-01",
-      "value": 0.504
+      "value": 0.483
     },
     {
       "date": "2026-03-01",
-      "value": 0.748
+      "value": 0.784
     },
     {
       "date": "2026-04-01",
-      "value": 1.055
+      "value": 1.052
     },
     {
       "date": "2026-05-01",
-      "value": 1.056
+      "value": 0.622
+    },
+    {
+      "date": "2026-06-01",
+      "value": -0.277
     }
   ],
-  "latest_mom_date": "2026-05-01",
-  "latest_mom_value": 1.056,
+  "latest_mom_date": "2026-06-01",
+  "latest_mom_value": -0.277,
   "observations": [
-    {
-      "date": "2016-06-01",
-      "value": 0.272
-    },
     {
       "date": "2016-07-01",
       "value": 0.0
@@ -1975,23 +1971,27 @@
     },
     {
       "date": "2026-02-01",
-      "value": 3.375
+      "value": 3.354
     },
     {
       "date": "2026-03-01",
-      "value": 4.273
+      "value": 4.289
     },
     {
       "date": "2026-04-01",
-      "value": 5.659
+      "value": 5.672
     },
     {
       "date": "2026-05-01",
-      "value": 6.416
+      "value": 5.972
+    },
+    {
+      "date": "2026-06-01",
+      "value": 5.508
     }
   ],
-  "latest_date": "2026-05-01",
-  "latest_value": 6.416,
-  "fetched_at": "2026-06-11T16:34:17.413544Z",
+  "latest_date": "2026-06-01",
+  "latest_value": 5.508,
+  "fetched_at": "2026-07-15T23:30:26.181126Z",
   "count": 132
 }
