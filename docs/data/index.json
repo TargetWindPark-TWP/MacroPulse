@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T23:30:55.467916Z",
+  "generated_at": "2026-07-16T14:32:05.723000Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -113,13 +113,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
-      "latest_value": 7.549,
-      "prev_value": 5.072,
-      "change": 2.477,
+      "latest_date": "2026-06-01",
+      "latest_value": 7.191,
+      "prev_value": 7.769,
+      "change": -0.578,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-07-10T15:26:33.566753Z"
+      "updated_at": "2026-07-16T14:31:44.912416Z"
     },
     {
       "id": "INDPRO",
@@ -203,13 +203,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-07-04",
-      "latest_value": 215000.0,
-      "prev_value": 217000.0,
-      "change": -2000.0,
+      "latest_date": "2026-07-11",
+      "latest_value": 208000.0,
+      "prev_value": 216000.0,
+      "change": -8000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-07-09T15:40:12.666798Z"
+      "updated_at": "2026-07-16T14:31:47.638811Z"
     },
     {
       "id": "CCSA",
@@ -218,13 +218,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-06-27",
-      "latest_value": 1814000.0,
-      "prev_value": 1806000.0,
-      "change": 8000.0,
+      "latest_date": "2026-07-04",
+      "latest_value": 1805000.0,
+      "prev_value": 1821000.0,
+      "change": -16000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-07-09T15:40:13.549294Z"
+      "updated_at": "2026-07-16T14:31:48.530261Z"
     },
     {
       "id": "CES0500000003",
@@ -293,13 +293,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-07-03",
-      "latest_value": -0.515,
-      "prev_value": -0.505,
-      "change": -0.01,
+      "latest_date": "2026-07-10",
+      "latest_value": -0.538,
+      "prev_value": -0.524,
+      "change": -0.014,
       "signal": "⚪",
       "source": "Chicago Fed via FRED",
-      "updated_at": "2026-07-09T15:40:15.653066Z"
+      "updated_at": "2026-07-16T14:31:52.509240Z"
     },
     {
       "id": "STLFSI4",
@@ -308,13 +308,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-07-03",
-      "latest_value": -0.7246,
-      "prev_value": -0.6461,
-      "change": -0.079,
+      "latest_date": "2026-07-10",
+      "latest_value": -0.882,
+      "prev_value": -0.7244,
+      "change": -0.158,
       "signal": "⚪",
       "source": "St. Louis Fed via FRED",
-      "updated_at": "2026-07-09T15:40:16.652761Z"
+      "updated_at": "2026-07-16T14:31:53.805804Z"
     },
     {
       "id": "BAMLC0A0CM",

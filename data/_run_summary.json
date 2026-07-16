@@ -1,11 +1,14 @@
 {
-  "run_at": "2026-07-15T23:30:57.605324Z",
-  "mode": "daily,monthly_mid",
-  "targets": 18,
-  "updated": 2,
+  "run_at": "2026-07-16T14:32:07.908311Z",
+  "mode": "daily,monthly_mid,weekly",
+  "targets": 23,
+  "updated": 5,
   "updated_ids": [
-    "PPIACO",
-    "PPIFIS"
+    "RSXFS",
+    "ICSA",
+    "CCSA",
+    "NFCI",
+    "STLFSI4"
   ],
   "alerts": 4,
   "errors": 0
