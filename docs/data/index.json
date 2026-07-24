@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T23:29:07.469659Z",
+  "generated_at": "2026-07-24T14:49:27.162425Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -278,13 +278,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-06-01",
-      "latest_value": 17.88,
-      "prev_value": 17.24,
-      "change": 0.64,
+      "latest_date": "2026-07-01",
+      "latest_value": 16.7,
+      "prev_value": 17.91,
+      "change": -1.21,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-06-24T15:31:10.665463Z"
+      "updated_at": "2026-07-24T14:49:18.407630Z"
     },
     {
       "id": "NFCI",
@@ -323,13 +323,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-06-01",
-      "latest_value": 0.74,
-      "prev_value": 0.76,
-      "change": -0.02,
+      "latest_date": "2026-07-01",
+      "latest_value": 0.77,
+      "prev_value": 0.75,
+      "change": 0.02,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-06-24T15:31:11.519918Z"
+      "updated_at": "2026-07-24T14:49:19.297144Z"
     },
     {
       "id": "FEDFUNDS",
@@ -458,13 +458,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-06-01",
-      "latest_value": 2.72,
-      "prev_value": 2.77,
-      "change": -0.05,
+      "latest_date": "2026-07-01",
+      "latest_value": 2.71,
+      "prev_value": 2.73,
+      "change": -0.02,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-06-24T15:31:16.741755Z"
+      "updated_at": "2026-07-24T14:49:26.231769Z"
     },
     {
       "id": "HOUST",
@@ -488,13 +488,13 @@
       "category": "housing",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
-      "latest_value": 580.0,
-      "prev_value": 626.0,
-      "change": -46.0,
+      "latest_date": "2026-06-01",
+      "latest_value": 628.0,
+      "prev_value": 618.0,
+      "change": 10.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-06-24T15:31:17.520050Z"
+      "updated_at": "2026-07-24T14:49:27.142944Z"
     },
     {
       "id": "EXHOSLUSM495S",

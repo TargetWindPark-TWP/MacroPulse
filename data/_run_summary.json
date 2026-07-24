@@ -1,10 +1,13 @@
 {
-  "run_at": "2026-07-23T23:29:09.664137Z",
-  "mode": "daily,monthly_end,quarterly,weekly",
-  "targets": 19,
-  "updated": 1,
+  "run_at": "2026-07-24T14:49:29.338364Z",
+  "mode": "daily,monthly_end,quarterly",
+  "targets": 14,
+  "updated": 4,
   "updated_ids": [
-    "MORTGAGE30US"
+    "VIXCLS",
+    "BAMLC0A0CM",
+    "BAMLH0A0HYM2",
+    "HSN1F"
   ],
   "alerts": 4,
   "errors": 0
