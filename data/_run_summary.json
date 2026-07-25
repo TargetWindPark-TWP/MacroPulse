@@ -1,11 +1,9 @@
 {
-  "run_at": "2026-07-24T23:33:54.576658Z",
+  "run_at": "2026-07-25T14:27:46.197530Z",
   "mode": "daily,monthly_end,quarterly",
   "targets": 14,
-  "updated": 1,
-  "updated_ids": [
-    "T10Y2Y"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
