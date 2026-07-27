@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T23:33:53.237127Z",
+  "generated_at": "2026-07-27T15:38:44.953744Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -158,13 +158,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
-      "latest_value": -3.493,
-      "prev_value": 17.745,
-      "change": -21.238,
+      "latest_date": "2026-06-01",
+      "latest_value": 7.381,
+      "prev_value": -3.012,
+      "change": 10.393,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-06-25T15:22:42.357631Z"
+      "updated_at": "2026-07-27T15:38:35.783456Z"
     },
     {
       "id": "PAYEMS",
