@@ -7,9 +7,9 @@
 | 指標 | 最新值 | 說明 |
 |------|--------|------|
 | ⚪ **Fed Funds Rate** | 3.63 % | 聯邦基金利率 |
-| ⚪ **2Y Treasury** | 4.12 % | 2年期公債殖利率 |
-| ⚪ **10Y Treasury** | 4.49 % | 10年期公債殖利率 |
-| ⚪ **30Y Treasury** | 4.96 % | 30年期公債殖利率 |
+| ⚪ **2Y Treasury** | 4.21 % | 2年期公債殖利率 |
+| ⚪ **10Y Treasury** | 4.58 % | 10年期公債殖利率 |
+| ⚪ **30Y Treasury** | 5.08 % | 30年期公債殖利率 |
 | 🟡 **10Y−2Y Spread** | 0.37 % | 殖利率曲線利差（負值=倒掛） |
 | ⚪ **HY Spread** | 2.71 % | 高收益債信用利差 |
 
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-07-27 15:38 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-07-27 23:35 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
