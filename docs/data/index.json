@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T23:35:30.906118Z",
+  "generated_at": "2026-07-30T14:40:41.047475Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -203,13 +203,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-07-18",
-      "latest_value": 187000.0,
-      "prev_value": 209000.0,
-      "change": -22000.0,
+      "latest_date": "2026-07-25",
+      "latest_value": 197000.0,
+      "prev_value": 188000.0,
+      "change": 9000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-07-23T14:40:05.495167Z"
+      "updated_at": "2026-07-30T14:40:27.747309Z"
     },
     {
       "id": "CCSA",
@@ -218,13 +218,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-07-11",
-      "latest_value": 1796000.0,
-      "prev_value": 1798000.0,
-      "change": -2000.0,
+      "latest_date": "2026-07-18",
+      "latest_value": 1782000.0,
+      "prev_value": 1789000.0,
+      "change": -7000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-07-23T14:40:06.387687Z"
+      "updated_at": "2026-07-30T14:40:28.624777Z"
     },
     {
       "id": "CES0500000003",
@@ -293,13 +293,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-07-17",
-      "latest_value": -0.552,
-      "prev_value": -0.539,
-      "change": -0.013,
+      "latest_date": "2026-07-24",
+      "latest_value": -0.554,
+      "prev_value": -0.544,
+      "change": -0.01,
       "signal": "⚪",
       "source": "Chicago Fed via FRED",
-      "updated_at": "2026-07-23T14:40:08.372181Z"
+      "updated_at": "2026-07-30T14:40:30.643565Z"
     },
     {
       "id": "STLFSI4",
@@ -308,13 +308,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-07-17",
-      "latest_value": -0.7011,
-      "prev_value": -0.8821,
-      "change": 0.181,
+      "latest_date": "2026-07-24",
+      "latest_value": -0.8263,
+      "prev_value": -0.701,
+      "change": -0.125,
       "signal": "⚪",
       "source": "St. Louis Fed via FRED",
-      "updated_at": "2026-07-23T14:40:09.357545Z"
+      "updated_at": "2026-07-30T14:40:31.653553Z"
     },
     {
       "id": "BAMLC0A0CM",
