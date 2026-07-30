@@ -21,8 +21,8 @@
 |------|-----------|--------|----------|------|------|
 | 🔴 CPI 消費者物價指數 | `CPIAUCSL` | **3.73 % YoY** | -0.54 | ▼ | 2026-06-01 |
 | 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.81 % YoY** | -0.15 | ▼ | 2026-06-01 |
-| 🔴 PCE 個人消費支出物價指數 | `PCEPI` | **4.07 % YoY** | +0.28 | ▲ | 2026-05-01 |
-| 🟡 Core PCE 核心個人消費支出物價指數 | `PCEPILFE` | **3.41 % YoY** | +0.09 | ▲ | 2026-05-01 |
+| 🔴 PCE 個人消費支出物價指數 | `PCEPI` | **3.67 % YoY** | -0.41 | ▼ | 2026-06-01 |
+| 🟡 Core PCE 核心個人消費支出物價指數 | `PCEPILFE` | **3.29 % YoY** | -0.14 | ▼ | 2026-06-01 |
 | 🔴 PPI 生產者物價指數 | `PPIACO` | **10.11 % YoY** | -2.19 | ▼ | 2026-06-01 |
 | 🔴 WPI / Core PPI 躉售物價指數 | `PPIFIS` | **5.51 % YoY** | -0.46 | ▼ | 2026-06-01 |
 
@@ -31,7 +31,7 @@
 
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
-| ⚪ Real GDP 實質國內生產毛額 | `GDPC1` | **2.66 % YoY** | +0.67 | ▲ | 2026-01-01 |
+| ⚪ Real GDP 實質國內生產毛額 | `GDPC1` | **2.10 % YoY** | -0.58 | ▼ | 2026-04-01 |
 | ⚪ Retail Sales 零售銷售（扣除汽車） | `RSXFS` | **7.19 % YoY** | -0.58 | ▼ | 2026-06-01 |
 | ⚪ Industrial Production 工業生產指數 | `INDPRO` | **1.67 % YoY** | +0.30 | ▲ | 2026-05-01 |
 | ⚪ 工業生產指數（製造業景氣代理指標） | `INDPRO` | **1.67 % YoY** | +0.30 | ▲ | 2026-05-01 |
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-07-30 14:40 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-07-30 23:33 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*

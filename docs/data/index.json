@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:40:41.047475Z",
+  "generated_at": "2026-07-30T23:33:55.860368Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -38,13 +38,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
-      "latest_value": 4.073,
-      "prev_value": 3.795,
-      "change": 0.278,
+      "latest_date": "2026-06-01",
+      "latest_value": 3.668,
+      "prev_value": 4.079,
+      "change": -0.411,
       "signal": "🔴",
       "source": "BEA via FRED",
-      "updated_at": "2026-06-25T15:22:40.697001Z"
+      "updated_at": "2026-07-30T23:33:38.638081Z"
     },
     {
       "id": "PCEPILFE",
@@ -53,13 +53,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
-      "latest_value": 3.412,
-      "prev_value": 3.319,
-      "change": 0.093,
+      "latest_date": "2026-06-01",
+      "latest_value": 3.287,
+      "prev_value": 3.422,
+      "change": -0.135,
       "signal": "🟡",
       "source": "BEA via FRED",
-      "updated_at": "2026-06-25T15:22:41.549574Z"
+      "updated_at": "2026-07-30T23:33:39.670216Z"
     },
     {
       "id": "PPIACO",
@@ -98,13 +98,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "quarterly",
-      "latest_date": "2026-01-01",
-      "latest_value": 2.66,
-      "prev_value": 1.989,
-      "change": 0.671,
+      "latest_date": "2026-04-01",
+      "latest_value": 2.102,
+      "prev_value": 2.685,
+      "change": -0.583,
       "signal": "⚪",
       "source": "BEA via FRED",
-      "updated_at": "2026-05-27T02:09:45.090161Z"
+      "updated_at": "2026-07-30T23:33:40.565430Z"
     },
     {
       "id": "RSXFS",
@@ -413,13 +413,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "weekly",
-      "latest_date": "2026-07-23",
-      "latest_value": 6.58,
-      "prev_value": 6.55,
-      "change": 0.03,
+      "latest_date": "2026-07-30",
+      "latest_value": 6.66,
+      "prev_value": 6.58,
+      "change": 0.08,
       "signal": "⚪",
       "source": "Freddie Mac via FRED",
-      "updated_at": "2026-07-23T23:29:04.068802Z"
+      "updated_at": "2026-07-30T23:33:52.521444Z"
     },
     {
       "id": "DRCCLACBS",
