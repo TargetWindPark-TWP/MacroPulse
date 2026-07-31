@@ -1,14 +1,9 @@
 {
-  "run_at": "2026-07-30T23:33:57.810429Z",
-  "mode": "daily,monthly_end,quarterly,weekly",
-  "targets": 19,
-  "updated": 4,
-  "updated_ids": [
-    "PCEPI",
-    "PCEPILFE",
-    "GDPC1",
-    "MORTGAGE30US"
-  ],
+  "run_at": "2026-07-31T15:14:20.349516Z",
+  "mode": "daily,monthly_end,quarterly",
+  "targets": 14,
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
