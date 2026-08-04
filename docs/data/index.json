@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T23:33:55.860368Z",
+  "generated_at": "2026-08-04T23:33:49.921407Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -248,13 +248,13 @@
       "category": "labor",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-05-01",
-      "latest_value": 7594.0,
-      "prev_value": 7585.0,
-      "change": 9.0,
+      "latest_date": "2026-06-01",
+      "latest_value": 7359.0,
+      "prev_value": 7537.0,
+      "change": -178.0,
       "signal": "⚪",
       "source": "BLS via FRED",
-      "updated_at": "2026-07-01T15:46:38.145864Z"
+      "updated_at": "2026-08-04T23:33:43.130519Z"
     },
     {
       "id": "UMCSENT",
