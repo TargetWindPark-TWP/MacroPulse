@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-08-03",
-      "value": 234000.0
-    },
-    {
       "date": "2024-08-10",
       "value": 228000.0
     },
@@ -419,20 +415,20 @@
     },
     {
       "date": "2026-07-18",
-      "value": 188000.0
+      "value": 189000.0
     },
     {
       "date": "2026-07-25",
-      "value": 197000.0
+      "value": 198000.0
+    },
+    {
+      "date": "2026-08-01",
+      "value": 199000.0
     }
   ],
-  "latest_raw_date": "2026-07-25",
-  "latest_raw_value": 197000.0,
+  "latest_raw_date": "2026-08-01",
+  "latest_raw_value": 199000.0,
   "yoy_observations": [
-    {
-      "date": "2024-10-26",
-      "value": -6.41
-    },
     {
       "date": "2024-11-02",
       "value": -3.07
@@ -791,20 +787,20 @@
     },
     {
       "date": "2026-07-18",
-      "value": -1.053
+      "value": -0.526
     },
     {
       "date": "2026-07-25",
-      "value": -1.005
+      "value": -0.503
+    },
+    {
+      "date": "2026-08-01",
+      "value": -6.132
     }
   ],
-  "latest_yoy_date": "2026-07-25",
-  "latest_yoy_value": -1.005,
+  "latest_yoy_date": "2026-08-01",
+  "latest_yoy_value": -6.132,
   "mom_observations": [
-    {
-      "date": "2024-08-10",
-      "value": -2.564
-    },
     {
       "date": "2024-08-17",
       "value": 1.754
@@ -1207,20 +1203,20 @@
     },
     {
       "date": "2026-07-18",
-      "value": -10.048
+      "value": -9.569
     },
     {
       "date": "2026-07-25",
-      "value": 4.787
+      "value": 4.762
+    },
+    {
+      "date": "2026-08-01",
+      "value": 0.505
     }
   ],
-  "latest_mom_date": "2026-07-25",
-  "latest_mom_value": 4.787,
+  "latest_mom_date": "2026-08-01",
+  "latest_mom_value": 0.505,
   "observations": [
-    {
-      "date": "2024-08-03",
-      "value": 234000.0
-    },
     {
       "date": "2024-08-10",
       "value": 228000.0
@@ -1627,15 +1623,19 @@
     },
     {
       "date": "2026-07-18",
-      "value": 188000.0
+      "value": 189000.0
     },
     {
       "date": "2026-07-25",
-      "value": 197000.0
+      "value": 198000.0
+    },
+    {
+      "date": "2026-08-01",
+      "value": 199000.0
     }
   ],
-  "latest_date": "2026-07-25",
-  "latest_value": 197000.0,
-  "fetched_at": "2026-07-30T14:40:27.747309Z",
+  "latest_date": "2026-08-01",
+  "latest_value": 199000.0,
+  "fetched_at": "2026-08-06T14:51:43.364014Z",
   "count": 104
 }
