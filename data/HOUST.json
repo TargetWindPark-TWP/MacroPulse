@@ -10,10 +10,6 @@
   "source": "Census via FRED",
   "raw_observations": [
     {
-      "date": "2021-06-01",
-      "value": 1664.0
-    },
-    {
       "date": "2021-07-01",
       "value": 1600.0
     },
@@ -243,20 +239,20 @@
     },
     {
       "date": "2026-04-01",
-      "value": 1392.0
+      "value": 1414.0
     },
     {
       "date": "2026-05-01",
-      "value": 1177.0
+      "value": 1199.0
+    },
+    {
+      "date": "2026-06-01",
+      "value": 1427.0
     }
   ],
-  "latest_raw_date": "2026-05-01",
-  "latest_raw_value": 1177.0,
+  "latest_raw_date": "2026-06-01",
+  "latest_raw_value": 1427.0,
   "yoy_observations": [
-    {
-      "date": "2022-06-01",
-      "value": -6.49
-    },
     {
       "date": "2022-07-01",
       "value": -13.625
@@ -439,20 +435,20 @@
     },
     {
       "date": "2026-04-01",
-      "value": -0.571
+      "value": 1.0
     },
     {
       "date": "2026-05-01",
-      "value": -8.689
+      "value": -6.982
+    },
+    {
+      "date": "2026-06-01",
+      "value": 3.481
     }
   ],
-  "latest_yoy_date": "2026-05-01",
-  "latest_yoy_value": -8.689,
+  "latest_yoy_date": "2026-06-01",
+  "latest_yoy_value": 3.481,
   "mom_observations": [
-    {
-      "date": "2021-07-01",
-      "value": -3.846
-    },
     {
       "date": "2021-08-01",
       "value": -0.25
@@ -679,20 +675,20 @@
     },
     {
       "date": "2026-04-01",
-      "value": -8.541
+      "value": -7.096
     },
     {
       "date": "2026-05-01",
-      "value": -15.445
+      "value": -15.205
+    },
+    {
+      "date": "2026-06-01",
+      "value": 19.016
     }
   ],
-  "latest_mom_date": "2026-05-01",
-  "latest_mom_value": -15.445,
+  "latest_mom_date": "2026-06-01",
+  "latest_mom_value": 19.016,
   "observations": [
-    {
-      "date": "2021-06-01",
-      "value": 1664.0
-    },
     {
       "date": "2021-07-01",
       "value": 1600.0
@@ -923,15 +919,19 @@
     },
     {
       "date": "2026-04-01",
-      "value": 1392.0
+      "value": 1414.0
     },
     {
       "date": "2026-05-01",
-      "value": 1177.0
+      "value": 1199.0
+    },
+    {
+      "date": "2026-06-01",
+      "value": 1427.0
     }
   ],
-  "latest_date": "2026-05-01",
-  "latest_value": 1177.0,
-  "fetched_at": "2026-06-16T17:55:55.407185Z",
+  "latest_date": "2026-06-01",
+  "latest_value": 1427.0,
+  "fetched_at": "2026-08-10T14:14:24.221581Z",
   "count": 60
 }
