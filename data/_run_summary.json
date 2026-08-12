@@ -1,10 +1,11 @@
 {
-  "run_at": "2026-08-11T23:12:58.689677Z",
+  "run_at": "2026-08-12T14:15:01.323529Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 1,
+  "updated": 2,
   "updated_ids": [
-    "EXHOSLUSM495S"
+    "CPIAUCSL",
+    "CPILFESL"
   ],
   "alerts": 4,
   "errors": 0
