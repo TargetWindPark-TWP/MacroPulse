@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-08-10",
-      "value": 228000.0
-    },
-    {
       "date": "2024-08-17",
       "value": 232000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-08-01",
-      "value": 199000.0
+      "value": 200000.0
+    },
+    {
+      "date": "2026-08-08",
+      "value": 209000.0
     }
   ],
-  "latest_raw_date": "2026-08-01",
-  "latest_raw_value": 199000.0,
+  "latest_raw_date": "2026-08-08",
+  "latest_raw_value": 209000.0,
   "yoy_observations": [
-    {
-      "date": "2024-11-02",
-      "value": -3.07
-    },
     {
       "date": "2024-11-09",
       "value": -6.034
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-08-01",
-      "value": -6.132
+      "value": -5.66
+    },
+    {
+      "date": "2026-08-08",
+      "value": -0.476
     }
   ],
-  "latest_yoy_date": "2026-08-01",
-  "latest_yoy_value": -6.132,
+  "latest_yoy_date": "2026-08-08",
+  "latest_yoy_value": -0.476,
   "mom_observations": [
-    {
-      "date": "2024-08-17",
-      "value": 1.754
-    },
     {
       "date": "2024-08-24",
       "value": 0.0
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-08-01",
-      "value": 0.505
+      "value": 1.01
+    },
+    {
+      "date": "2026-08-08",
+      "value": 4.5
     }
   ],
-  "latest_mom_date": "2026-08-01",
-  "latest_mom_value": 0.505,
+  "latest_mom_date": "2026-08-08",
+  "latest_mom_value": 4.5,
   "observations": [
-    {
-      "date": "2024-08-10",
-      "value": 228000.0
-    },
     {
       "date": "2024-08-17",
       "value": 232000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-08-01",
-      "value": 199000.0
+      "value": 200000.0
+    },
+    {
+      "date": "2026-08-08",
+      "value": 209000.0
     }
   ],
-  "latest_date": "2026-08-01",
-  "latest_value": 199000.0,
-  "fetched_at": "2026-08-06T14:51:43.364014Z",
+  "latest_date": "2026-08-08",
+  "latest_value": 209000.0,
+  "fetched_at": "2026-08-13T13:55:34.481113Z",
   "count": 104
 }
