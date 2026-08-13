@@ -23,8 +23,8 @@
 | 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.79 % YoY** | -0.02 | ▼ | 2026-07-01 |
 | 🔴 PCE 個人消費支出物價指數 | `PCEPI` | **3.67 % YoY** | -0.41 | ▼ | 2026-06-01 |
 | 🟡 Core PCE 核心個人消費支出物價指數 | `PCEPILFE` | **3.29 % YoY** | -0.14 | ▼ | 2026-06-01 |
-| 🔴 PPI 生產者物價指數 | `PPIACO` | **10.11 % YoY** | -2.19 | ▼ | 2026-06-01 |
-| 🔴 WPI / Core PPI 躉售物價指數 | `PPIFIS` | **5.51 % YoY** | -0.46 | ▼ | 2026-06-01 |
+| 🔴 PPI 生產者物價指數 | `PPIACO` | **8.27 % YoY** | -1.63 | ▼ | 2026-07-01 |
+| 🔴 WPI / Core PPI 躉售物價指數 | `PPIFIS` | **4.66 % YoY** | -0.88 | ▼ | 2026-07-01 |
 
 
 ### 📈 經濟成長
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-08-13 13:55 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-08-13 14:16 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
