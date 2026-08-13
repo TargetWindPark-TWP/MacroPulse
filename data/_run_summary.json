@@ -1,11 +1,10 @@
 {
-  "run_at": "2026-08-13T14:16:38.565562Z",
+  "run_at": "2026-08-13T23:12:13.153691Z",
   "mode": "daily,monthly_mid,weekly",
   "targets": 23,
-  "updated": 2,
+  "updated": 1,
   "updated_ids": [
-    "PPIACO",
-    "PPIFIS"
+    "MORTGAGE30US"
   ],
   "alerts": 4,
   "errors": 0
