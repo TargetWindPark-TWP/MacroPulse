@@ -1,11 +1,9 @@
 {
-  "run_at": "2026-08-14T14:09:28.831596Z",
+  "run_at": "2026-08-14T22:51:11.480918Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 1,
-  "updated_ids": [
-    "RSXFS"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
