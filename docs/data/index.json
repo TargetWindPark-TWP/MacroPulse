@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:12:11.229581Z",
+  "generated_at": "2026-08-14T14:09:26.684278Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -113,13 +113,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-06-01",
-      "latest_value": 7.191,
-      "prev_value": 7.769,
-      "change": -0.578,
+      "latest_date": "2026-07-01",
+      "latest_value": 5.006,
+      "prev_value": 7.13,
+      "change": -2.124,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-07-16T14:31:44.912416Z"
+      "updated_at": "2026-08-14T14:09:14.735451Z"
     },
     {
       "id": "INDPRO",

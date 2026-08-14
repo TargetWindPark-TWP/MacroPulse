@@ -1,10 +1,10 @@
 {
-  "run_at": "2026-08-13T23:12:13.153691Z",
-  "mode": "daily,monthly_mid,weekly",
-  "targets": 23,
+  "run_at": "2026-08-14T14:09:28.831596Z",
+  "mode": "daily,monthly_mid",
+  "targets": 18,
   "updated": 1,
   "updated_ids": [
-    "MORTGAGE30US"
+    "RSXFS"
   ],
   "alerts": 4,
   "errors": 0
