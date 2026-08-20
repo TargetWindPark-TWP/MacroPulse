@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-08-17",
-      "value": 232000.0
-    },
-    {
       "date": "2024-08-24",
       "value": 232000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-08-08",
-      "value": 209000.0
+      "value": 212000.0
+    },
+    {
+      "date": "2026-08-15",
+      "value": 206000.0
     }
   ],
-  "latest_raw_date": "2026-08-08",
-  "latest_raw_value": 209000.0,
+  "latest_raw_date": "2026-08-15",
+  "latest_raw_value": 206000.0,
   "yoy_observations": [
-    {
-      "date": "2024-11-09",
-      "value": -6.034
-    },
     {
       "date": "2024-11-16",
       "value": -6.897
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-08-08",
-      "value": -0.476
+      "value": 0.952
+    },
+    {
+      "date": "2026-08-15",
+      "value": -2.83
     }
   ],
-  "latest_yoy_date": "2026-08-08",
-  "latest_yoy_value": -0.476,
+  "latest_yoy_date": "2026-08-15",
+  "latest_yoy_value": -2.83,
   "mom_observations": [
-    {
-      "date": "2024-08-24",
-      "value": 0.0
-    },
     {
       "date": "2024-08-31",
       "value": -2.155
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-08-08",
-      "value": 4.5
+      "value": 6.0
+    },
+    {
+      "date": "2026-08-15",
+      "value": -2.83
     }
   ],
-  "latest_mom_date": "2026-08-08",
-  "latest_mom_value": 4.5,
+  "latest_mom_date": "2026-08-15",
+  "latest_mom_value": -2.83,
   "observations": [
-    {
-      "date": "2024-08-17",
-      "value": 232000.0
-    },
     {
       "date": "2024-08-24",
       "value": 232000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-08-08",
-      "value": 209000.0
+      "value": 212000.0
+    },
+    {
+      "date": "2026-08-15",
+      "value": 206000.0
     }
   ],
-  "latest_date": "2026-08-08",
-  "latest_value": 209000.0,
-  "fetched_at": "2026-08-13T13:55:34.481113Z",
+  "latest_date": "2026-08-15",
+  "latest_value": 206000.0,
+  "fetched_at": "2026-08-20T13:26:07.714169Z",
   "count": 104
 }
