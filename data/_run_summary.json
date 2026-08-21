@@ -1,11 +1,9 @@
 {
-  "run_at": "2026-08-20T22:56:21.599968Z",
-  "mode": "daily,monthly_end,weekly",
-  "targets": 16,
-  "updated": 1,
-  "updated_ids": [
-    "MORTGAGE30US"
-  ],
+  "run_at": "2026-08-21T13:39:55.831761Z",
+  "mode": "daily,monthly_end",
+  "targets": 11,
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
