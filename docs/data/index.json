@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T22:56:19.363560Z",
+  "generated_at": "2026-08-25T22:56:10.611628Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -398,13 +398,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-07-01",
-      "latest_value": 0.37,
-      "prev_value": 0.36,
-      "change": 0.01,
+      "latest_date": "2026-08-01",
+      "latest_value": 0.48,
+      "prev_value": 0.38,
+      "change": 0.1,
       "signal": "🟡",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-07-24T23:33:49.801141Z"
+      "updated_at": "2026-08-25T22:56:08.884387Z"
     },
     {
       "id": "MORTGAGE30US",
@@ -488,13 +488,13 @@
       "category": "housing",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-06-01",
-      "latest_value": 628.0,
-      "prev_value": 618.0,
-      "change": 10.0,
+      "latest_date": "2026-07-01",
+      "latest_value": 607.0,
+      "prev_value": 678.0,
+      "change": -71.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-07-24T14:49:27.142944Z"
+      "updated_at": "2026-08-25T22:56:10.596943Z"
     },
     {
       "id": "EXHOSLUSM495S",
