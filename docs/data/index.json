@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:56:10.611628Z",
+  "generated_at": "2026-08-26T13:49:11.577449Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -38,13 +38,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-06-01",
-      "latest_value": 3.668,
-      "prev_value": 4.079,
-      "change": -0.411,
+      "latest_date": "2026-07-01",
+      "latest_value": 3.701,
+      "prev_value": 3.717,
+      "change": -0.016,
       "signal": "🔴",
       "source": "BEA via FRED",
-      "updated_at": "2026-07-30T23:33:38.638081Z"
+      "updated_at": "2026-08-26T13:49:01.737261Z"
     },
     {
       "id": "PCEPILFE",
@@ -53,13 +53,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-06-01",
-      "latest_value": 3.287,
-      "prev_value": 3.422,
-      "change": -0.135,
+      "latest_date": "2026-07-01",
+      "latest_value": 3.344,
+      "prev_value": 3.344,
+      "change": 0.0,
       "signal": "🟡",
       "source": "BEA via FRED",
-      "updated_at": "2026-07-30T23:33:39.670216Z"
+      "updated_at": "2026-08-26T13:49:02.614672Z"
     },
     {
       "id": "PPIACO",
@@ -158,13 +158,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-06-01",
-      "latest_value": 7.381,
-      "prev_value": -3.012,
-      "change": 10.393,
+      "latest_date": "2026-07-01",
+      "latest_value": 11.952,
+      "prev_value": 7.664,
+      "change": 4.288,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-07-27T15:38:35.783456Z"
+      "updated_at": "2026-08-26T13:49:03.537559Z"
     },
     {
       "id": "PAYEMS",
@@ -278,13 +278,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-07-01",
-      "latest_value": 16.7,
-      "prev_value": 17.91,
-      "change": -1.21,
+      "latest_date": "2026-08-01",
+      "latest_value": 15.34,
+      "prev_value": 17.09,
+      "change": -1.75,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-07-24T14:49:18.407630Z"
+      "updated_at": "2026-08-26T13:49:04.502846Z"
     },
     {
       "id": "NFCI",
