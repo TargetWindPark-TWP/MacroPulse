@@ -1,13 +1,16 @@
 {
-  "run_at": "2026-08-26T13:49:13.810855Z",
-  "mode": "daily,monthly_end",
-  "targets": 11,
-  "updated": 4,
+  "run_at": "2026-08-27T03:28:39.556584Z",
+  "mode": "daily,monthly_end,weekly",
+  "targets": 16,
+  "updated": 7,
   "updated_ids": [
-    "PCEPI",
-    "PCEPILFE",
-    "DGORDER",
-    "VIXCLS"
+    "NFCI",
+    "STLFSI4",
+    "BAMLC0A0CM",
+    "DGS2",
+    "DGS10",
+    "DGS30",
+    "BAMLH0A0HYM2"
   ],
   "alerts": 4,
   "errors": 0

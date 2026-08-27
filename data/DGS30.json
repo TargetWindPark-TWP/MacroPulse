@@ -10,10 +10,6 @@
   "source": "Federal Reserve via FRED",
   "raw_observations": [
     {
-      "date": "2015-08-01",
-      "value": 2.86
-    },
-    {
       "date": "2015-09-01",
       "value": 2.95
     },
@@ -535,16 +531,16 @@
     },
     {
       "date": "2026-07-01",
-      "value": 5.08
+      "value": 5.1
+    },
+    {
+      "date": "2026-08-01",
+      "value": 5.23
     }
   ],
-  "latest_raw_date": "2026-07-01",
-  "latest_raw_value": 5.08,
+  "latest_raw_date": "2026-08-01",
+  "latest_raw_value": 5.23,
   "yoy_observations": [
-    {
-      "date": "2016-08-01",
-      "value": -0.6
-    },
     {
       "date": "2016-09-01",
       "value": -0.6
@@ -1019,16 +1015,16 @@
     },
     {
       "date": "2026-07-01",
-      "value": 0.16
+      "value": 0.18
+    },
+    {
+      "date": "2026-08-01",
+      "value": 0.36
     }
   ],
-  "latest_yoy_date": "2026-07-01",
-  "latest_yoy_value": 0.16,
+  "latest_yoy_date": "2026-08-01",
+  "latest_yoy_value": 0.36,
   "mom_observations": [
-    {
-      "date": "2016-08-01",
-      "value": 0.03
-    },
     {
       "date": "2016-09-01",
       "value": 0.09
@@ -1503,16 +1499,16 @@
     },
     {
       "date": "2026-07-01",
+      "value": 0.15
+    },
+    {
+      "date": "2026-08-01",
       "value": 0.13
     }
   ],
-  "latest_mom_date": "2026-07-01",
+  "latest_mom_date": "2026-08-01",
   "latest_mom_value": 0.13,
   "observations": [
-    {
-      "date": "1984-12-01",
-      "value": 11.52
-    },
     {
       "date": "1985-01-01",
       "value": 11.45
@@ -3507,11 +3503,15 @@
     },
     {
       "date": "2026-07-01",
-      "value": 5.08
+      "value": 5.1
+    },
+    {
+      "date": "2026-08-01",
+      "value": 5.23
     }
   ],
-  "latest_date": "2026-07-01",
-  "latest_value": 5.08,
-  "fetched_at": "2026-07-27T23:35:26.400415Z",
+  "latest_date": "2026-08-01",
+  "latest_value": 5.23,
+  "fetched_at": "2026-08-27T03:28:33.976673Z",
   "count": 500
 }

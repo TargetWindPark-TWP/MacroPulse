@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:49:11.577449Z",
+  "generated_at": "2026-08-27T03:28:37.642505Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -293,13 +293,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-08-14",
-      "latest_value": -0.559,
-      "prev_value": -0.555,
-      "change": -0.004,
+      "latest_date": "2026-08-21",
+      "latest_value": -0.566,
+      "prev_value": -0.561,
+      "change": -0.005,
       "signal": "⚪",
       "source": "Chicago Fed via FRED",
-      "updated_at": "2026-08-20T13:26:10.759516Z"
+      "updated_at": "2026-08-27T03:28:29.425689Z"
     },
     {
       "id": "STLFSI4",
@@ -308,13 +308,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-08-14",
-      "latest_value": -0.8285,
-      "prev_value": -0.7705,
-      "change": -0.058,
+      "latest_date": "2026-08-21",
+      "latest_value": -0.8107,
+      "prev_value": -0.8282,
+      "change": 0.018,
       "signal": "⚪",
       "source": "St. Louis Fed via FRED",
-      "updated_at": "2026-08-20T13:26:11.745317Z"
+      "updated_at": "2026-08-27T03:28:30.359743Z"
     },
     {
       "id": "BAMLC0A0CM",
@@ -323,13 +323,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-07-01",
-      "latest_value": 0.77,
-      "prev_value": 0.75,
+      "latest_date": "2026-08-01",
+      "latest_value": 0.8,
+      "prev_value": 0.78,
       "change": 0.02,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-07-24T14:49:19.297144Z"
+      "updated_at": "2026-08-27T03:28:31.205977Z"
     },
     {
       "id": "FEDFUNDS",
@@ -353,13 +353,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-07-01",
-      "latest_value": 4.21,
-      "prev_value": 4.11,
-      "change": 0.1,
+      "latest_date": "2026-08-01",
+      "latest_value": 4.2,
+      "prev_value": 4.22,
+      "change": -0.02,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-07-27T23:35:24.395072Z"
+      "updated_at": "2026-08-27T03:28:32.110732Z"
     },
     {
       "id": "DGS10",
@@ -368,13 +368,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-07-01",
-      "latest_value": 4.58,
-      "prev_value": 4.47,
-      "change": 0.11,
+      "latest_date": "2026-08-01",
+      "latest_value": 4.68,
+      "prev_value": 4.6,
+      "change": 0.08,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-07-27T23:35:25.412479Z"
+      "updated_at": "2026-08-27T03:28:33.050551Z"
     },
     {
       "id": "DGS30",
@@ -383,13 +383,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-07-01",
-      "latest_value": 5.08,
-      "prev_value": 4.95,
+      "latest_date": "2026-08-01",
+      "latest_value": 5.23,
+      "prev_value": 5.1,
       "change": 0.13,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-07-27T23:35:26.400415Z"
+      "updated_at": "2026-08-27T03:28:33.976673Z"
     },
     {
       "id": "T10Y2Y",
@@ -458,13 +458,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-07-01",
-      "latest_value": 2.71,
-      "prev_value": 2.73,
+      "latest_date": "2026-08-01",
+      "latest_value": 2.72,
+      "prev_value": 2.74,
       "change": -0.02,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-07-24T14:49:26.231769Z"
+      "updated_at": "2026-08-27T03:28:36.789986Z"
     },
     {
       "id": "HOUST",
