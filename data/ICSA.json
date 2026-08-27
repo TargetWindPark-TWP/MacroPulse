@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-08-24",
-      "value": 232000.0
-    },
-    {
       "date": "2024-08-31",
       "value": 227000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-08-15",
-      "value": 206000.0
+      "value": 207000.0
+    },
+    {
+      "date": "2026-08-22",
+      "value": 203000.0
     }
   ],
-  "latest_raw_date": "2026-08-15",
-  "latest_raw_value": 206000.0,
+  "latest_raw_date": "2026-08-22",
+  "latest_raw_value": 203000.0,
   "yoy_observations": [
-    {
-      "date": "2024-11-16",
-      "value": -6.897
-    },
     {
       "date": "2024-11-23",
       "value": -3.524
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-08-15",
-      "value": -2.83
+      "value": -2.358
+    },
+    {
+      "date": "2026-08-22",
+      "value": -9.778
     }
   ],
-  "latest_yoy_date": "2026-08-15",
-  "latest_yoy_value": -2.83,
+  "latest_yoy_date": "2026-08-22",
+  "latest_yoy_value": -9.778,
   "mom_observations": [
-    {
-      "date": "2024-08-31",
-      "value": -2.155
-    },
     {
       "date": "2024-09-07",
       "value": 0.0
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-08-15",
-      "value": -2.83
+      "value": -2.358
+    },
+    {
+      "date": "2026-08-22",
+      "value": -1.932
     }
   ],
-  "latest_mom_date": "2026-08-15",
-  "latest_mom_value": -2.83,
+  "latest_mom_date": "2026-08-22",
+  "latest_mom_value": -1.932,
   "observations": [
-    {
-      "date": "2024-08-24",
-      "value": 232000.0
-    },
     {
       "date": "2024-08-31",
       "value": 227000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-08-15",
-      "value": 206000.0
+      "value": 207000.0
+    },
+    {
+      "date": "2026-08-22",
+      "value": 203000.0
     }
   ],
-  "latest_date": "2026-08-15",
-  "latest_value": 206000.0,
-  "fetched_at": "2026-08-20T13:26:07.714169Z",
+  "latest_date": "2026-08-22",
+  "latest_value": 203000.0,
+  "fetched_at": "2026-08-27T22:27:58.621669Z",
   "count": 104
 }

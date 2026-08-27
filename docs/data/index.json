@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T03:28:37.642505Z",
+  "generated_at": "2026-08-27T22:28:11.464234Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -203,13 +203,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-08-15",
-      "latest_value": 206000.0,
-      "prev_value": 212000.0,
-      "change": -6000.0,
+      "latest_date": "2026-08-22",
+      "latest_value": 203000.0,
+      "prev_value": 207000.0,
+      "change": -4000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-08-20T13:26:07.714169Z"
+      "updated_at": "2026-08-27T22:27:58.621669Z"
     },
     {
       "id": "CCSA",
@@ -218,13 +218,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-08-08",
-      "latest_value": 1799000.0,
-      "prev_value": 1781000.0,
-      "change": 18000.0,
+      "latest_date": "2026-08-15",
+      "latest_value": 1778000.0,
+      "prev_value": 1796000.0,
+      "change": -18000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-08-20T13:26:08.610731Z"
+      "updated_at": "2026-08-27T22:27:59.508350Z"
     },
     {
       "id": "CES0500000003",
@@ -413,13 +413,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "weekly",
-      "latest_date": "2026-08-20",
-      "latest_value": 6.65,
-      "prev_value": 6.67,
-      "change": -0.02,
+      "latest_date": "2026-08-27",
+      "latest_value": 6.66,
+      "prev_value": 6.65,
+      "change": 0.01,
       "signal": "⚪",
       "source": "Freddie Mac via FRED",
-      "updated_at": "2026-08-20T22:56:17.656616Z"
+      "updated_at": "2026-08-27T22:28:09.278538Z"
     },
     {
       "id": "DRCCLACBS",

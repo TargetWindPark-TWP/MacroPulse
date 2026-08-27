@@ -1,16 +1,12 @@
 {
-  "run_at": "2026-08-27T03:28:39.556584Z",
+  "run_at": "2026-08-27T22:28:12.974249Z",
   "mode": "daily,monthly_end,weekly",
   "targets": 16,
-  "updated": 7,
+  "updated": 3,
   "updated_ids": [
-    "NFCI",
-    "STLFSI4",
-    "BAMLC0A0CM",
-    "DGS2",
-    "DGS10",
-    "DGS30",
-    "BAMLH0A0HYM2"
+    "ICSA",
+    "CCSA",
+    "MORTGAGE30US"
   ],
   "alerts": 4,
   "errors": 0
