@@ -47,7 +47,7 @@
 | ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **203000.00 人** | -4000.00 | ▼ | 2026-08-22 |
 | ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1778000.00 人** | -18000.00 | ▼ | 2026-08-15 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.15 % YoY** | -0.26 | ▼ | 2026-07-01 |
-| ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7359.00 K** | -178.00 | ▼ | 2026-06-01 |
+| ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7271.00 K** | +89.00 | ▲ | 2026-07-01 |
 
 
 ### 💭 信心指數
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-09-01 01:21 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-09-01 17:15 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
