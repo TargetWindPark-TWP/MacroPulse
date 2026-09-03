@@ -1,13 +1,9 @@
 {
-  "run_at": "2026-09-03T16:35:55.193982Z",
+  "run_at": "2026-09-03T16:58:57.404629Z",
   "mode": "daily,monthly_early,weekly",
   "targets": 16,
-  "updated": 3,
-  "updated_ids": [
-    "ICSA",
-    "CCSA",
-    "MORTGAGE30US"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
