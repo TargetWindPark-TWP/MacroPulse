@@ -10,10 +10,6 @@
   "source": "U of Michigan via FRED",
   "raw_observations": [
     {
-      "date": "2021-07-01",
-      "value": 81.2
-    },
-    {
       "date": "2021-08-01",
       "value": 70.3
     },
@@ -248,15 +244,15 @@
     {
       "date": "2026-06-01",
       "value": 49.5
+    },
+    {
+      "date": "2026-07-01",
+      "value": 55.2
     }
   ],
-  "latest_raw_date": "2026-06-01",
-  "latest_raw_value": 49.5,
+  "latest_raw_date": "2026-07-01",
+  "latest_raw_value": 55.2,
   "yoy_observations": [
-    {
-      "date": "2022-07-01",
-      "value": -36.576
-    },
     {
       "date": "2022-08-01",
       "value": -17.212
@@ -444,15 +440,15 @@
     {
       "date": "2026-06-01",
       "value": -18.451
+    },
+    {
+      "date": "2026-07-01",
+      "value": -10.535
     }
   ],
-  "latest_yoy_date": "2026-06-01",
-  "latest_yoy_value": -18.451,
+  "latest_yoy_date": "2026-07-01",
+  "latest_yoy_value": -10.535,
   "mom_observations": [
-    {
-      "date": "2021-08-01",
-      "value": -13.424
-    },
     {
       "date": "2021-09-01",
       "value": 3.556
@@ -684,15 +680,15 @@
     {
       "date": "2026-06-01",
       "value": 10.491
+    },
+    {
+      "date": "2026-07-01",
+      "value": 11.515
     }
   ],
-  "latest_mom_date": "2026-06-01",
-  "latest_mom_value": 10.491,
+  "latest_mom_date": "2026-07-01",
+  "latest_mom_value": 11.515,
   "observations": [
-    {
-      "date": "2021-07-01",
-      "value": 81.2
-    },
     {
       "date": "2021-08-01",
       "value": 70.3
@@ -928,10 +924,14 @@
     {
       "date": "2026-06-01",
       "value": 49.5
+    },
+    {
+      "date": "2026-07-01",
+      "value": 55.2
     }
   ],
-  "latest_date": "2026-06-01",
-  "latest_value": 49.5,
-  "fetched_at": "2026-08-10T14:14:16.590071Z",
+  "latest_date": "2026-07-01",
+  "latest_value": 55.2,
+  "fetched_at": "2026-09-10T00:27:06.491224Z",
   "count": 60
 }
