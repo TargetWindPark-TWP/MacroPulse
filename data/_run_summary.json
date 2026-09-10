@@ -1,15 +1,9 @@
 {
-  "run_at": "2026-09-10T16:35:16.747608Z",
+  "run_at": "2026-09-10T16:46:33.556247Z",
   "mode": "daily,monthly_mid,weekly",
   "targets": 23,
-  "updated": 5,
-  "updated_ids": [
-    "ICSA",
-    "CCSA",
-    "NFCI",
-    "MORTGAGE30US",
-    "EXHOSLUSM495S"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
