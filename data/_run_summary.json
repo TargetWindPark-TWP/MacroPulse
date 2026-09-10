@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-09-10T00:27:20.572171Z",
+  "run_at": "2026-09-10T16:35:16.747608Z",
   "mode": "daily,monthly_mid,weekly",
   "targets": 23,
   "updated": 5,
   "updated_ids": [
-    "INDPRO",
-    "UMCSENT",
-    "STLFSI4",
-    "FEDFUNDS",
-    "HOUST"
+    "ICSA",
+    "CCSA",
+    "NFCI",
+    "MORTGAGE30US",
+    "EXHOSLUSM495S"
   ],
   "alerts": 3,
   "errors": 0

@@ -44,8 +44,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ NFP 非農就業人數 | `PAYEMS` | **162.00 K MoM** | +141.00 | ▲ | 2026-08-01 |
 | 🟡 失業率 Unemployment Rate | `UNRATE` | **4.10 %** | +0.00 | → | 2026-08-01 |
-| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **206000.00 人** | +2000.00 | ▲ | 2026-08-29 |
-| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1779000.00 人** | +8000.00 | ▲ | 2026-08-22 |
+| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **206000.00 人** | -1000.00 | ▼ | 2026-09-05 |
+| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1774000.00 人** | -1000.00 | ▼ | 2026-08-29 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.09 % YoY** | -0.15 | ▼ | 2026-08-01 |
 | ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7271.00 K** | +89.00 | ▲ | 2026-07-01 |
 
@@ -56,9 +56,9 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **55.20 Index** | +5.70 | ▲ | 2026-07-01 |
 | ⚪ VIX 恐慌指數 | `VIXCLS` | **15.34 Index** | -1.75 | ▼ | 2026-08-01 |
-| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.56 Index** | -0.00 | ▼ | 2026-08-28 |
+| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.56 Index** | -0.00 | ▼ | 2026-09-04 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.79 Index** | +0.06 | ▲ | 2026-09-04 |
 
 
 ---
-*自動生成於 2026-09-10 00:27 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-09-10 16:35 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
