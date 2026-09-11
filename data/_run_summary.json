@@ -1,11 +1,11 @@
 {
-  "run_at": "2026-09-11T00:23:40.579500Z",
+  "run_at": "2026-09-11T16:49:57.906856Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
   "updated": 2,
   "updated_ids": [
-    "PPIACO",
-    "PPIFIS"
+    "CPIAUCSL",
+    "CPILFESL"
   ],
   "alerts": 3,
   "errors": 0

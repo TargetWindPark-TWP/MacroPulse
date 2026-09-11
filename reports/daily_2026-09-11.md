@@ -19,8 +19,8 @@
 
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
-| 🔴 CPI 消費者物價指數 | `CPIAUCSL` | **3.54 % YoY** | -0.19 | ▼ | 2026-07-01 |
-| 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.79 % YoY** | -0.02 | ▼ | 2026-07-01 |
+| 🔴 CPI 消費者物價指數 | `CPIAUCSL` | **3.71 % YoY** | +0.17 | ▲ | 2026-08-01 |
+| 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.76 % YoY** | -0.02 | ▼ | 2026-08-01 |
 | 🔴 PCE 個人消費支出物價指數 | `PCEPI` | **3.70 % YoY** | -0.02 | ▼ | 2026-07-01 |
 | 🟡 Core PCE 核心個人消費支出物價指數 | `PCEPILFE` | **3.34 % YoY** | +0.00 | → | 2026-07-01 |
 | 🔴 PPI 生產者物價指數 | `PPIACO` | **9.85 % YoY** | +1.15 | ▲ | 2026-08-01 |
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-09-11 00:23 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-09-11 16:49 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*

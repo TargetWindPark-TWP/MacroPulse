@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T00:23:38.339577Z",
+  "generated_at": "2026-09-11T16:49:55.632346Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -8,13 +8,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-07-01",
-      "latest_value": 3.54,
-      "prev_value": 3.727,
-      "change": -0.187,
+      "latest_date": "2026-08-01",
+      "latest_value": 3.713,
+      "prev_value": 3.54,
+      "change": 0.173,
       "signal": "🔴",
       "source": "BLS via FRED",
-      "updated_at": "2026-08-12T14:14:44.735362Z"
+      "updated_at": "2026-09-11T16:49:40.459837Z"
     },
     {
       "id": "CPILFESL",
@@ -23,13 +23,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-07-01",
-      "latest_value": 2.787,
-      "prev_value": 2.806,
-      "change": -0.019,
+      "latest_date": "2026-08-01",
+      "latest_value": 2.763,
+      "prev_value": 2.787,
+      "change": -0.024,
       "signal": "🟡",
       "source": "BLS via FRED",
-      "updated_at": "2026-08-12T14:14:45.610906Z"
+      "updated_at": "2026-09-11T16:49:41.352849Z"
     },
     {
       "id": "PCEPI",
