@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-09-07",
-      "value": 1825000.0
-    },
-    {
       "date": "2024-09-14",
       "value": 1831000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-08-29",
-      "value": 1774000.0
+      "value": 1769000.0
+    },
+    {
+      "date": "2026-09-05",
+      "value": 1730000.0
     }
   ],
-  "latest_raw_date": "2026-08-29",
-  "latest_raw_value": 1774000.0,
+  "latest_raw_date": "2026-09-05",
+  "latest_raw_value": 1730000.0,
   "yoy_observations": [
-    {
-      "date": "2024-11-30",
-      "value": 1.863
-    },
     {
       "date": "2024-12-07",
       "value": 1.857
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-08-29",
-      "value": -1.444
+      "value": -1.722
+    },
+    {
+      "date": "2026-09-05",
+      "value": -4.525
     }
   ],
-  "latest_yoy_date": "2026-08-29",
-  "latest_yoy_value": -1.444,
+  "latest_yoy_date": "2026-09-05",
+  "latest_yoy_value": -4.525,
   "mom_observations": [
-    {
-      "date": "2024-09-14",
-      "value": 0.329
-    },
     {
       "date": "2024-09-21",
       "value": -0.328
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-08-29",
-      "value": -0.056
+      "value": -0.338
+    },
+    {
+      "date": "2026-09-05",
+      "value": -2.205
     }
   ],
-  "latest_mom_date": "2026-08-29",
-  "latest_mom_value": -0.056,
+  "latest_mom_date": "2026-09-05",
+  "latest_mom_value": -2.205,
   "observations": [
-    {
-      "date": "2024-09-07",
-      "value": 1825000.0
-    },
     {
       "date": "2024-09-14",
       "value": 1831000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-08-29",
-      "value": 1774000.0
+      "value": 1769000.0
+    },
+    {
+      "date": "2026-09-05",
+      "value": 1730000.0
     }
   ],
-  "latest_date": "2026-08-29",
-  "latest_value": 1774000.0,
-  "fetched_at": "2026-09-10T16:34:59.349922Z",
+  "latest_date": "2026-09-05",
+  "latest_value": 1730000.0,
+  "fetched_at": "2026-09-17T17:11:17.826934Z",
   "count": 104
 }
