@@ -1,10 +1,11 @@
 {
-  "run_at": "2026-09-16T17:23:30.585813Z",
-  "mode": "daily,monthly_mid",
-  "targets": 18,
-  "updated": 1,
+  "run_at": "2026-09-17T00:48:13.322834Z",
+  "mode": "daily,weekly",
+  "targets": 12,
+  "updated": 2,
   "updated_ids": [
-    "RSXFS"
+    "NFCI",
+    "STLFSI4"
   ],
   "alerts": 3,
   "errors": 0
