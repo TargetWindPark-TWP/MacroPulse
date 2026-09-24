@@ -1,16 +1,9 @@
 {
-  "run_at": "2026-09-24T17:26:06.563601Z",
+  "run_at": "2026-09-24T17:42:02.054617Z",
   "mode": "daily,monthly_end,weekly",
   "targets": 16,
-  "updated": 6,
-  "updated_ids": [
-    "ICSA",
-    "CCSA",
-    "BAMLC0A0CM",
-    "MORTGAGE30US",
-    "BAMLH0A0HYM2",
-    "HSN1F"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
