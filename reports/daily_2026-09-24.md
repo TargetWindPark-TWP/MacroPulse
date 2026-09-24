@@ -11,7 +11,7 @@
 | ⚪ **10Y Treasury** | 4.68 % | 10年期公債殖利率 |
 | ⚪ **30Y Treasury** | 5.23 % | 30年期公債殖利率 |
 | 🟡 **10Y−2Y Spread** | 0.48 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 2.72 % | 高收益債信用利差 |
+| ⚪ **HY Spread** | 2.69 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -44,8 +44,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ NFP 非農就業人數 | `PAYEMS` | **162.00 K MoM** | +141.00 | ▲ | 2026-08-01 |
 | 🟡 失業率 Unemployment Rate | `UNRATE` | **4.10 %** | +0.00 | → | 2026-08-01 |
-| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **196000.00 人** | -10000.00 | ▼ | 2026-09-12 |
-| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1730000.00 人** | -39000.00 | ▼ | 2026-09-05 |
+| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **197000.00 人** | -1000.00 | ▼ | 2026-09-19 |
+| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1719000.00 人** | +2000.00 | ▲ | 2026-09-12 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.09 % YoY** | -0.15 | ▼ | 2026-08-01 |
 | ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7271.00 K** | +89.00 | ▲ | 2026-07-01 |
 
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-09-24 00:45 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-09-24 17:26 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*

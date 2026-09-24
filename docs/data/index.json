@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:45:08.441617Z",
+  "generated_at": "2026-09-24T17:26:04.333772Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -203,13 +203,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-09-12",
-      "latest_value": 196000.0,
-      "prev_value": 206000.0,
-      "change": -10000.0,
+      "latest_date": "2026-09-19",
+      "latest_value": 197000.0,
+      "prev_value": 198000.0,
+      "change": -1000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-09-17T17:11:17.024361Z"
+      "updated_at": "2026-09-24T17:25:52.012287Z"
     },
     {
       "id": "CCSA",
@@ -218,13 +218,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-09-05",
-      "latest_value": 1730000.0,
-      "prev_value": 1769000.0,
-      "change": -39000.0,
+      "latest_date": "2026-09-12",
+      "latest_value": 1719000.0,
+      "prev_value": 1717000.0,
+      "change": 2000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-09-17T17:11:17.826934Z"
+      "updated_at": "2026-09-24T17:25:52.863529Z"
     },
     {
       "id": "CES0500000003",
@@ -323,13 +323,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-08-01",
-      "latest_value": 0.8,
-      "prev_value": 0.78,
-      "change": 0.02,
+      "latest_date": "2026-09-01",
+      "latest_value": 0.79,
+      "prev_value": 0.8,
+      "change": -0.01,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-08-27T03:28:31.205977Z"
+      "updated_at": "2026-09-24T17:25:56.702852Z"
     },
     {
       "id": "FEDFUNDS",
@@ -413,13 +413,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "weekly",
-      "latest_date": "2026-09-17",
-      "latest_value": 6.95,
-      "prev_value": 6.76,
-      "change": 0.19,
+      "latest_date": "2026-09-24",
+      "latest_value": 7.03,
+      "prev_value": 6.95,
+      "change": 0.08,
       "signal": "⚪",
       "source": "Freddie Mac via FRED",
-      "updated_at": "2026-09-17T17:11:27.515223Z"
+      "updated_at": "2026-09-24T17:26:02.408825Z"
     },
     {
       "id": "DRCCLACBS",
@@ -458,13 +458,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-08-01",
-      "latest_value": 2.72,
-      "prev_value": 2.74,
-      "change": -0.02,
+      "latest_date": "2026-09-01",
+      "latest_value": 2.69,
+      "prev_value": 2.7,
+      "change": -0.01,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-08-27T03:28:36.789986Z"
+      "updated_at": "2026-09-24T17:26:03.443408Z"
     },
     {
       "id": "HOUST",
@@ -488,13 +488,13 @@
       "category": "housing",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-07-01",
-      "latest_value": 607.0,
-      "prev_value": 678.0,
-      "change": -71.0,
+      "latest_date": "2026-08-01",
+      "latest_value": 684.0,
+      "prev_value": 643.0,
+      "change": 41.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-08-25T22:56:10.596943Z"
+      "updated_at": "2026-09-24T17:26:04.314051Z"
     },
     {
       "id": "EXHOSLUSM495S",
