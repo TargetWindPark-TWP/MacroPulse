@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:11:28.527029Z",
+  "generated_at": "2026-09-24T00:45:08.441617Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -293,13 +293,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-09-11",
-      "latest_value": -0.56,
-      "prev_value": -0.558,
-      "change": -0.002,
+      "latest_date": "2026-09-18",
+      "latest_value": -0.555,
+      "prev_value": -0.557,
+      "change": 0.002,
       "signal": "⚪",
       "source": "Chicago Fed via FRED",
-      "updated_at": "2026-09-17T00:48:00.393424Z"
+      "updated_at": "2026-09-24T00:44:56.004085Z"
     },
     {
       "id": "STLFSI4",
@@ -308,13 +308,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-09-11",
-      "latest_value": -0.8477,
-      "prev_value": -0.7893,
-      "change": -0.058,
+      "latest_date": "2026-09-18",
+      "latest_value": -0.9075,
+      "prev_value": -0.8486,
+      "change": -0.059,
       "signal": "⚪",
       "source": "St. Louis Fed via FRED",
-      "updated_at": "2026-09-17T00:48:03.551356Z"
+      "updated_at": "2026-09-24T00:44:56.942822Z"
     },
     {
       "id": "BAMLC0A0CM",
