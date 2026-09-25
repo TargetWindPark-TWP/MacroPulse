@@ -1,9 +1,11 @@
 {
-  "run_at": "2026-09-24T17:42:02.054617Z",
-  "mode": "daily,monthly_end,weekly",
-  "targets": 16,
-  "updated": 0,
-  "updated_ids": [],
+  "run_at": "2026-09-25T00:42:24.357209Z",
+  "mode": "daily,monthly_end",
+  "targets": 11,
+  "updated": 1,
+  "updated_ids": [
+    "T10Y2Y"
+  ],
   "alerts": 3,
   "errors": 0
 }
