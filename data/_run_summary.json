@@ -1,9 +1,12 @@
 {
-  "run_at": "2026-09-30T01:26:13.462243Z",
+  "run_at": "2026-09-30T18:14:20.069378Z",
   "mode": "daily,monthly_end",
   "targets": 11,
-  "updated": 0,
-  "updated_ids": [],
+  "updated": 2,
+  "updated_ids": [
+    "PCEPI",
+    "PCEPILFE"
+  ],
   "alerts": 3,
   "errors": 0
 }
