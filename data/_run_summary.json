@@ -1,11 +1,9 @@
 {
-  "run_at": "2026-09-29T18:25:09.041767Z",
+  "run_at": "2026-09-30T01:26:13.462243Z",
   "mode": "daily,monthly_end",
   "targets": 11,
-  "updated": 1,
-  "updated_ids": [
-    "VIXCLS"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
