@@ -1,11 +1,12 @@
 {
-  "run_at": "2026-09-30T18:14:20.069378Z",
-  "mode": "daily,monthly_end",
-  "targets": 11,
-  "updated": 2,
+  "run_at": "2026-10-01T01:26:09.398821Z",
+  "mode": "daily,monthly_early,weekly",
+  "targets": 16,
+  "updated": 3,
   "updated_ids": [
-    "PCEPI",
-    "PCEPILFE"
+    "JTSJOL",
+    "NFCI",
+    "STLFSI4"
   ],
   "alerts": 3,
   "errors": 0

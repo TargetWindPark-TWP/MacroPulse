@@ -10,10 +10,6 @@
   "source": "BLS via FRED",
   "raw_observations": [
     {
-      "date": "2021-08-01",
-      "value": 10872.0
-    },
-    {
       "date": "2021-09-01",
       "value": 10834.0
     },
@@ -247,16 +243,16 @@
     },
     {
       "date": "2026-07-01",
-      "value": 7271.0
+      "value": 7335.0
+    },
+    {
+      "date": "2026-08-01",
+      "value": 7079.0
     }
   ],
-  "latest_raw_date": "2026-07-01",
-  "latest_raw_value": 7271.0,
+  "latest_raw_date": "2026-08-01",
+  "latest_raw_value": 7079.0,
   "yoy_observations": [
-    {
-      "date": "2022-08-01",
-      "value": -7.174
-    },
     {
       "date": "2022-09-01",
       "value": -0.314
@@ -443,16 +439,16 @@
     },
     {
       "date": "2026-07-01",
-      "value": 2.567
+      "value": 3.47
+    },
+    {
+      "date": "2026-08-01",
+      "value": 2.312
     }
   ],
-  "latest_yoy_date": "2026-07-01",
-  "latest_yoy_value": 2.567,
+  "latest_yoy_date": "2026-08-01",
+  "latest_yoy_value": 2.312,
   "mom_observations": [
-    {
-      "date": "2021-09-01",
-      "value": -0.35
-    },
     {
       "date": "2021-10-01",
       "value": 3.729
@@ -683,16 +679,16 @@
     },
     {
       "date": "2026-07-01",
-      "value": 1.239
+      "value": 2.13
+    },
+    {
+      "date": "2026-08-01",
+      "value": -3.49
     }
   ],
-  "latest_mom_date": "2026-07-01",
-  "latest_mom_value": 1.239,
+  "latest_mom_date": "2026-08-01",
+  "latest_mom_value": -3.49,
   "observations": [
-    {
-      "date": "2021-08-01",
-      "value": 10872.0
-    },
     {
       "date": "2021-09-01",
       "value": 10834.0
@@ -927,11 +923,15 @@
     },
     {
       "date": "2026-07-01",
-      "value": 7271.0
+      "value": 7335.0
+    },
+    {
+      "date": "2026-08-01",
+      "value": 7079.0
     }
   ],
-  "latest_date": "2026-07-01",
-  "latest_value": 7271.0,
-  "fetched_at": "2026-09-01T17:14:59.707356Z",
+  "latest_date": "2026-08-01",
+  "latest_value": 7079.0,
+  "fetched_at": "2026-10-01T01:25:56.046693Z",
   "count": 60
 }
