@@ -1,13 +1,9 @@
 {
-  "run_at": "2026-10-02T18:17:35.301861Z",
+  "run_at": "2026-10-03T01:19:09.473635Z",
   "mode": "daily,monthly_early",
   "targets": 11,
-  "updated": 3,
-  "updated_ids": [
-    "PAYEMS",
-    "UNRATE",
-    "CES0500000003"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
