@@ -44,8 +44,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ NFP 非農就業人數 | `PAYEMS` | **29.00 K MoM** | -104.00 | ▼ | 2026-09-01 |
 | 🟡 失業率 Unemployment Rate | `UNRATE` | **4.20 %** | +0.10 | ▲ | 2026-09-01 |
-| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **197000.00 人** | -1000.00 | ▼ | 2026-09-26 |
-| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1701000.00 人** | -11000.00 | ▼ | 2026-09-19 |
+| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **197000.00 人** | -2000.00 | ▼ | 2026-10-03 |
+| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1716000.00 人** | +17000.00 | ▲ | 2026-09-26 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.02 % YoY** | -0.09 | ▼ | 2026-09-01 |
 | ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7079.00 K** | -256.00 | ▼ | 2026-08-01 |
 
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-10-08 02:11 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-10-08 18:56 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
