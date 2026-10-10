@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:56:48.491433Z",
+  "generated_at": "2026-10-10T01:52:12.696101Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -128,13 +128,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-07-01",
-      "latest_value": 1.079,
-      "prev_value": 1.289,
-      "change": -0.21,
+      "latest_date": "2026-08-01",
+      "latest_value": 1.42,
+      "prev_value": 1.13,
+      "change": 0.29,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-09-10T00:27:03.267425Z"
+      "updated_at": "2026-10-10T01:52:01.063382Z"
     },
     {
       "id": "INDPRO",
@@ -143,13 +143,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-07-01",
-      "latest_value": 1.079,
-      "prev_value": 1.289,
-      "change": -0.21,
+      "latest_date": "2026-08-01",
+      "latest_value": 1.42,
+      "prev_value": 1.13,
+      "change": 0.29,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-09-10T00:27:03.267425Z"
+      "updated_at": "2026-10-10T01:52:01.063382Z"
     },
     {
       "id": "DGORDER",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "monthly",
-      "latest_date": "2026-07-01",
-      "latest_value": 55.2,
-      "prev_value": 49.5,
-      "change": 5.7,
+      "latest_date": "2026-08-01",
+      "latest_value": 51.7,
+      "prev_value": 55.2,
+      "change": -3.5,
       "signal": "⚪",
       "source": "U of Michigan via FRED",
-      "updated_at": "2026-09-10T00:27:06.491224Z"
+      "updated_at": "2026-10-10T01:52:02.797224Z"
     },
     {
       "id": "VIXCLS",
@@ -338,13 +338,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "monthly",
-      "latest_date": "2026-08-01",
-      "latest_value": 3.63,
+      "latest_date": "2026-09-01",
+      "latest_value": 3.75,
       "prev_value": 3.63,
-      "change": 0.0,
+      "change": 0.12,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-09-10T00:27:11.207304Z"
+      "updated_at": "2026-10-10T01:52:05.566350Z"
     },
     {
       "id": "DGS2",
@@ -473,13 +473,13 @@
       "category": "housing",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-07-01",
-      "latest_value": 1239.0,
-      "prev_value": 1415.0,
-      "change": -176.0,
+      "latest_date": "2026-08-01",
+      "latest_value": 1275.0,
+      "prev_value": 1309.0,
+      "change": -34.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-09-10T00:27:17.438702Z"
+      "updated_at": "2026-10-10T01:52:11.565751Z"
     },
     {
       "id": "HSN1F",

@@ -1,9 +1,14 @@
 {
-  "run_at": "2026-10-09T02:26:07.279942Z",
-  "mode": "daily",
-  "targets": 7,
-  "updated": 0,
-  "updated_ids": [],
+  "run_at": "2026-10-10T01:52:14.935229Z",
+  "mode": "daily,monthly_mid",
+  "targets": 18,
+  "updated": 4,
+  "updated_ids": [
+    "INDPRO",
+    "UMCSENT",
+    "FEDFUNDS",
+    "HOUST"
+  ],
   "alerts": 4,
   "errors": 0
 }
