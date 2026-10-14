@@ -1,11 +1,9 @@
 {
-  "run_at": "2026-10-13T19:40:29.892220Z",
+  "run_at": "2026-10-14T01:20:16.631667Z",
   "mode": "daily,monthly_mid",
   "targets": 18,
-  "updated": 1,
-  "updated_ids": [
-    "EXHOSLUSM495S"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
