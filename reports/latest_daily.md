@@ -1,6 +1,6 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-10-13** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-10-14** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
@@ -19,8 +19,8 @@
 
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
-| 🔴 CPI 消費者物價指數 | `CPIAUCSL` | **3.71 % YoY** | +0.17 | ▲ | 2026-08-01 |
-| 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.76 % YoY** | -0.02 | ▼ | 2026-08-01 |
+| 🔴 CPI 消費者物價指數 | `CPIAUCSL` | **4.02 % YoY** | +0.31 | ▲ | 2026-09-01 |
+| 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.79 % YoY** | +0.03 | ▲ | 2026-09-01 |
 | 🟡 PCE 個人消費支出物價指數 | `PCEPI` | **3.42 % YoY** | +0.06 | ▲ | 2026-08-01 |
 | 🟡 Core PCE 核心個人消費支出物價指數 | `PCEPILFE` | **3.01 % YoY** | +0.02 | ▲ | 2026-08-01 |
 | 🔴 PPI 生產者物價指數 | `PPIACO` | **9.85 % YoY** | +1.15 | ▲ | 2026-08-01 |
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-10-13 19:40 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-10-14 17:41 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
