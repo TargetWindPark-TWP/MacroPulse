@@ -1,11 +1,10 @@
 {
-  "run_at": "2026-10-14T17:41:26.590576Z",
-  "mode": "daily,monthly_mid",
-  "targets": 18,
-  "updated": 2,
+  "run_at": "2026-10-15T00:44:57.683921Z",
+  "mode": "daily,monthly_mid,weekly",
+  "targets": 23,
+  "updated": 1,
   "updated_ids": [
-    "CPIAUCSL",
-    "CPILFESL"
+    "STLFSI4"
   ],
   "alerts": 4,
   "errors": 0

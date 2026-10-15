@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:41:24.364657Z",
+  "generated_at": "2026-10-15T00:44:55.761796Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -308,13 +308,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-10-02",
-      "latest_value": -0.4681,
-      "prev_value": -0.8091,
-      "change": 0.341,
+      "latest_date": "2026-10-09",
+      "latest_value": -0.7206,
+      "prev_value": -0.4675,
+      "change": -0.253,
       "signal": "⚪",
       "source": "St. Louis Fed via FRED",
-      "updated_at": "2026-10-08T02:11:51.569156Z"
+      "updated_at": "2026-10-15T00:44:44.704343Z"
     },
     {
       "id": "BAMLC0A0CM",
