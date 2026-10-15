@@ -1,10 +1,15 @@
 {
-  "run_at": "2026-10-15T00:44:57.683921Z",
+  "run_at": "2026-10-15T17:14:58.926013Z",
   "mode": "daily,monthly_mid,weekly",
   "targets": 23,
-  "updated": 1,
+  "updated": 6,
   "updated_ids": [
-    "STLFSI4"
+    "PPIFIS",
+    "RSXFS",
+    "ICSA",
+    "CCSA",
+    "NFCI",
+    "MORTGAGE30US"
   ],
   "alerts": 4,
   "errors": 0
