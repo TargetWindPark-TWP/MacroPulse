@@ -1,6 +1,6 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-10-15** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-10-16** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
@@ -23,7 +23,7 @@
 | 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.79 % YoY** | +0.03 | ▲ | 2026-09-01 |
 | 🟡 PCE 個人消費支出物價指數 | `PCEPI` | **3.42 % YoY** | +0.06 | ▲ | 2026-08-01 |
 | 🟡 Core PCE 核心個人消費支出物價指數 | `PCEPILFE` | **3.01 % YoY** | +0.02 | ▲ | 2026-08-01 |
-| 🔴 PPI 生產者物價指數 | `PPIACO` | **9.85 % YoY** | +1.15 | ▲ | 2026-08-01 |
+| 🔴 PPI 生產者物價指數 | `PPIACO` | **12.84 % YoY** | +3.07 | ▲ | 2026-09-01 |
 | 🔴 WPI / Core PPI 躉售物價指數 | `PPIFIS` | **6.35 % YoY** | +0.76 | ▲ | 2026-09-01 |
 
 
@@ -33,8 +33,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ Real GDP 實質國內生產毛額 | `GDPC1` | **2.10 % YoY** | -0.58 | ▼ | 2026-04-01 |
 | ⚪ Retail Sales 零售銷售（扣除汽車） | `RSXFS` | **6.19 % YoY** | +0.67 | ▲ | 2026-09-01 |
-| ⚪ Industrial Production 工業生產指數 | `INDPRO` | **1.42 % YoY** | +0.29 | ▲ | 2026-08-01 |
-| ⚪ 工業生產指數（製造業景氣代理指標） | `INDPRO` | **1.42 % YoY** | +0.29 | ▲ | 2026-08-01 |
+| ⚪ Industrial Production 工業生產指數 | `INDPRO` | **2.25 % YoY** | +0.63 | ▲ | 2026-09-01 |
+| ⚪ 工業生產指數（製造業景氣代理指標） | `INDPRO` | **2.25 % YoY** | +0.63 | ▲ | 2026-09-01 |
 | ⚪ Durable Goods 耐久財訂單 | `DGORDER` | **8.48 % YoY** | -3.28 | ▼ | 2026-08-01 |
 
 
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-10-15 17:14 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-10-16 17:06 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
