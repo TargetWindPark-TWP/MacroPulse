@@ -1,12 +1,9 @@
 {
-  "run_at": "2026-10-16T17:06:10.378335Z",
-  "mode": "daily,monthly_mid",
-  "targets": 18,
-  "updated": 2,
-  "updated_ids": [
-    "PPIACO",
-    "INDPRO"
-  ],
+  "run_at": "2026-10-17T00:41:29.690321Z",
+  "mode": "daily",
+  "targets": 7,
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
