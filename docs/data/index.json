@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:06:08.122702Z",
+  "generated_at": "2026-10-20T01:09:25.319748Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -428,13 +428,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "quarterly",
-      "latest_date": "2026-01-01",
-      "latest_value": 2.92,
-      "prev_value": 2.94,
-      "change": -0.02,
+      "latest_date": "2026-04-01",
+      "latest_value": 2.85,
+      "prev_value": 2.91,
+      "change": -0.06,
       "signal": "🟡",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-27T02:10:05.283891Z"
+      "updated_at": "2026-10-20T01:09:22.079211Z"
     },
     {
       "id": "DRSFRMACBS",
@@ -443,13 +443,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "quarterly",
-      "latest_date": "2026-01-01",
-      "latest_value": 1.89,
-      "prev_value": 1.79,
-      "change": 0.1,
+      "latest_date": "2026-04-01",
+      "latest_value": 1.86,
+      "prev_value": 1.88,
+      "change": -0.02,
       "signal": "🟢",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-05-27T02:10:06.039781Z"
+      "updated_at": "2026-10-20T01:09:22.918223Z"
     },
     {
       "id": "BAMLH0A0HYM2",

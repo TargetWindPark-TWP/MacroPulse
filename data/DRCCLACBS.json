@@ -10,10 +10,6 @@
   "source": "Federal Reserve via FRED",
   "raw_observations": [
     {
-      "date": "2021-04-01",
-      "value": 1.59
-    },
-    {
       "date": "2021-07-01",
       "value": 1.53
     },
@@ -47,7 +43,7 @@
     },
     {
       "date": "2023-07-01",
-      "value": 2.94
+      "value": 2.95
     },
     {
       "date": "2023-10-01",
@@ -71,7 +67,7 @@
     },
     {
       "date": "2025-01-01",
-      "value": 3.06
+      "value": 3.05
     },
     {
       "date": "2025-04-01",
@@ -79,24 +75,24 @@
     },
     {
       "date": "2025-07-01",
-      "value": 2.98
+      "value": 2.99
     },
     {
       "date": "2025-10-01",
-      "value": 2.94
+      "value": 2.95
     },
     {
       "date": "2026-01-01",
-      "value": 2.92
+      "value": 2.91
+    },
+    {
+      "date": "2026-04-01",
+      "value": 2.85
     }
   ],
-  "latest_raw_date": "2026-01-01",
-  "latest_raw_value": 2.92,
+  "latest_raw_date": "2026-04-01",
+  "latest_raw_value": 2.85,
   "yoy_observations": [
-    {
-      "date": "2024-04-01",
-      "value": 1.63
-    },
     {
       "date": "2024-07-01",
       "value": 1.67
@@ -107,7 +103,7 @@
     },
     {
       "date": "2025-01-01",
-      "value": 1.37
+      "value": 1.36
     },
     {
       "date": "2025-04-01",
@@ -115,27 +111,27 @@
     },
     {
       "date": "2025-07-01",
-      "value": 0.93
+      "value": 0.94
     },
     {
       "date": "2025-10-01",
-      "value": 0.68
+      "value": 0.69
     },
     {
       "date": "2026-01-01",
-      "value": 0.45
+      "value": 0.44
+    },
+    {
+      "date": "2026-04-01",
+      "value": 0.1
     }
   ],
-  "latest_yoy_date": "2026-01-01",
-  "latest_yoy_value": 0.45,
+  "latest_yoy_date": "2026-04-01",
+  "latest_yoy_value": 0.1,
   "mom_observations": [],
   "latest_mom_date": "",
   "latest_mom_value": null,
   "observations": [
-    {
-      "date": "2021-04-01",
-      "value": 1.59
-    },
     {
       "date": "2021-07-01",
       "value": 1.53
@@ -170,7 +166,7 @@
     },
     {
       "date": "2023-07-01",
-      "value": 2.94
+      "value": 2.95
     },
     {
       "date": "2023-10-01",
@@ -194,7 +190,7 @@
     },
     {
       "date": "2025-01-01",
-      "value": 3.06
+      "value": 3.05
     },
     {
       "date": "2025-04-01",
@@ -202,19 +198,23 @@
     },
     {
       "date": "2025-07-01",
-      "value": 2.98
+      "value": 2.99
     },
     {
       "date": "2025-10-01",
-      "value": 2.94
+      "value": 2.95
     },
     {
       "date": "2026-01-01",
-      "value": 2.92
+      "value": 2.91
+    },
+    {
+      "date": "2026-04-01",
+      "value": 2.85
     }
   ],
-  "latest_date": "2026-01-01",
-  "latest_value": 2.92,
-  "fetched_at": "2026-05-27T02:10:05.283891Z",
+  "latest_date": "2026-04-01",
+  "latest_value": 2.85,
+  "fetched_at": "2026-10-20T01:09:22.079211Z",
   "count": 20
 }
