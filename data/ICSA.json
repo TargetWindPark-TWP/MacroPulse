@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-10-19",
-      "value": 227000.0
-    },
-    {
       "date": "2024-10-26",
       "value": 219000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-10-10",
-      "value": 199000.0
+      "value": 200000.0
+    },
+    {
+      "date": "2026-10-17",
+      "value": 194000.0
     }
   ],
-  "latest_raw_date": "2026-10-10",
-  "latest_raw_value": 199000.0,
+  "latest_raw_date": "2026-10-17",
+  "latest_raw_value": 194000.0,
   "yoy_observations": [
-    {
-      "date": "2025-01-11",
-      "value": -3.524
-    },
     {
       "date": "2025-01-18",
       "value": 1.826
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-10-10",
-      "value": 5.291
+      "value": 5.82
+    },
+    {
+      "date": "2026-10-17",
+      "value": -2.02
     }
   ],
-  "latest_yoy_date": "2026-10-10",
-  "latest_yoy_value": 5.291,
+  "latest_yoy_date": "2026-10-17",
+  "latest_yoy_value": -2.02,
   "mom_observations": [
-    {
-      "date": "2024-10-26",
-      "value": -3.524
-    },
     {
       "date": "2024-11-02",
       "value": 0.913
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-10-10",
-      "value": 0.505
+      "value": 1.01
+    },
+    {
+      "date": "2026-10-17",
+      "value": -3.0
     }
   ],
-  "latest_mom_date": "2026-10-10",
-  "latest_mom_value": 0.505,
+  "latest_mom_date": "2026-10-17",
+  "latest_mom_value": -3.0,
   "observations": [
-    {
-      "date": "2024-10-19",
-      "value": 227000.0
-    },
     {
       "date": "2024-10-26",
       "value": 219000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-10-10",
-      "value": 199000.0
+      "value": 200000.0
+    },
+    {
+      "date": "2026-10-17",
+      "value": 194000.0
     }
   ],
-  "latest_date": "2026-10-10",
-  "latest_value": 199000.0,
-  "fetched_at": "2026-10-15T17:14:41.481032Z",
+  "latest_date": "2026-10-17",
+  "latest_value": 194000.0,
+  "fetched_at": "2026-10-22T17:27:05.481533Z",
   "count": 104
 }

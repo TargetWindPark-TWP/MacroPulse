@@ -1,6 +1,6 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-10-20** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-10-22** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
@@ -44,8 +44,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ NFP 非農就業人數 | `PAYEMS` | **29.00 K MoM** | -104.00 | ▼ | 2026-09-01 |
 | 🟡 失業率 Unemployment Rate | `UNRATE` | **4.20 %** | +0.10 | ▲ | 2026-09-01 |
-| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **199000.00 人** | +1000.00 | ▲ | 2026-10-10 |
-| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1710000.00 人** | -4000.00 | ▼ | 2026-10-03 |
+| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **194000.00 人** | -6000.00 | ▼ | 2026-10-17 |
+| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1728000.00 人** | +25000.00 | ▲ | 2026-10-10 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.02 % YoY** | -0.09 | ▼ | 2026-09-01 |
 | ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7079.00 K** | -256.00 | ▼ | 2026-08-01 |
 
@@ -56,9 +56,9 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **51.70 Index** | -3.50 | ▼ | 2026-08-01 |
 | ⚪ VIX 恐慌指數 | `VIXCLS` | **15.73 Index** | +0.50 | ▲ | 2026-09-01 |
-| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.50 Index** | +0.01 | ▲ | 2026-10-09 |
-| ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.72 Index** | -0.25 | ▼ | 2026-10-09 |
+| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.50 Index** | +0.01 | ▲ | 2026-10-16 |
+| ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.63 Index** | +0.09 | ▲ | 2026-10-16 |
 
 
 ---
-*自動生成於 2026-10-20 01:09 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-10-22 17:27 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
