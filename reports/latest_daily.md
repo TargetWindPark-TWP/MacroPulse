@@ -35,7 +35,7 @@
 | ⚪ Retail Sales 零售銷售（扣除汽車） | `RSXFS` | **6.19 % YoY** | +0.67 | ▲ | 2026-09-01 |
 | ⚪ Industrial Production 工業生產指數 | `INDPRO` | **2.25 % YoY** | +0.63 | ▲ | 2026-09-01 |
 | ⚪ 工業生產指數（製造業景氣代理指標） | `INDPRO` | **2.25 % YoY** | +0.63 | ▲ | 2026-09-01 |
-| ⚪ Durable Goods 耐久財訂單 | `DGORDER` | **8.48 % YoY** | -3.28 | ▼ | 2026-08-01 |
+| ⚪ Durable Goods 耐久財訂單 | `DGORDER` | **9.94 % YoY** | +1.30 | ▲ | 2026-09-01 |
 
 
 ### 👷 勞動市場
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-10-27 01:34 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-10-27 18:30 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*

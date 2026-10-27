@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T01:34:53.199929Z",
+  "generated_at": "2026-10-27T18:30:25.483689Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -158,13 +158,13 @@
       "category": "growth",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-08-01",
-      "latest_value": 8.479,
-      "prev_value": 11.758,
-      "change": -3.279,
+      "latest_date": "2026-09-01",
+      "latest_value": 9.939,
+      "prev_value": 8.643,
+      "change": 1.296,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-09-25T17:42:56.350492Z"
+      "updated_at": "2026-10-27T18:29:58.764360Z"
     },
     {
       "id": "PAYEMS",
@@ -488,13 +488,13 @@
       "category": "housing",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-08-01",
-      "latest_value": 684.0,
-      "prev_value": 643.0,
-      "change": 41.0,
+      "latest_date": "2026-09-01",
+      "latest_value": 676.0,
+      "prev_value": 680.0,
+      "change": -4.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-09-24T17:26:04.314051Z"
+      "updated_at": "2026-10-27T18:30:25.464667Z"
     },
     {
       "id": "EXHOSLUSM495S",
