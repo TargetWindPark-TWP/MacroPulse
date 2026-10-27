@@ -1,6 +1,6 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-10-26** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-10-27** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
@@ -10,7 +10,7 @@
 | ⚪ **2Y Treasury** | 4.60 % | 2年期公債殖利率 |
 | ⚪ **10Y Treasury** | 4.93 % | 10年期公債殖利率 |
 | ⚪ **30Y Treasury** | 5.32 % | 30年期公債殖利率 |
-| 🟡 **10Y−2Y Spread** | 0.33 % | 殖利率曲線利差（負值=倒掛） |
+| 🟡 **10Y−2Y Spread** | 0.40 % | 殖利率曲線利差（負值=倒掛） |
 | ⚪ **HY Spread** | 3.21 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-10-26 18:58 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-10-27 01:34 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
