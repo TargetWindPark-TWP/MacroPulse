@@ -1,9 +1,12 @@
 {
-  "run_at": "2026-10-28T18:36:19.002523Z",
-  "mode": "daily,monthly_end,quarterly",
-  "targets": 14,
-  "updated": 0,
-  "updated_ids": [],
+  "run_at": "2026-10-29T01:54:47.685475Z",
+  "mode": "daily,monthly_end,quarterly,weekly",
+  "targets": 19,
+  "updated": 2,
+  "updated_ids": [
+    "NFCI",
+    "STLFSI4"
+  ],
   "alerts": 5,
   "errors": 0
 }

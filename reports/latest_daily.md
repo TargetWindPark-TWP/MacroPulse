@@ -1,6 +1,6 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-10-28** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-10-29** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
@@ -56,9 +56,9 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **51.70 Index** | -3.50 | ▼ | 2026-08-01 |
 | ⚪ VIX 恐慌指數 | `VIXCLS` | **16.60 Index** | +0.82 | ▲ | 2026-10-01 |
-| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.50 Index** | +0.01 | ▲ | 2026-10-16 |
-| ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.63 Index** | +0.09 | ▲ | 2026-10-16 |
+| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.49 Index** | +0.01 | ▲ | 2026-10-23 |
+| ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.58 Index** | +0.05 | ▲ | 2026-10-23 |
 
 
 ---
-*自動生成於 2026-10-28 01:33 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-10-29 01:54 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
