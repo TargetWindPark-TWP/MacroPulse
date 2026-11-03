@@ -1,6 +1,6 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-10-29** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-11-03** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
@@ -47,7 +47,7 @@
 | ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **194000.00 人** | -1000.00 | ▼ | 2026-10-24 |
 | ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1701000.00 人** | -21000.00 | ▼ | 2026-10-17 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.02 % YoY** | -0.09 | ▼ | 2026-09-01 |
-| ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7079.00 K** | -256.00 | ▼ | 2026-08-01 |
+| ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7523.00 K** | +333.00 | ▲ | 2026-09-01 |
 
 
 ### 💭 信心指數
@@ -61,4 +61,4 @@
 
 
 ---
-*自動生成於 2026-10-29 18:35 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-03 20:00 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
