@@ -125,7 +125,7 @@ indicators:
     fred_limit: 132
 
   - id: INDPRO
-    name: "Industrial Production 工業生產指數"
+    name: "Industrial Production 工業生產指數（製造業景氣代理指標）"
     name_en: "Industrial Production Index"
     category: growth
     source: Federal Reserve via FRED
@@ -137,19 +137,7 @@ indicators:
     raw_unit: "Index (2017=100)"
     fred_limit: 132
 
-  - id: INDPRO
-    name: "工業生產指數（製造業景氣代理指標）"
-    name_en: "Industrial Production Index"
-    category: growth
-    source: Federal Reserve via FRED
-    frequency: monthly
-    schedule: mid_month
-    transform: yoy
-    unit: "% YoY"
-    raw_unit: "Index (2017=100)"
-    fred_limit: 132
-
-  - id: DGORDER
+    - id: DGORDER
     name: "Durable Goods 耐久財訂單"
     name_en: "Manufacturers' New Orders: Durable Goods"
     category: growth
