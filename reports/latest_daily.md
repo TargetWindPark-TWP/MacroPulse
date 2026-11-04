@@ -1,17 +1,17 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-11-03** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-11-04** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
 | 指標 | 最新值 | 說明 |
 |------|--------|------|
-| ⚪ **Fed Funds Rate** | 3.75 % | 聯邦基金利率 |
-| ⚪ **2Y Treasury** | 4.77 % | 2年期公債殖利率 |
-| ⚪ **10Y Treasury** | 5.16 % | 10年期公債殖利率 |
-| ⚪ **30Y Treasury** | 5.51 % | 30年期公債殖利率 |
-| 🟡 **10Y−2Y Spread** | 0.40 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.21 % | 高收益債信用利差 |
+| ⚪ **Fed Funds Rate** | 3.88 % | 聯邦基金利率 |
+| ⚪ **2Y Treasury** | 4.59 % | 2年期公債殖利率 |
+| ⚪ **10Y Treasury** | 4.91 % | 10年期公債殖利率 |
+| ⚪ **30Y Treasury** | 5.28 % | 30年期公債殖利率 |
+| 🟡 **10Y−2Y Spread** | 0.34 % | 殖利率曲線利差（負值=倒掛） |
+| ⚪ **HY Spread** | 3.43 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -33,9 +33,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ Real GDP 實質國內生產毛額 | `GDPC1` | **2.07 % YoY** | -0.13 | ▼ | 2026-07-01 |
 | ⚪ Retail Sales 零售銷售（扣除汽車） | `RSXFS` | **6.19 % YoY** | +0.67 | ▲ | 2026-09-01 |
-| ⚪ Industrial Production 工業生產指數 | `INDPRO` | **2.25 % YoY** | +0.63 | ▲ | 2026-09-01 |
-| ⚪ 工業生產指數（製造業景氣代理指標） | `INDPRO` | **2.25 % YoY** | +0.63 | ▲ | 2026-09-01 |
-| ⚪ Durable Goods 耐久財訂單 | `DGORDER` | **9.94 % YoY** | +1.30 | ▲ | 2026-09-01 |
+| ⚪ Industrial Production 工業生產指數（製造業景氣代理指標） | `INDPRO` | **2.25 % YoY** | +0.63 | ▲ | 2026-09-01 |
+| ⚪ Durable Goods 耐久財訂單 | `DGORDER` | **10.04 % YoY** | +1.37 | ▲ | 2026-09-01 |
 
 
 ### 👷 勞動市場
@@ -54,11 +53,11 @@
 
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
-| ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **51.70 Index** | -3.50 | ▼ | 2026-08-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **16.60 Index** | +0.82 | ▲ | 2026-10-01 |
+| ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.10 Index** | -3.60 | ▼ | 2026-09-01 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **21.15 Index** | +1.73 | ▲ | 2026-11-02 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.49 Index** | +0.01 | ▲ | 2026-10-23 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.58 Index** | +0.05 | ▲ | 2026-10-23 |
 
 
 ---
-*自動生成於 2026-11-03 20:00 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-04 02:01 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
