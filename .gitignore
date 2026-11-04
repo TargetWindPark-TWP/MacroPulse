@@ -1,0 +1,2 @@
+# Excel 報告每次執行都會重新產生，不納入版本控制
+reports/excel/

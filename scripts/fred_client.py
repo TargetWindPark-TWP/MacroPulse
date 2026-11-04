@@ -14,6 +14,7 @@ log = logging.getLogger(__name__)
 
 FRED_BASE = "https://api.stlouisfed.org/fred"
 CNN_FNG   = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+DAILY_FETCH_LIMIT = 3200   # 日頻序列一次抓的最大筆數（約 12 年，足夠算 132 個月平均）
 HEADERS   = {
     "User-Agent": "MacroPulse/1.0 (github.com; economic-research-bot)",
     "Accept": "application/json",
@@ -311,6 +312,15 @@ def is_new_data(existing: Optional[dict], observations: list[dict]) -> bool:
     return new_latest > existing_latest or (
         observations and observations[-1]["value"] != existing.get("latest_raw_value"))
 
+
+def monthly_average(obs: list[dict]) -> list[dict]:
+    """日資料 → 月平均（日期為當月 1 日；當月未結束時為月初至今的平均）"""
+    buckets: dict[str, list[float]] = {}
+    for o in obs:
+        buckets.setdefault(o["date"][:7], []).append(o["value"])
+    return [{"date": f"{k}-01", "value": round(sum(v) / len(v), 2)}
+            for k, v in sorted(buckets.items())]
+
 # ─── Main Fetch Orchestrator ──────────────────────────────────────────────────
 
 def fetch_indicator(
@@ -344,15 +354,17 @@ def fetch_indicator(
     transform = indicator.get("transform", "none")
     freq      = indicator.get("frequency", "monthly")
 
-    # 日頻序列聚合為月頻（減少資料量，圖表更清晰）
-    fred_frequency = "m" if freq == "daily" else None
-
-    # 抓取原始數據
-    raw_obs = client.get_observations(
-        series_id = sid,
-        limit     = indicator.get("fred_limit", 132),
-        frequency = fred_frequency,
-    )
+    # 日頻序列：抓日資料（不讓 FRED 聚合），本地算月平均供 YoY/MoM，日值供顯示與判斷更新
+    daily_clean = None
+    if freq == "daily":
+        daily_all   = client.get_observations(series_id=sid, limit=DAILY_FETCH_LIMIT)
+        daily_clean = [o for o in daily_all if o["value"] is not None]
+        raw_obs     = monthly_average(daily_clean)[-132:]
+    else:
+        raw_obs = client.get_observations(
+            series_id = sid,
+            limit     = indicator.get("fred_limit", 132),
+        )
 
     if not raw_obs:
         log.warning(f"  {sid}: 未取得任何數據")
@@ -392,9 +404,16 @@ def fetch_indicator(
     transformed = transform_observations(raw_clean, transform, freq)
     latest      = get_latest_value(transformed)
 
+    # 日頻指標（transform=none）：展示資料與「最新值」改用日值；YoY/MoM 仍是月頻
+    use_daily = bool(daily_clean) and transform == "none"
+    if use_daily:
+        latest_raw  = daily_clean[-1]
+        transformed = daily_clean[-indicator.get("fred_limit", 500):]
+        latest      = transformed[-1]
+
     # ── 比較是否有新數據 ────────────────────────────────────────────────────
     existing = load_existing(data_dir, sid)
-    if not force and not is_new_data(existing, raw_clean):
+    if not force and not is_new_data(existing, daily_clean if use_daily else raw_clean):
         log.info(f"  {sid}: 無新數據，跳過")
         return {"id": sid, "status": "no_new_data", "latest": latest}
 

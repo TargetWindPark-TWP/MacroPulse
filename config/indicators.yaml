@@ -137,7 +137,7 @@ indicators:
     raw_unit: "Index (2017=100)"
     fred_limit: 132
 
-    - id: DGORDER
+  - id: DGORDER
     name: "Durable Goods 耐久財訂單"
     name_en: "Manufacturers' New Orders: Durable Goods"
     category: growth
