@@ -308,8 +308,8 @@ def is_new_data(existing: Optional[dict], observations: list[dict]) -> bool:
         return True
     existing_latest = existing.get("latest_date", "")
     new_latest = observations[-1]["date"] if observations else ""
-    return new_latest > existing_latest
-
+    return new_latest > existing_latest or (
+        observations and observations[-1]["value"] != existing.get("latest_raw_value"))
 
 # ─── Main Fetch Orchestrator ──────────────────────────────────────────────────
 
