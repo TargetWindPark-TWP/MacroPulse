@@ -81,8 +81,7 @@ def schedule_matches(indicator: dict, modes: set[str]) -> bool:
         "end_month":      "monthly_end",
         "quarterly":      "quarterly",
     }
-    target = mapping.get(sched, "monthly_mid")
-    return target in modes
+    return True   # 每次都抓，是否更新交給 is_new_data 判斷
 
 
 # ─── Alert Check ─────────────────────────────────────────────────────────────
