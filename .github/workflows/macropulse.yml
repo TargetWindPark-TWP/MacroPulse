@@ -87,12 +87,28 @@ jobs:
             git push
           fi
 
-      - name: Create alert issue (if triggered)
+      - name: Create or update alert issue (if triggered)
         if: hashFiles('reports/.alerts') != ''
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: "⚠️ MacroPulse 總經警示"
-          content-filepath: reports/.alerts
-          labels: alert, economics
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_TITLE: "⚠️ MacroPulse 總經警示"
+        run: |
+          # 已有開啟中的警示 issue（取最新一張）就更新內容；沒有才新建
+          NUM=$(gh api "repos/$GITHUB_REPOSITORY/issues?state=open&labels=alert&per_page=100" \
+            | jq -r --arg t "$ISSUE_TITLE" '[.[] | select(.title == $t and (has("pull_request") | not))][0].number // empty')
+          if [ -n "$NUM" ]; then
+            OLD=$(gh api "repos/$GITHUB_REPOSITORY/issues/$NUM" --jq .body | grep '^- ' | sort || true)
+            NEW=$(grep '^- ' reports/.alerts | sort || true)
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/$NUM" -F body=@reports/.alerts > /dev/null
+            if [ "$OLD" != "$NEW" ]; then
+              # 警示項目有增減時才留言，這樣有通知又不洗版
+              gh api -X POST "repos/$GITHUB_REPOSITORY/issues/$NUM/comments" -F body=@reports/.alerts > /dev/null
+              echo "Updated issue #$NUM (alerts changed, comment posted)"
+            else
+              echo "Updated issue #$NUM (alerts unchanged)"
+            fi
+          else
+            gh api -X POST "repos/$GITHUB_REPOSITORY/issues" \
+              -f title="$ISSUE_TITLE" -F body=@reports/.alerts \
+              -f 'labels[]=alert' -f 'labels[]=economics' --jq '"Created issue #\(.number)"'
+          fi

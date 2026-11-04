@@ -377,7 +377,8 @@ async function openChart(id) {
   }
   document.getElementById("modal-loading").remove();
 
-  const obs   = data.observations.slice(-120);
+  // 日頻指標（殖利率、VIX…）資料是日值：取約一年（240 個交易日）；其餘取 120 期
+  const obs   = data.observations.slice(ind?.frequency === "daily" ? -240 : -120);
   const color = CAT_COLOR[ind?.category] || "#00d4ff";
 
   activeChart = new Chart(document.getElementById("modal-chart"), {
