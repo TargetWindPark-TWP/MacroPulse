@@ -74,6 +74,15 @@ jobs:
           FORCE_REFRESH: ${{ steps.mode.outputs.force }}
         run: python scripts/run.py --mode "$RUN_MODE" ${{ steps.mode.outputs.force == 'true' && '--force' || '' }}
 
+      # Excel 不再 commit 進 repo；改成可從該次執行頁面（Actions → 該 run → Artifacts）下載
+      - name: Upload Excel report
+        uses: actions/upload-artifact@v4
+        with:
+          name: MacroPulse-Excel
+          path: reports/excel/*.xlsx
+          retention-days: 30
+          if-no-files-found: ignore
+
       - name: Commit updated data & reports
         run: |
           git config user.name  "MacroPulse Bot"
@@ -111,4 +120,22 @@ jobs:
             gh api -X POST "repos/$GITHUB_REPOSITORY/issues" \
               -f title="$ISSUE_TITLE" -F body=@reports/.alerts \
               -f 'labels[]=alert' -f 'labels[]=economics' --jq '"Created issue #\(.number)"'
+          fi
+
+      - name: Close alert issue (if alerts cleared)
+        if: hashFiles('reports/.alerts') == ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_TITLE: "⚠️ MacroPulse 總經警示"
+        run: |
+          # 目前沒有任何警示：若還有開啟中的警示 issue，留言說明後關閉
+          NUM=$(gh api "repos/$GITHUB_REPOSITORY/issues?state=open&labels=alert&per_page=100" \
+            | jq -r --arg t "$ISSUE_TITLE" '[.[] | select(.title == $t and (has("pull_request") | not))][0].number // empty')
+          if [ -n "$NUM" ]; then
+            gh api -X POST "repos/$GITHUB_REPOSITORY/issues/$NUM/comments" \
+              -f body="✅ 目前所有指標都未觸發警示，自動關閉（$(date -u '+%Y-%m-%d %H:%M UTC')）。" > /dev/null
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/issues/$NUM" -f state=closed -f state_reason=completed > /dev/null
+            echo "Closed issue #$NUM (alerts cleared)"
+          else
+            echo "No open alert issue; nothing to close"
           fi
