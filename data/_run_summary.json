@@ -1,21 +1,9 @@
 {
-  "run_at": "2026-11-04T02:01:55.489973Z",
+  "run_at": "2026-11-04T02:11:39.077733Z",
   "mode": "daily",
   "targets": 33,
-  "updated": 11,
-  "updated_ids": [
-    "DGORDER",
-    "UMCSENT",
-    "VIXCLS",
-    "BAMLC0A0CM",
-    "FEDFUNDS",
-    "DGS2",
-    "DGS10",
-    "DGS30",
-    "T10Y2Y",
-    "BAMLH0A0HYM2",
-    "HOUST"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 4,
   "errors": 0
 }
