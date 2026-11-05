@@ -1,9 +1,19 @@
 {
-  "run_at": "2026-11-04T02:51:49.858615Z",
-  "mode": "fetch-all",
+  "run_at": "2026-11-05T02:41:34.549369Z",
+  "mode": "daily,monthly_early,weekly",
   "targets": 33,
-  "updated": 0,
-  "updated_ids": [],
+  "updated": 9,
+  "updated_ids": [
+    "VIXCLS",
+    "NFCI",
+    "STLFSI4",
+    "BAMLC0A0CM",
+    "DGS2",
+    "DGS10",
+    "DGS30",
+    "T10Y2Y",
+    "BAMLH0A0HYM2"
+  ],
   "alerts": 4,
   "errors": 0
 }
