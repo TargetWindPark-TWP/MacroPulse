@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-11-02",
-      "value": 221000.0
-    },
-    {
       "date": "2024-11-09",
       "value": 218000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-10-24",
-      "value": 194000.0
+      "value": 195000.0
+    },
+    {
+      "date": "2026-10-31",
+      "value": 189000.0
     }
   ],
-  "latest_raw_date": "2026-10-24",
-  "latest_raw_value": 194000.0,
+  "latest_raw_date": "2026-10-31",
+  "latest_raw_value": 189000.0,
   "yoy_observations": [
-    {
-      "date": "2025-01-25",
-      "value": -4.072
-    },
     {
       "date": "2025-02-01",
       "value": 0.917
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-10-24",
-      "value": -3.0
+      "value": -2.5
+    },
+    {
+      "date": "2026-10-31",
+      "value": -10.849
     }
   ],
-  "latest_yoy_date": "2026-10-24",
-  "latest_yoy_value": -3.0,
+  "latest_yoy_date": "2026-10-31",
+  "latest_yoy_value": -10.849,
   "mom_observations": [
-    {
-      "date": "2024-11-09",
-      "value": -1.357
-    },
     {
       "date": "2024-11-16",
       "value": -0.917
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-10-24",
-      "value": -0.513
+      "value": 0.0
+    },
+    {
+      "date": "2026-10-31",
+      "value": -3.077
     }
   ],
-  "latest_mom_date": "2026-10-24",
-  "latest_mom_value": -0.513,
+  "latest_mom_date": "2026-10-31",
+  "latest_mom_value": -3.077,
   "observations": [
-    {
-      "date": "2024-11-02",
-      "value": 221000.0
-    },
     {
       "date": "2024-11-09",
       "value": 218000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-10-24",
-      "value": 194000.0
+      "value": 195000.0
+    },
+    {
+      "date": "2026-10-31",
+      "value": 189000.0
     }
   ],
-  "latest_date": "2026-10-24",
-  "latest_value": 194000.0,
-  "fetched_at": "2026-10-29T18:35:01.544983Z",
+  "latest_date": "2026-10-31",
+  "latest_value": 189000.0,
+  "fetched_at": "2026-11-05T20:10:41.080224Z",
   "count": 104
 }
