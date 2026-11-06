@@ -1,15 +1,13 @@
 {
-  "run_at": "2026-11-05T20:11:02.886904Z",
-  "mode": "daily,monthly_early,weekly",
+  "run_at": "2026-11-06T02:44:27.179392Z",
+  "mode": "daily",
   "targets": 33,
-  "updated": 6,
+  "updated": 4,
   "updated_ids": [
-    "ICSA",
-    "CCSA",
-    "VIXCLS",
-    "BAMLC0A0CM",
-    "MORTGAGE30US",
-    "BAMLH0A0HYM2"
+    "DGS2",
+    "DGS10",
+    "DGS30",
+    "T10Y2Y"
   ],
   "alerts": 4,
   "errors": 0
