@@ -1,17 +1,17 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-11-06** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-11-07** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
 | 指標 | 最新值 | 說明 |
 |------|--------|------|
 | ⚪ **Fed Funds Rate** | 3.88 % | 聯邦基金利率 |
-| ⚪ **2Y Treasury** | 4.58 % | 2年期公債殖利率 |
-| ⚪ **10Y Treasury** | 4.90 % | 10年期公債殖利率 |
-| ⚪ **30Y Treasury** | 5.28 % | 30年期公債殖利率 |
-| 🟡 **10Y−2Y Spread** | 0.38 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.32 % | 高收益債信用利差 |
+| ⚪ **2Y Treasury** | 4.46 % | 2年期公債殖利率 |
+| ⚪ **10Y Treasury** | 4.84 % | 10年期公債殖利率 |
+| ⚪ **30Y Treasury** | 5.25 % | 30年期公債殖利率 |
+| 🟡 **10Y−2Y Spread** | 0.35 % | 殖利率曲線利差（負值=倒掛） |
+| ⚪ **HY Spread** | 3.48 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -41,11 +41,11 @@
 
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
-| ⚪ NFP 非農就業人數 | `PAYEMS` | **29.00 K MoM** | -104.00 | ▼ | 2026-09-01 |
-| 🟡 失業率 Unemployment Rate | `UNRATE` | **4.20 %** | +0.10 | ▲ | 2026-09-01 |
+| ⚪ NFP 非農就業人數 | `PAYEMS` | **165.00 K MoM** | +105.00 | ▲ | 2026-10-01 |
+| 🟡 失業率 Unemployment Rate | `UNRATE` | **4.10 %** | -0.10 | ▼ | 2026-10-01 |
 | ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **189000.00 人** | -6000.00 | ▼ | 2026-10-31 |
 | ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1718000.00 人** | +23000.00 | ▲ | 2026-10-24 |
-| ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.02 % YoY** | -0.09 | ▼ | 2026-09-01 |
+| ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.12 % YoY** | -0.04 | ▼ | 2026-10-01 |
 | ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7523.00 K** | +333.00 | ▲ | 2026-09-01 |
 
 
@@ -54,10 +54,10 @@
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.10 Index** | -3.60 | ▼ | 2026-09-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **16.61 Index** | -4.22 | ▼ | 2026-11-04 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **28.18 Index** | +11.57 | ▲ | 2026-11-05 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.46 Index** | +0.01 | ▲ | 2026-10-30 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.52 Index** | +0.06 | ▲ | 2026-10-30 |
 
 
 ---
-*自動生成於 2026-11-06 02:44 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-07 02:13 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
