@@ -535,11 +535,11 @@
     },
     {
       "date": "2026-11-01",
-      "value": 4.56
+      "value": 4.55
     }
   ],
-  "latest_raw_date": "2026-11-05",
-  "latest_raw_value": 4.46,
+  "latest_raw_date": "2026-11-06",
+  "latest_raw_value": 4.51,
   "yoy_observations": [
     {
       "date": "2016-12-01",
@@ -1019,11 +1019,11 @@
     },
     {
       "date": "2026-11-01",
-      "value": 1.01
+      "value": 1.0
     }
   ],
   "latest_yoy_date": "2026-11-01",
-  "latest_yoy_value": 1.01,
+  "latest_yoy_value": 1.0,
   "mom_observations": [
     {
       "date": "2016-12-01",
@@ -1503,16 +1503,12 @@
     },
     {
       "date": "2026-11-01",
-      "value": -0.18
+      "value": -0.19
     }
   ],
   "latest_mom_date": "2026-11-01",
-  "latest_mom_value": -0.18,
+  "latest_mom_value": -0.19,
   "observations": [
-    {
-      "date": "2024-11-05",
-      "value": 4.19
-    },
     {
       "date": "2024-11-06",
       "value": 4.27
@@ -3508,10 +3504,14 @@
     {
       "date": "2026-11-05",
       "value": 4.46
+    },
+    {
+      "date": "2026-11-06",
+      "value": 4.51
     }
   ],
-  "latest_date": "2026-11-05",
-  "latest_value": 4.46,
-  "fetched_at": "2026-11-07T02:13:36.668611Z",
+  "latest_date": "2026-11-06",
+  "latest_value": 4.51,
+  "fetched_at": "2026-11-10T04:15:33.714714Z",
   "count": 132
 }
