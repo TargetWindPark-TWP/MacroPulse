@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:15:43.922502Z",
+  "generated_at": "2026-11-10T20:06:14.059123Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -8,13 +8,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-09-01",
-      "latest_value": 4.023,
-      "prev_value": 3.713,
-      "change": 0.31,
+      "latest_date": "2026-10-01",
+      "latest_value": 4.081,
+      "prev_value": 4.023,
+      "change": 0.058,
       "signal": "🔴",
       "source": "BLS via FRED",
-      "updated_at": "2026-10-14T17:41:07.955048Z"
+      "updated_at": "2026-11-10T20:05:44.486652Z"
     },
     {
       "id": "CPILFESL",
@@ -23,13 +23,13 @@
       "category": "inflation",
       "unit": "% YoY",
       "frequency": "monthly",
-      "latest_date": "2026-09-01",
-      "latest_value": 2.789,
-      "prev_value": 2.763,
-      "change": 0.026,
+      "latest_date": "2026-10-01",
+      "latest_value": 2.87,
+      "prev_value": 2.789,
+      "change": 0.081,
       "signal": "🟡",
       "source": "BLS via FRED",
-      "updated_at": "2026-10-14T17:41:08.874781Z"
+      "updated_at": "2026-11-10T20:05:45.437711Z"
     },
     {
       "id": "PCEPI",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-11-06",
-      "latest_value": 25.64,
-      "prev_value": 28.18,
-      "change": -2.54,
+      "latest_date": "2026-11-09",
+      "latest_value": 19.92,
+      "prev_value": 25.64,
+      "change": -5.72,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-11-10T04:15:29.087778Z"
+      "updated_at": "2026-11-10T20:06:00.736754Z"
     },
     {
       "id": "NFCI",
@@ -308,13 +308,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-06",
-      "latest_value": 0.93,
+      "latest_date": "2026-11-09",
+      "latest_value": 0.91,
       "prev_value": 0.93,
-      "change": 0.0,
+      "change": -0.02,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-10T04:15:31.912980Z"
+      "updated_at": "2026-11-10T20:06:03.454644Z"
     },
     {
       "id": "FEDFUNDS",
@@ -443,13 +443,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-06",
-      "latest_value": 3.42,
-      "prev_value": 3.48,
-      "change": -0.06,
+      "latest_date": "2026-11-09",
+      "latest_value": 3.34,
+      "prev_value": 3.42,
+      "change": -0.08,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-10T04:15:41.252525Z"
+      "updated_at": "2026-11-10T20:06:11.596665Z"
     },
     {
       "id": "HOUST",
