@@ -54,10 +54,10 @@
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.10 Index** | -3.60 | ▼ | 2026-09-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **19.92 Index** | -5.72 | ▼ | 2026-11-09 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **19.46 Index** | -0.46 | ▼ | 2026-11-10 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.46 Index** | +0.01 | ▲ | 2026-10-30 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.52 Index** | +0.06 | ▲ | 2026-10-30 |
 
 
 ---
-*自動生成於 2026-11-11 02:06 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-11 19:56 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*

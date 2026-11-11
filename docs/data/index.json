@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:06:25.482818Z",
+  "generated_at": "2026-11-11T19:56:23.432155Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-11-09",
-      "latest_value": 19.92,
-      "prev_value": 25.64,
-      "change": -5.72,
+      "latest_date": "2026-11-10",
+      "latest_value": 19.46,
+      "prev_value": 19.92,
+      "change": -0.46,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-11-10T20:06:00.736754Z"
+      "updated_at": "2026-11-11T19:56:09.985184Z"
     },
     {
       "id": "NFCI",
