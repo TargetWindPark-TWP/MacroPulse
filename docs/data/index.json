@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:06:14.059123Z",
+  "generated_at": "2026-11-11T02:06:25.482818Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -338,13 +338,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-06",
-      "latest_value": 4.51,
-      "prev_value": 4.46,
+      "latest_date": "2026-11-09",
+      "latest_value": 4.56,
+      "prev_value": 4.51,
       "change": 0.05,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-10T04:15:33.714714Z"
+      "updated_at": "2026-11-11T02:06:16.997453Z"
     },
     {
       "id": "DGS10",
@@ -353,13 +353,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-06",
-      "latest_value": 4.86,
-      "prev_value": 4.84,
+      "latest_date": "2026-11-09",
+      "latest_value": 4.88,
+      "prev_value": 4.86,
       "change": 0.02,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-10T04:15:34.927382Z"
+      "updated_at": "2026-11-11T02:06:17.832069Z"
     },
     {
       "id": "DGS30",
@@ -368,13 +368,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-06",
+      "latest_date": "2026-11-09",
       "latest_value": 5.26,
-      "prev_value": 5.25,
-      "change": 0.01,
+      "prev_value": 5.26,
+      "change": 0.0,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-10T04:15:36.773660Z"
+      "updated_at": "2026-11-11T02:06:18.657325Z"
     },
     {
       "id": "T10Y2Y",
@@ -383,13 +383,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-09",
-      "latest_value": 0.32,
-      "prev_value": 0.35,
-      "change": -0.03,
+      "latest_date": "2026-11-10",
+      "latest_value": 0.25,
+      "prev_value": 0.32,
+      "change": -0.07,
       "signal": "🟡",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-10T04:15:37.685135Z"
+      "updated_at": "2026-11-11T02:06:19.601213Z"
     },
     {
       "id": "MORTGAGE30US",

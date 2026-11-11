@@ -1,14 +1,13 @@
 {
-  "run_at": "2026-11-10T20:06:15.789432Z",
+  "run_at": "2026-11-11T02:06:27.070010Z",
   "mode": "daily,monthly_mid",
   "targets": 33,
-  "updated": 5,
+  "updated": 4,
   "updated_ids": [
-    "CPIAUCSL",
-    "CPILFESL",
-    "VIXCLS",
-    "BAMLC0A0CM",
-    "BAMLH0A0HYM2"
+    "DGS2",
+    "DGS10",
+    "DGS30",
+    "T10Y2Y"
   ],
   "alerts": 3,
   "errors": 0
