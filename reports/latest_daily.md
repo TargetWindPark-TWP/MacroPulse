@@ -1,6 +1,6 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-11-11** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-11-12** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
@@ -11,7 +11,7 @@
 | ⚪ **10Y Treasury** | 4.88 % | 10年期公債殖利率 |
 | ⚪ **30Y Treasury** | 5.26 % | 30年期公債殖利率 |
 | 🟡 **10Y−2Y Spread** | 0.25 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.34 % | 高收益債信用利差 |
+| ⚪ **HY Spread** | 3.30 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -43,8 +43,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ NFP 非農就業人數 | `PAYEMS` | **165.00 K MoM** | +105.00 | ▲ | 2026-10-01 |
 | 🟡 失業率 Unemployment Rate | `UNRATE` | **4.10 %** | -0.10 | ▼ | 2026-10-01 |
-| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **189000.00 人** | -6000.00 | ▼ | 2026-10-31 |
-| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1718000.00 人** | +23000.00 | ▲ | 2026-10-24 |
+| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **200000.00 人** | +9000.00 | ▲ | 2026-11-07 |
+| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1697000.00 人** | -20000.00 | ▼ | 2026-10-31 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.12 % YoY** | -0.04 | ▼ | 2026-10-01 |
 | ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7523.00 K** | +333.00 | ▲ | 2026-09-01 |
 
@@ -54,10 +54,10 @@
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.10 Index** | -3.60 | ▼ | 2026-09-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **19.46 Index** | -0.46 | ▼ | 2026-11-10 |
-| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.46 Index** | +0.01 | ▲ | 2026-10-30 |
-| ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.52 Index** | +0.06 | ▲ | 2026-10-30 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **17.49 Index** | -1.97 | ▼ | 2026-11-11 |
+| ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.46 Index** | +0.00 | ▲ | 2026-11-06 |
+| ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.49 Index** | +0.03 | ▲ | 2026-11-06 |
 
 
 ---
-*自動生成於 2026-11-11 19:56 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-12 20:15 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
