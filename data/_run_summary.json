@@ -1,19 +1,9 @@
 {
-  "run_at": "2026-11-12T20:15:07.300056Z",
+  "run_at": "2026-11-12T20:33:49.906540Z",
   "mode": "daily,monthly_mid,weekly",
   "targets": 33,
-  "updated": 9,
-  "updated_ids": [
-    "ICSA",
-    "CCSA",
-    "VIXCLS",
-    "NFCI",
-    "STLFSI4",
-    "BAMLC0A0CM",
-    "MORTGAGE30US",
-    "BAMLH0A0HYM2",
-    "EXHOSLUSM495S"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
