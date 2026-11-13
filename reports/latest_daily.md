@@ -11,7 +11,7 @@
 | ⚪ **10Y Treasury** | 4.98 % | 10年期公債殖利率 |
 | ⚪ **30Y Treasury** | 5.35 % | 30年期公債殖利率 |
 | 🟡 **10Y−2Y Spread** | 0.24 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.30 % | 高收益債信用利差 |
+| ⚪ **HY Spread** | 3.20 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -23,8 +23,8 @@
 | 🟡 Core CPI 核心消費者物價指數 | `CPILFESL` | **2.87 % YoY** | +0.08 | ▲ | 2026-10-01 |
 | 🔴 PCE 個人消費支出物價指數 | `PCEPI` | **3.65 % YoY** | +0.21 | ▲ | 2026-09-01 |
 | 🟡 Core PCE 核心個人消費支出物價指數 | `PCEPILFE` | **3.12 % YoY** | +0.09 | ▲ | 2026-09-01 |
-| 🔴 PPI 生產者物價指數 | `PPIACO` | **12.84 % YoY** | +3.07 | ▲ | 2026-09-01 |
-| 🔴 WPI / Core PPI 躉售物價指數 | `PPIFIS` | **6.35 % YoY** | +0.76 | ▲ | 2026-09-01 |
+| 🔴 PPI 生產者物價指數 | `PPIACO` | **12.79 % YoY** | +0.42 | ▲ | 2026-10-01 |
+| 🔴 WPI / Core PPI 躉售物價指數 | `PPIFIS` | **6.52 % YoY** | +0.23 | ▲ | 2026-10-01 |
 
 
 ### 📈 經濟成長
@@ -54,10 +54,10 @@
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.10 Index** | -3.60 | ▼ | 2026-09-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **17.49 Index** | -1.97 | ▼ | 2026-11-11 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **18.70 Index** | +1.21 | ▲ | 2026-11-12 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.46 Index** | +0.00 | ▲ | 2026-11-06 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.49 Index** | +0.03 | ▲ | 2026-11-06 |
 
 
 ---
-*自動生成於 2026-11-13 02:49 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-13 20:10 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
