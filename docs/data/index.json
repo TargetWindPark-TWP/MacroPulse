@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:10:30.070523Z",
+  "generated_at": "2026-11-14T02:37:10.374098Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -338,13 +338,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-10",
-      "latest_value": 4.73,
-      "prev_value": 4.56,
-      "change": 0.17,
+      "latest_date": "2026-11-12",
+      "latest_value": 4.86,
+      "prev_value": 4.73,
+      "change": 0.13,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-13T02:49:34.738061Z"
+      "updated_at": "2026-11-14T02:37:01.532634Z"
     },
     {
       "id": "DGS10",
@@ -353,13 +353,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-10",
-      "latest_value": 4.98,
-      "prev_value": 4.88,
-      "change": 0.1,
+      "latest_date": "2026-11-12",
+      "latest_value": 5.1,
+      "prev_value": 4.98,
+      "change": 0.12,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-13T02:49:35.658439Z"
+      "updated_at": "2026-11-14T02:37:02.526985Z"
     },
     {
       "id": "DGS30",
@@ -368,13 +368,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-10",
-      "latest_value": 5.35,
-      "prev_value": 5.26,
-      "change": 0.09,
+      "latest_date": "2026-11-12",
+      "latest_value": 5.43,
+      "prev_value": 5.35,
+      "change": 0.08,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-13T02:49:36.713377Z"
+      "updated_at": "2026-11-14T02:37:03.399285Z"
     },
     {
       "id": "T10Y2Y",
@@ -383,13 +383,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-12",
-      "latest_value": 0.24,
-      "prev_value": 0.25,
-      "change": -0.01,
+      "latest_date": "2026-11-13",
+      "latest_value": 0.27,
+      "prev_value": 0.24,
+      "change": 0.03,
       "signal": "🟡",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-13T02:49:37.572608Z"
+      "updated_at": "2026-11-14T02:37:04.294324Z"
     },
     {
       "id": "MORTGAGE30US",
