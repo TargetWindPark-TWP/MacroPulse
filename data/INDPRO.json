@@ -1,6 +1,6 @@
 {
   "series_id": "INDPRO",
-  "name": "Industrial Production 工業生產指數",
+  "name": "Industrial Production 工業生產指數（製造業景氣代理指標）",
   "name_en": "Industrial Production Index",
   "category": "growth",
   "unit": "% YoY",
@@ -9,10 +9,6 @@
   "transform": "yoy",
   "source": "Federal Reserve via FRED",
   "raw_observations": [
-    {
-      "date": "2015-10-01",
-      "value": 100.2675
-    },
     {
       "date": "2015-11-01",
       "value": 99.5298
@@ -519,32 +515,32 @@
     },
     {
       "date": "2026-05-01",
-      "value": 102.7232
+      "value": 102.6925
     },
     {
       "date": "2026-06-01",
-      "value": 102.961
+      "value": 102.9673
     },
     {
       "date": "2026-07-01",
-      "value": 103.2006
+      "value": 103.1675
     },
     {
       "date": "2026-08-01",
-      "value": 103.2664
+      "value": 103.0954
     },
     {
       "date": "2026-09-01",
-      "value": 103.9506
+      "value": 103.8458
+    },
+    {
+      "date": "2026-10-01",
+      "value": 103.3954
     }
   ],
-  "latest_raw_date": "2026-09-01",
-  "latest_raw_value": 103.9506,
+  "latest_raw_date": "2026-10-01",
+  "latest_raw_value": 103.3954,
   "yoy_observations": [
-    {
-      "date": "2016-10-01",
-      "value": -1.502
-    },
     {
       "date": "2016-11-01",
       "value": -1.186
@@ -1003,32 +999,32 @@
     },
     {
       "date": "2026-05-01",
-      "value": 1.741
+      "value": 1.71
     },
     {
       "date": "2026-06-01",
-      "value": 1.461
+      "value": 1.467
     },
     {
       "date": "2026-07-01",
-      "value": 1.282
+      "value": 1.25
     },
     {
       "date": "2026-08-01",
-      "value": 1.615
+      "value": 1.447
     },
     {
       "date": "2026-09-01",
-      "value": 2.245
+      "value": 2.142
+    },
+    {
+      "date": "2026-10-01",
+      "value": 2.15
     }
   ],
-  "latest_yoy_date": "2026-09-01",
-  "latest_yoy_value": 2.245,
+  "latest_yoy_date": "2026-10-01",
+  "latest_yoy_value": 2.15,
   "mom_observations": [
-    {
-      "date": "2016-10-01",
-      "value": 0.016
-    },
     {
       "date": "2016-11-01",
       "value": -0.417
@@ -1487,32 +1483,32 @@
     },
     {
       "date": "2026-05-01",
-      "value": 0.143
+      "value": 0.113
     },
     {
       "date": "2026-06-01",
-      "value": 0.231
+      "value": 0.268
     },
     {
       "date": "2026-07-01",
-      "value": 0.233
+      "value": 0.194
     },
     {
       "date": "2026-08-01",
-      "value": 0.064
+      "value": -0.07
     },
     {
       "date": "2026-09-01",
-      "value": 0.663
+      "value": 0.728
+    },
+    {
+      "date": "2026-10-01",
+      "value": -0.434
     }
   ],
-  "latest_mom_date": "2026-09-01",
-  "latest_mom_value": 0.663,
+  "latest_mom_date": "2026-10-01",
+  "latest_mom_value": -0.434,
   "observations": [
-    {
-      "date": "2016-10-01",
-      "value": -1.502
-    },
     {
       "date": "2016-11-01",
       "value": -1.186
@@ -1971,27 +1967,31 @@
     },
     {
       "date": "2026-05-01",
-      "value": 1.741
+      "value": 1.71
     },
     {
       "date": "2026-06-01",
-      "value": 1.461
+      "value": 1.467
     },
     {
       "date": "2026-07-01",
-      "value": 1.282
+      "value": 1.25
     },
     {
       "date": "2026-08-01",
-      "value": 1.615
+      "value": 1.447
     },
     {
       "date": "2026-09-01",
-      "value": 2.245
+      "value": 2.142
+    },
+    {
+      "date": "2026-10-01",
+      "value": 2.15
     }
   ],
-  "latest_date": "2026-09-01",
-  "latest_value": 2.245,
-  "fetched_at": "2026-10-16T17:05:39.622173Z",
+  "latest_date": "2026-10-01",
+  "latest_value": 2.15,
+  "fetched_at": "2026-11-18T03:47:32.534630Z",
   "count": 132
 }

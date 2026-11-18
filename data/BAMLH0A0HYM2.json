@@ -11,7 +11,7 @@
   "raw_observations": [
     {
       "date": "2023-11-01",
-      "value": 3.89
+      "value": 3.88
     },
     {
       "date": "2023-12-01",
@@ -158,12 +158,12 @@
       "value": 3.34
     }
   ],
-  "latest_raw_date": "2026-11-13",
-  "latest_raw_value": 3.23,
+  "latest_raw_date": "2026-11-16",
+  "latest_raw_value": 3.34,
   "yoy_observations": [
     {
       "date": "2024-11-01",
-      "value": -1.19
+      "value": -1.18
     },
     {
       "date": "2024-12-01",
@@ -267,7 +267,7 @@
   "mom_observations": [
     {
       "date": "2023-12-01",
-      "value": -0.32
+      "value": -0.31
     },
     {
       "date": "2024-01-01",
@@ -413,10 +413,6 @@
   "latest_mom_date": "2026-11-01",
   "latest_mom_value": 0.12,
   "observations": [
-    {
-      "date": "2024-12-17",
-      "value": 2.75
-    },
     {
       "date": "2024-12-18",
       "value": 2.73
@@ -2412,10 +2408,14 @@
     {
       "date": "2026-11-13",
       "value": 3.23
+    },
+    {
+      "date": "2026-11-16",
+      "value": 3.34
     }
   ],
-  "latest_date": "2026-11-13",
-  "latest_value": 3.23,
-  "fetched_at": "2026-11-16T22:40:32.687101Z",
+  "latest_date": "2026-11-16",
+  "latest_value": 3.34,
+  "fetched_at": "2026-11-18T03:47:50.632069Z",
   "count": 37
 }
