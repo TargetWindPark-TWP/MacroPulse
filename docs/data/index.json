@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:47:53.096903Z",
+  "generated_at": "2026-11-19T03:46:00.269536Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-11-16",
-      "latest_value": 22.91,
-      "prev_value": 19.3,
-      "change": 3.61,
+      "latest_date": "2026-11-17",
+      "latest_value": 25.46,
+      "prev_value": 22.91,
+      "change": 2.55,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-11-18T03:47:39.938721Z"
+      "updated_at": "2026-11-19T03:45:45.147638Z"
     },
     {
       "id": "NFCI",
@@ -278,13 +278,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-11-06",
-      "latest_value": -0.462,
-      "prev_value": -0.465,
-      "change": 0.003,
+      "latest_date": "2026-11-13",
+      "latest_value": -0.478,
+      "prev_value": -0.473,
+      "change": -0.005,
       "signal": "⚪",
       "source": "Chicago Fed via FRED",
-      "updated_at": "2026-11-12T20:14:49.695505Z"
+      "updated_at": "2026-11-19T03:45:46.280655Z"
     },
     {
       "id": "STLFSI4",
@@ -293,13 +293,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "weekly",
-      "latest_date": "2026-11-06",
-      "latest_value": -0.4918,
-      "prev_value": -0.5227,
-      "change": 0.031,
+      "latest_date": "2026-11-13",
+      "latest_value": -0.8655,
+      "prev_value": -0.4901,
+      "change": -0.375,
       "signal": "⚪",
       "source": "St. Louis Fed via FRED",
-      "updated_at": "2026-11-12T20:14:50.644950Z"
+      "updated_at": "2026-11-19T03:45:47.403126Z"
     },
     {
       "id": "BAMLC0A0CM",
@@ -308,13 +308,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-16",
-      "latest_value": 0.9,
-      "prev_value": 0.89,
-      "change": 0.01,
+      "latest_date": "2026-11-17",
+      "latest_value": 0.92,
+      "prev_value": 0.9,
+      "change": 0.02,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-18T03:47:42.691120Z"
+      "updated_at": "2026-11-19T03:45:48.312857Z"
     },
     {
       "id": "FEDFUNDS",
@@ -338,13 +338,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-16",
-      "latest_value": 4.83,
-      "prev_value": 4.88,
-      "change": -0.05,
+      "latest_date": "2026-11-17",
+      "latest_value": 4.8,
+      "prev_value": 4.83,
+      "change": -0.03,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-18T03:47:44.434208Z"
+      "updated_at": "2026-11-19T03:45:50.409416Z"
     },
     {
       "id": "DGS10",
@@ -353,13 +353,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-16",
-      "latest_value": 5.12,
-      "prev_value": 5.15,
-      "change": -0.03,
+      "latest_date": "2026-11-17",
+      "latest_value": 5.1,
+      "prev_value": 5.12,
+      "change": -0.02,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-18T03:47:45.474258Z"
+      "updated_at": "2026-11-19T03:45:51.455635Z"
     },
     {
       "id": "DGS30",
@@ -368,13 +368,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-16",
+      "latest_date": "2026-11-17",
       "latest_value": 5.46,
-      "prev_value": 5.47,
-      "change": -0.01,
+      "prev_value": 5.46,
+      "change": 0.0,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-18T03:47:46.477987Z"
+      "updated_at": "2026-11-19T03:45:52.448826Z"
     },
     {
       "id": "T10Y2Y",
@@ -383,13 +383,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-17",
-      "latest_value": 0.3,
-      "prev_value": 0.29,
-      "change": 0.01,
+      "latest_date": "2026-11-18",
+      "latest_value": 0.27,
+      "prev_value": 0.3,
+      "change": -0.03,
       "signal": "🟡",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-18T03:47:47.436492Z"
+      "updated_at": "2026-11-19T03:45:53.394156Z"
     },
     {
       "id": "MORTGAGE30US",
@@ -443,13 +443,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-16",
-      "latest_value": 3.34,
-      "prev_value": 3.23,
-      "change": 0.11,
+      "latest_date": "2026-11-17",
+      "latest_value": 3.43,
+      "prev_value": 3.34,
+      "change": 0.09,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-18T03:47:50.632069Z"
+      "updated_at": "2026-11-19T03:45:57.434223Z"
     },
     {
       "id": "HOUST",
@@ -458,13 +458,13 @@
       "category": "housing",
       "unit": "K",
       "frequency": "monthly",
-      "latest_date": "2026-09-01",
-      "latest_value": 1221.0,
-      "prev_value": 1288.0,
-      "change": -67.0,
+      "latest_date": "2026-10-01",
+      "latest_value": 1309.0,
+      "prev_value": 1191.0,
+      "change": 118.0,
       "signal": "⚪",
       "source": "Census via FRED",
-      "updated_at": "2026-11-04T02:01:52.600178Z"
+      "updated_at": "2026-11-19T03:45:58.311890Z"
     },
     {
       "id": "HSN1F",
