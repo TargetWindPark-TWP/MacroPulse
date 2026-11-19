@@ -10,10 +10,6 @@
   "source": "Freddie Mac via FRED",
   "raw_observations": [
     {
-      "date": "2024-11-21",
-      "value": 6.84
-    },
-    {
       "date": "2024-11-27",
       "value": 6.81
     },
@@ -424,15 +420,15 @@
     {
       "date": "2026-11-12",
       "value": 7.11
+    },
+    {
+      "date": "2026-11-19",
+      "value": 7.28
     }
   ],
-  "latest_raw_date": "2026-11-12",
-  "latest_raw_value": 7.11,
+  "latest_raw_date": "2026-11-19",
+  "latest_raw_value": 7.28,
   "yoy_observations": [
-    {
-      "date": "2025-02-13",
-      "value": 0.03
-    },
     {
       "date": "2025-02-20",
       "value": 0.04
@@ -796,15 +792,15 @@
     {
       "date": "2026-11-12",
       "value": 0.46
+    },
+    {
+      "date": "2026-11-19",
+      "value": 0.62
     }
   ],
-  "latest_yoy_date": "2026-11-12",
-  "latest_yoy_value": 0.46,
+  "latest_yoy_date": "2026-11-19",
+  "latest_yoy_value": 0.62,
   "mom_observations": [
-    {
-      "date": "2024-11-27",
-      "value": -0.03
-    },
     {
       "date": "2024-12-05",
       "value": -0.12
@@ -1212,15 +1208,15 @@
     {
       "date": "2026-11-12",
       "value": -0.07
+    },
+    {
+      "date": "2026-11-19",
+      "value": 0.17
     }
   ],
-  "latest_mom_date": "2026-11-12",
-  "latest_mom_value": -0.07,
+  "latest_mom_date": "2026-11-19",
+  "latest_mom_value": 0.17,
   "observations": [
-    {
-      "date": "2024-11-21",
-      "value": 6.84
-    },
     {
       "date": "2024-11-27",
       "value": 6.81
@@ -1632,10 +1628,14 @@
     {
       "date": "2026-11-12",
       "value": 7.11
+    },
+    {
+      "date": "2026-11-19",
+      "value": 7.28
     }
   ],
-  "latest_date": "2026-11-12",
-  "latest_value": 7.11,
-  "fetched_at": "2026-11-12T20:14:58.096768Z",
+  "latest_date": "2026-11-19",
+  "latest_value": 7.28,
+  "fetched_at": "2026-11-19T20:52:52.162723Z",
   "count": 104
 }

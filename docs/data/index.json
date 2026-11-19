@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T03:46:00.269536Z",
+  "generated_at": "2026-11-19T20:52:58.497612Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -188,13 +188,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-11-07",
-      "latest_value": 200000.0,
-      "prev_value": 191000.0,
-      "change": 9000.0,
+      "latest_date": "2026-11-14",
+      "latest_value": 203000.0,
+      "prev_value": 202000.0,
+      "change": 1000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-11-12T20:14:43.775099Z"
+      "updated_at": "2026-11-19T20:52:35.488964Z"
     },
     {
       "id": "CCSA",
@@ -203,13 +203,13 @@
       "category": "labor",
       "unit": "人",
       "frequency": "weekly",
-      "latest_date": "2026-10-31",
-      "latest_value": 1697000.0,
-      "prev_value": 1717000.0,
-      "change": -20000.0,
+      "latest_date": "2026-11-07",
+      "latest_value": 1763000.0,
+      "prev_value": 1693000.0,
+      "change": 70000.0,
       "signal": "⚪",
       "source": "DOL via FRED",
-      "updated_at": "2026-11-12T20:14:44.704525Z"
+      "updated_at": "2026-11-19T20:52:36.333343Z"
     },
     {
       "id": "CES0500000003",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-11-17",
-      "latest_value": 25.46,
-      "prev_value": 22.91,
-      "change": 2.55,
+      "latest_date": "2026-11-18",
+      "latest_value": 24.56,
+      "prev_value": 25.46,
+      "change": -0.9,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-11-19T03:45:45.147638Z"
+      "updated_at": "2026-11-19T20:52:43.834655Z"
     },
     {
       "id": "NFCI",
@@ -308,13 +308,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-17",
-      "latest_value": 0.92,
-      "prev_value": 0.9,
-      "change": 0.02,
+      "latest_date": "2026-11-18",
+      "latest_value": 0.93,
+      "prev_value": 0.92,
+      "change": 0.01,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-19T03:45:48.312857Z"
+      "updated_at": "2026-11-19T20:52:46.659111Z"
     },
     {
       "id": "FEDFUNDS",
@@ -398,13 +398,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "weekly",
-      "latest_date": "2026-11-12",
-      "latest_value": 7.11,
-      "prev_value": 7.18,
-      "change": -0.07,
+      "latest_date": "2026-11-19",
+      "latest_value": 7.28,
+      "prev_value": 7.11,
+      "change": 0.17,
       "signal": "⚪",
       "source": "Freddie Mac via FRED",
-      "updated_at": "2026-11-12T20:14:58.096768Z"
+      "updated_at": "2026-11-19T20:52:52.162723Z"
     },
     {
       "id": "DRCCLACBS",
@@ -443,13 +443,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-17",
-      "latest_value": 3.43,
-      "prev_value": 3.34,
-      "change": 0.09,
+      "latest_date": "2026-11-18",
+      "latest_value": 3.47,
+      "prev_value": 3.43,
+      "change": 0.04,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-19T03:45:57.434223Z"
+      "updated_at": "2026-11-19T20:52:55.354374Z"
     },
     {
       "id": "HOUST",

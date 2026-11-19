@@ -11,7 +11,7 @@
 | ⚪ **10Y Treasury** | 5.10 % | 10年期公債殖利率 |
 | ⚪ **30Y Treasury** | 5.46 % | 30年期公債殖利率 |
 | 🟡 **10Y−2Y Spread** | 0.27 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.43 % | 高收益債信用利差 |
+| ⚪ **HY Spread** | 3.47 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -43,8 +43,8 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ NFP 非農就業人數 | `PAYEMS` | **165.00 K MoM** | +105.00 | ▲ | 2026-10-01 |
 | 🟡 失業率 Unemployment Rate | `UNRATE` | **4.10 %** | -0.10 | ▼ | 2026-10-01 |
-| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **200000.00 人** | +9000.00 | ▲ | 2026-11-07 |
-| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1697000.00 人** | -20000.00 | ▼ | 2026-10-31 |
+| ⚪ Initial Claims 初次申請失業救濟金 | `ICSA` | **203000.00 人** | +1000.00 | ▲ | 2026-11-14 |
+| ⚪ Continuing Claims 續領失業救濟金 | `CCSA` | **1763000.00 人** | +70000.00 | ▲ | 2026-11-07 |
 | ⚪ Avg Hourly Earnings 平均時薪 | `CES0500000003` | **3.12 % YoY** | -0.04 | ▼ | 2026-10-01 |
 | ⚪ JOLTS 職位空缺數 | `JTSJOL` | **7523.00 K** | +333.00 | ▲ | 2026-09-01 |
 
@@ -54,10 +54,10 @@
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.10 Index** | -3.60 | ▼ | 2026-09-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **25.46 Index** | +2.55 | ▲ | 2026-11-17 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **24.56 Index** | -0.90 | ▼ | 2026-11-18 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.48 Index** | -0.01 | ▼ | 2026-11-13 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.87 Index** | -0.38 | ▼ | 2026-11-13 |
 
 
 ---
-*自動生成於 2026-11-19 03:46 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-19 20:52 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
