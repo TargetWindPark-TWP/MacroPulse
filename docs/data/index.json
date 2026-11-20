@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:40:04.265101Z",
+  "generated_at": "2026-11-20T20:53:48.572730Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -248,13 +248,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "monthly",
-      "latest_date": "2026-09-01",
-      "latest_value": 48.1,
-      "prev_value": 51.7,
-      "change": -3.6,
+      "latest_date": "2026-10-01",
+      "latest_value": 48.0,
+      "prev_value": 48.1,
+      "change": -0.1,
       "signal": "⚪",
       "source": "U of Michigan via FRED",
-      "updated_at": "2026-11-04T02:01:37.888180Z"
+      "updated_at": "2026-11-20T20:53:27.578099Z"
     },
     {
       "id": "VIXCLS",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-11-18",
-      "latest_value": 24.56,
-      "prev_value": 25.46,
-      "change": -0.9,
+      "latest_date": "2026-11-19",
+      "latest_value": 28.44,
+      "prev_value": 24.56,
+      "change": 3.88,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-11-19T20:52:43.834655Z"
+      "updated_at": "2026-11-20T20:53:28.697001Z"
     },
     {
       "id": "NFCI",
@@ -308,13 +308,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-18",
-      "latest_value": 0.93,
-      "prev_value": 0.92,
+      "latest_date": "2026-11-19",
+      "latest_value": 0.94,
+      "prev_value": 0.93,
       "change": 0.01,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-19T20:52:46.659111Z"
+      "updated_at": "2026-11-20T20:53:31.496690Z"
     },
     {
       "id": "FEDFUNDS",
@@ -443,13 +443,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-18",
-      "latest_value": 3.47,
-      "prev_value": 3.43,
-      "change": 0.04,
+      "latest_date": "2026-11-19",
+      "latest_value": 3.52,
+      "prev_value": 3.47,
+      "change": 0.05,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-19T20:52:55.354374Z"
+      "updated_at": "2026-11-20T20:53:44.403416Z"
     },
     {
       "id": "HOUST",

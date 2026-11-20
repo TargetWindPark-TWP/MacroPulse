@@ -11,7 +11,7 @@
 | ⚪ **10Y Treasury** | 5.07 % | 10年期公債殖利率 |
 | ⚪ **30Y Treasury** | 5.41 % | 30年期公債殖利率 |
 | 🟡 **10Y−2Y Spread** | 0.28 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.47 % | 高收益債信用利差 |
+| ⚪ **HY Spread** | 3.52 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -53,11 +53,11 @@
 
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
-| ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.10 Index** | -3.60 | ▼ | 2026-09-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **24.56 Index** | -0.90 | ▼ | 2026-11-18 |
+| ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.00 Index** | -0.10 | ▼ | 2026-10-01 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **28.44 Index** | +3.88 | ▲ | 2026-11-19 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.48 Index** | -0.01 | ▼ | 2026-11-13 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.87 Index** | -0.38 | ▼ | 2026-11-13 |
 
 
 ---
-*自動生成於 2026-11-20 03:40 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-20 20:53 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
