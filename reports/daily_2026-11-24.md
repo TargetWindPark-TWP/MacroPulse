@@ -9,9 +9,9 @@
 | ⚪ **Fed Funds Rate** | 3.88 % | 聯邦基金利率 |
 | ⚪ **2Y Treasury** | 4.63 % | 2年期公債殖利率 |
 | ⚪ **10Y Treasury** | 4.92 % | 10年期公債殖利率 |
-| ⚪ **30Y Treasury** | 5.31 % | 30年期公債殖利率 |
-| 🟡 **10Y−2Y Spread** | 0.29 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.76 % | 高收益債信用利差 |
+| ⚪ **30Y Treasury** | 5.29 % | 30年期公債殖利率 |
+| 🟡 **10Y−2Y Spread** | 0.28 % | 殖利率曲線利差（負值=倒掛） |
+| ⚪ **HY Spread** | 3.63 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -33,7 +33,7 @@
 |------|-----------|--------|----------|------|------|
 | ⚪ Real GDP 實質國內生產毛額 | `GDPC1` | **2.07 % YoY** | -0.13 | ▼ | 2026-07-01 |
 | ⚪ Retail Sales 零售銷售（扣除汽車） | `RSXFS` | **6.79 % YoY** | +0.25 | ▲ | 2026-10-01 |
-| ⚪ Industrial Production 工業生產指數（製造業景氣代理指標） | `INDPRO` | **2.15 % YoY** | +0.01 | ▲ | 2026-10-01 |
+| ⚪ Industrial Production 工業生產指數（製造業景氣代理指標） | `INDPRO` | **1.66 % YoY** | -0.01 | ▼ | 2026-10-01 |
 | ⚪ Durable Goods 耐久財訂單 | `DGORDER` | **10.04 % YoY** | +1.37 | ▲ | 2026-09-01 |
 
 
@@ -54,10 +54,10 @@
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.00 Index** | -0.10 | ▼ | 2026-10-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **35.89 Index** | +7.45 | ▲ | 2026-11-20 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **26.62 Index** | -9.27 | ▼ | 2026-11-23 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.48 Index** | -0.01 | ▼ | 2026-11-13 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.87 Index** | -0.38 | ▼ | 2026-11-13 |
 
 
 ---
-*自動生成於 2026-11-24 00:31 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-24 22:52 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*

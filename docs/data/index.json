@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:31:55.292174Z",
+  "generated_at": "2026-11-24T22:52:29.410911Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -129,12 +129,12 @@
       "unit": "% YoY",
       "frequency": "monthly",
       "latest_date": "2026-10-01",
-      "latest_value": 2.15,
-      "prev_value": 2.142,
-      "change": 0.008,
+      "latest_value": 1.659,
+      "prev_value": 1.673,
+      "change": -0.014,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-18T03:47:32.534630Z"
+      "updated_at": "2026-11-24T22:52:06.017195Z"
     },
     {
       "id": "DGORDER",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-11-20",
-      "latest_value": 35.89,
-      "prev_value": 28.44,
-      "change": 7.45,
+      "latest_date": "2026-11-23",
+      "latest_value": 26.62,
+      "prev_value": 35.89,
+      "change": -9.27,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-11-24T00:31:40.625777Z"
+      "updated_at": "2026-11-24T22:52:14.687996Z"
     },
     {
       "id": "NFCI",
@@ -308,13 +308,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-20",
-      "latest_value": 0.98,
-      "prev_value": 0.94,
-      "change": 0.04,
+      "latest_date": "2026-11-23",
+      "latest_value": 0.97,
+      "prev_value": 0.98,
+      "change": -0.01,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-24T00:31:43.732221Z"
+      "updated_at": "2026-11-24T22:52:17.692552Z"
     },
     {
       "id": "FEDFUNDS",
@@ -338,13 +338,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-20",
+      "latest_date": "2026-11-23",
       "latest_value": 4.63,
-      "prev_value": 4.76,
-      "change": -0.13,
+      "prev_value": 4.63,
+      "change": 0.0,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-24T00:31:45.588504Z"
+      "updated_at": "2026-11-24T22:52:19.554695Z"
     },
     {
       "id": "DGS10",
@@ -353,13 +353,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-20",
+      "latest_date": "2026-11-23",
       "latest_value": 4.92,
-      "prev_value": 5.04,
-      "change": -0.12,
+      "prev_value": 4.92,
+      "change": 0.0,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-24T00:31:46.616541Z"
+      "updated_at": "2026-11-24T22:52:20.623392Z"
     },
     {
       "id": "DGS30",
@@ -368,13 +368,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-20",
-      "latest_value": 5.31,
-      "prev_value": 5.4,
-      "change": -0.09,
+      "latest_date": "2026-11-23",
+      "latest_value": 5.29,
+      "prev_value": 5.31,
+      "change": -0.02,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-24T00:31:47.715368Z"
+      "updated_at": "2026-11-24T22:52:21.551904Z"
     },
     {
       "id": "T10Y2Y",
@@ -383,13 +383,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-23",
-      "latest_value": 0.29,
+      "latest_date": "2026-11-24",
+      "latest_value": 0.28,
       "prev_value": 0.29,
-      "change": 0.0,
+      "change": -0.01,
       "signal": "🟡",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-24T00:31:48.653961Z"
+      "updated_at": "2026-11-24T22:52:22.569493Z"
     },
     {
       "id": "MORTGAGE30US",
@@ -443,13 +443,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-20",
-      "latest_value": 3.76,
-      "prev_value": 3.52,
-      "change": 0.24,
+      "latest_date": "2026-11-23",
+      "latest_value": 3.63,
+      "prev_value": 3.76,
+      "change": -0.13,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-24T00:31:52.383449Z"
+      "updated_at": "2026-11-24T22:52:26.481792Z"
     },
     {
       "id": "HOUST",
