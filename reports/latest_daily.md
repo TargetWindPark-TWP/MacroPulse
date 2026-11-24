@@ -1,17 +1,17 @@
 # 📊 MacroPulse 每日總經速報
 
-> **2026-11-21** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
+> **2026-11-24** · 自動生成 · 資料來源：FRED (St. Louis Fed) + CNN Business
 
 ## 🏦 今日利率與殖利率
 
 | 指標 | 最新值 | 說明 |
 |------|--------|------|
 | ⚪ **Fed Funds Rate** | 3.88 % | 聯邦基金利率 |
-| ⚪ **2Y Treasury** | 4.76 % | 2年期公債殖利率 |
-| ⚪ **10Y Treasury** | 5.04 % | 10年期公債殖利率 |
-| ⚪ **30Y Treasury** | 5.40 % | 30年期公債殖利率 |
+| ⚪ **2Y Treasury** | 4.63 % | 2年期公債殖利率 |
+| ⚪ **10Y Treasury** | 4.92 % | 10年期公債殖利率 |
+| ⚪ **30Y Treasury** | 5.31 % | 30年期公債殖利率 |
 | 🟡 **10Y−2Y Spread** | 0.29 % | 殖利率曲線利差（負值=倒掛） |
-| ⚪ **HY Spread** | 3.52 % | 高收益債信用利差 |
+| ⚪ **HY Spread** | 3.76 % | 高收益債信用利差 |
 
 ## 📈 最近公布指標
 
@@ -54,10 +54,10 @@
 | 指標 | Series ID | 最新值 | 與前期差 | 趨勢 | 日期 |
 |------|-----------|--------|----------|------|------|
 | ⚪ UMich Consumer Sentiment 密大消費者信心 | `UMCSENT` | **48.00 Index** | -0.10 | ▼ | 2026-10-01 |
-| ⚪ VIX 恐慌指數 | `VIXCLS` | **28.44 Index** | +3.88 | ▲ | 2026-11-19 |
+| ⚪ VIX 恐慌指數 | `VIXCLS` | **35.89 Index** | +7.45 | ▲ | 2026-11-20 |
 | ⚪ NFCI 全國金融環境指數 | `NFCI` | **-0.48 Index** | -0.01 | ▼ | 2026-11-13 |
 | ⚪ STLFSI4 聖路易金融壓力指數 | `STLFSI4` | **-0.87 Index** | -0.38 | ▼ | 2026-11-13 |
 
 
 ---
-*自動生成於 2026-11-21 03:22 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
+*自動生成於 2026-11-24 00:31 UTC · [FRED](https://fred.stlouisfed.org) · [CNN Fear & Greed](https://edition.cnn.com/markets/fear-and-greed)*
