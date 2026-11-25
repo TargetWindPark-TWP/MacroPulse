@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-11-16",
-      "value": 1887000.0
-    },
-    {
       "date": "2024-11-23",
       "value": 1866000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-11-07",
-      "value": 1763000.0
+      "value": 1792000.0
+    },
+    {
+      "date": "2026-11-14",
+      "value": 1697000.0
     }
   ],
-  "latest_raw_date": "2026-11-07",
-  "latest_raw_value": 1763000.0,
+  "latest_raw_date": "2026-11-14",
+  "latest_raw_value": 1697000.0,
   "yoy_observations": [
-    {
-      "date": "2025-02-08",
-      "value": -1.325
-    },
     {
       "date": "2025-02-15",
       "value": -0.911
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-11-07",
-      "value": -0.452
+      "value": 1.186
+    },
+    {
+      "date": "2026-11-14",
+      "value": -4.394
     }
   ],
-  "latest_yoy_date": "2026-11-07",
-  "latest_yoy_value": -0.452,
+  "latest_yoy_date": "2026-11-14",
+  "latest_yoy_value": -4.394,
   "mom_observations": [
-    {
-      "date": "2024-11-23",
-      "value": -1.113
-    },
     {
       "date": "2024-11-30",
       "value": -0.375
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-11-07",
-      "value": 4.135
+      "value": 5.848
+    },
+    {
+      "date": "2026-11-14",
+      "value": -5.301
     }
   ],
-  "latest_mom_date": "2026-11-07",
-  "latest_mom_value": 4.135,
+  "latest_mom_date": "2026-11-14",
+  "latest_mom_value": -5.301,
   "observations": [
-    {
-      "date": "2024-11-16",
-      "value": 1887000.0
-    },
     {
       "date": "2024-11-23",
       "value": 1866000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-11-07",
-      "value": 1763000.0
+      "value": 1792000.0
+    },
+    {
+      "date": "2026-11-14",
+      "value": 1697000.0
     }
   ],
-  "latest_date": "2026-11-07",
-  "latest_value": 1763000.0,
-  "fetched_at": "2026-11-19T20:52:36.333343Z",
+  "latest_date": "2026-11-14",
+  "latest_value": 1697000.0,
+  "fetched_at": "2026-11-25T22:05:16.779722Z",
   "count": 104
 }

@@ -10,10 +10,6 @@
   "source": "Census via FRED",
   "raw_observations": [
     {
-      "date": "2015-10-01",
-      "value": 226517.0
-    },
-    {
       "date": "2015-11-01",
       "value": 224319.0
     },
@@ -535,16 +531,16 @@
     },
     {
       "date": "2026-09-01",
-      "value": 345672.0
+      "value": 345942.0
+    },
+    {
+      "date": "2026-10-01",
+      "value": 346717.0
     }
   ],
-  "latest_raw_date": "2026-09-01",
-  "latest_raw_value": 345672.0,
+  "latest_raw_date": "2026-10-01",
+  "latest_raw_value": 346717.0,
   "yoy_observations": [
-    {
-      "date": "2016-10-01",
-      "value": 3.066
-    },
     {
       "date": "2016-11-01",
       "value": -3.551
@@ -1019,16 +1015,16 @@
     },
     {
       "date": "2026-09-01",
-      "value": 10.035
+      "value": 10.121
+    },
+    {
+      "date": "2026-10-01",
+      "value": 12.728
     }
   ],
-  "latest_yoy_date": "2026-09-01",
-  "latest_yoy_value": 10.035,
+  "latest_yoy_date": "2026-10-01",
+  "latest_yoy_value": 12.728,
   "mom_observations": [
-    {
-      "date": "2016-10-01",
-      "value": 7.39
-    },
     {
       "date": "2016-11-01",
       "value": -7.328
@@ -1503,16 +1499,16 @@
     },
     {
       "date": "2026-09-01",
-      "value": 1.913
+      "value": 1.992
+    },
+    {
+      "date": "2026-10-01",
+      "value": 0.224
     }
   ],
-  "latest_mom_date": "2026-09-01",
-  "latest_mom_value": 1.913,
+  "latest_mom_date": "2026-10-01",
+  "latest_mom_value": 0.224,
   "observations": [
-    {
-      "date": "2016-10-01",
-      "value": 3.066
-    },
     {
       "date": "2016-11-01",
       "value": -3.551
@@ -1987,11 +1983,15 @@
     },
     {
       "date": "2026-09-01",
-      "value": 10.035
+      "value": 10.121
+    },
+    {
+      "date": "2026-10-01",
+      "value": 12.728
     }
   ],
-  "latest_date": "2026-09-01",
-  "latest_value": 10.035,
-  "fetched_at": "2026-11-04T02:01:30.743899Z",
+  "latest_date": "2026-10-01",
+  "latest_value": 12.728,
+  "fetched_at": "2026-11-25T22:05:13.155915Z",
   "count": 132
 }

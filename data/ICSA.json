@@ -10,10 +10,6 @@
   "source": "DOL via FRED",
   "raw_observations": [
     {
-      "date": "2024-11-23",
-      "value": 219000.0
-    },
-    {
       "date": "2024-11-30",
       "value": 222000.0
     },
@@ -423,16 +419,16 @@
     },
     {
       "date": "2026-11-14",
-      "value": 203000.0
+      "value": 202000.0
+    },
+    {
+      "date": "2026-11-21",
+      "value": 189000.0
     }
   ],
-  "latest_raw_date": "2026-11-14",
-  "latest_raw_value": 203000.0,
+  "latest_raw_date": "2026-11-21",
+  "latest_raw_value": 189000.0,
   "yoy_observations": [
-    {
-      "date": "2025-02-15",
-      "value": 1.826
-    },
     {
       "date": "2025-02-22",
       "value": 8.559
@@ -795,16 +791,16 @@
     },
     {
       "date": "2026-11-14",
-      "value": -0.49
+      "value": -0.98
+    },
+    {
+      "date": "2026-11-21",
+      "value": -8.696
     }
   ],
-  "latest_yoy_date": "2026-11-14",
-  "latest_yoy_value": -0.49,
+  "latest_yoy_date": "2026-11-21",
+  "latest_yoy_value": -8.696,
   "mom_observations": [
-    {
-      "date": "2024-11-30",
-      "value": 1.37
-    },
     {
       "date": "2024-12-07",
       "value": 7.207
@@ -1211,16 +1207,16 @@
     },
     {
       "date": "2026-11-14",
-      "value": 0.495
+      "value": 0.0
+    },
+    {
+      "date": "2026-11-21",
+      "value": -6.436
     }
   ],
-  "latest_mom_date": "2026-11-14",
-  "latest_mom_value": 0.495,
+  "latest_mom_date": "2026-11-21",
+  "latest_mom_value": -6.436,
   "observations": [
-    {
-      "date": "2024-11-23",
-      "value": 219000.0
-    },
     {
       "date": "2024-11-30",
       "value": 222000.0
@@ -1631,11 +1627,15 @@
     },
     {
       "date": "2026-11-14",
-      "value": 203000.0
+      "value": 202000.0
+    },
+    {
+      "date": "2026-11-21",
+      "value": 189000.0
     }
   ],
-  "latest_date": "2026-11-14",
-  "latest_value": 203000.0,
-  "fetched_at": "2026-11-19T20:52:35.488964Z",
+  "latest_date": "2026-11-21",
+  "latest_value": 189000.0,
+  "fetched_at": "2026-11-25T22:05:15.924409Z",
   "count": 104
 }
