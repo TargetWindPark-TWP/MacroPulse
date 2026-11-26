@@ -1,27 +1,9 @@
 {
-  "run_at": "2026-11-25T22:05:37.256736Z",
-  "mode": "daily,monthly_end",
+  "run_at": "2026-11-26T04:17:33.001675Z",
+  "mode": "daily,monthly_end,weekly",
   "targets": 33,
-  "updated": 17,
-  "updated_ids": [
-    "PCEPI",
-    "PCEPILFE",
-    "GDPC1",
-    "DGORDER",
-    "ICSA",
-    "CCSA",
-    "VIXCLS",
-    "NFCI",
-    "STLFSI4",
-    "BAMLC0A0CM",
-    "DGS2",
-    "DGS10",
-    "DGS30",
-    "T10Y2Y",
-    "MORTGAGE30US",
-    "BAMLH0A0HYM2",
-    "HSN1F"
-  ],
+  "updated": 0,
+  "updated_ids": [],
   "alerts": 3,
   "errors": 0
 }
