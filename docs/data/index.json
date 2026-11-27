@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:05:35.395525Z",
+  "generated_at": "2026-11-27T21:46:43.770410Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -263,13 +263,13 @@
       "category": "sentiment",
       "unit": "Index",
       "frequency": "daily",
-      "latest_date": "2026-11-24",
-      "latest_value": 26.36,
-      "prev_value": 26.62,
-      "change": -0.26,
+      "latest_date": "2026-11-26",
+      "latest_value": 26.8,
+      "prev_value": 28.29,
+      "change": -1.49,
       "signal": "⚪",
       "source": "CBOE via FRED",
-      "updated_at": "2026-11-25T22:05:20.905213Z"
+      "updated_at": "2026-11-27T21:46:27.129880Z"
     },
     {
       "id": "NFCI",
@@ -308,13 +308,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-24",
-      "latest_value": 0.98,
-      "prev_value": 0.97,
-      "change": 0.01,
+      "latest_date": "2026-11-26",
+      "latest_value": 0.99,
+      "prev_value": 0.99,
+      "change": 0.0,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-25T22:05:23.543857Z"
+      "updated_at": "2026-11-27T21:46:30.595505Z"
     },
     {
       "id": "FEDFUNDS",
@@ -338,13 +338,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-24",
-      "latest_value": 4.63,
+      "latest_date": "2026-11-25",
+      "latest_value": 4.61,
       "prev_value": 4.63,
-      "change": 0.0,
+      "change": -0.02,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-25T22:05:25.787479Z"
+      "updated_at": "2026-11-27T21:46:32.637865Z"
     },
     {
       "id": "DGS10",
@@ -353,13 +353,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-24",
-      "latest_value": 4.91,
-      "prev_value": 4.92,
-      "change": -0.01,
+      "latest_date": "2026-11-25",
+      "latest_value": 4.85,
+      "prev_value": 4.91,
+      "change": -0.06,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-25T22:05:26.748461Z"
+      "updated_at": "2026-11-27T21:46:33.632864Z"
     },
     {
       "id": "DGS30",
@@ -368,13 +368,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-24",
-      "latest_value": 5.3,
-      "prev_value": 5.29,
-      "change": 0.01,
+      "latest_date": "2026-11-25",
+      "latest_value": 5.24,
+      "prev_value": 5.3,
+      "change": -0.06,
       "signal": "⚪",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-25T22:05:27.704062Z"
+      "updated_at": "2026-11-27T21:46:34.691717Z"
     },
     {
       "id": "T10Y2Y",
@@ -443,13 +443,13 @@
       "category": "credit",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-24",
-      "latest_value": 3.72,
-      "prev_value": 3.63,
-      "change": 0.09,
+      "latest_date": "2026-11-26",
+      "latest_value": 3.77,
+      "prev_value": 3.77,
+      "change": 0.0,
       "signal": "⚪",
       "source": "ICE via FRED",
-      "updated_at": "2026-11-25T22:05:32.472075Z"
+      "updated_at": "2026-11-27T21:46:40.442348Z"
     },
     {
       "id": "HOUST",

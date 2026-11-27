@@ -1,9 +1,16 @@
 {
-  "run_at": "2026-11-27T04:26:10.489141Z",
+  "run_at": "2026-11-27T21:46:45.191045Z",
   "mode": "daily,monthly_end",
   "targets": 33,
-  "updated": 0,
-  "updated_ids": [],
+  "updated": 6,
+  "updated_ids": [
+    "VIXCLS",
+    "BAMLC0A0CM",
+    "DGS2",
+    "DGS10",
+    "DGS30",
+    "BAMLH0A0HYM2"
+  ],
   "alerts": 3,
   "errors": 0
 }
