@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:46:43.770410Z",
+  "generated_at": "2026-11-28T04:07:20.390312Z",
   "indicators": [
     {
       "id": "CPIAUCSL",
@@ -383,13 +383,13 @@
       "category": "rates",
       "unit": "%",
       "frequency": "daily",
-      "latest_date": "2026-11-25",
-      "latest_value": 0.24,
-      "prev_value": 0.28,
-      "change": -0.04,
+      "latest_date": "2026-11-27",
+      "latest_value": 0.25,
+      "prev_value": 0.24,
+      "change": 0.01,
       "signal": "🟡",
       "source": "Federal Reserve via FRED",
-      "updated_at": "2026-11-25T22:05:28.612603Z"
+      "updated_at": "2026-11-28T04:07:14.359671Z"
     },
     {
       "id": "MORTGAGE30US",
